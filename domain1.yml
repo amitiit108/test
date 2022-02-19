@@ -1,0 +1,387 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- affirm
+- deny
+- mood_unhappy
+- user_reliable
+- user_recall
+- user_beloved
+- user_anxious
+- user_bymyself
+- user_abit
+- user_assit
+- user_disheartened
+- user_funning
+- user_how
+- user_letsattempt
+- user_prosaic
+- user_seemsright
+- user_occupied
+- user_keepmoving
+- user_scrap
+- user_comfortzone
+- user_pleasant
+- user_totaled
+- user_shifting
+- user_believing
+- user_bywhatprocess
+- user_couldabet
+- user_jollyofyou
+- user_isit
+- user_allalong
+- user_unaccompanied
+- user_amiable
+- user_takeashot
+- user_assitabunch
+- user_behaving
+- user_puffing
+- user_yelled
+- user_responding
+- user_acting_properly
+- user_compelled
+- user_elaborate
+- user_exactly
+- user_elucidate
+- user_give_it_a_shot
+- user_irate
+- user_attending
+- user_fathom
+- user_bit
+- user_accompany
+- user_a_cut_above
+- user_willdo
+- user_fine
+- user_forlorn_equation
+- user_anger_inherited
+- user_starting_point
+- user_treatment
+- user_talk_someone
+- user_lookslike
+- user_solo
+- user_isolating
+- user_doesnotknow
+- user_supposing
+- user_mixwell
+- user_revisit
+- user_cantsaymuch
+- user_guess
+- user_fortnightly
+- user_coach_consultation
+- user_concerns
+- user_alone
+- user_we_do_this
+- user_late_teens
+- user_thanks
+- user_terrible
+- user_mathsolympiad
+- user_yougotit
+- user_subjects
+- user_guide
+- user_frenzied
+- user_tease
+- user_stayclose
+- user_bothered
+- user_clear
+- user_complete
+- user_takeplaceatschool
+- user_attempt
+- user_trust
+- user_below
+- user_couple
+- user_nerd
+- user_pondered
+- user_solely
+- user_fail
+- user_probably
+- user_probably_dumb
+- user_fall_girl
+- user_heavens
+- user_thankgoodness
+- user_yes_togirl
+- user_losingheart
+
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_mood_unhappy:
+  - text: I'm sorry to hear that,do you want to talk about it?
+  utter_mood_unhgappy:
+  - text: I'm glad you decided to reach out
+  utter_recall:
+  - text: Greg ,I'm here for you, so lets focus on you.
+  utter_reliable:
+  - text: Of course, this is all about what you feel, what you need.
+  utter_beloved:
+  - text: You are special and unique !Feel like telling me more ?
+  utter_anxious:
+  - text: I totally understand- let's start by helping you calm yourself
+  utter_hows:
+  - text: Can you follow my que....take a deep breath in.....hold it for 8-10seconds....and slowly let it out . And once more we do the same thing....deep breath in...hold....let     go
+  utter_bymyself:
+  - text: Sure it's a simple tool to calm yourself.
+  utter_abit:
+  - text: Feel free and say anything you feel like !
+  utter_assit:
+  - text: Greg,I'm glad you asked ? It shows that you're smart and move forward with intelligence .I help in several ways starts by listening to you; supporting your feeling and then with your participation, working with simple tools and techniques to make you feel better and positive.
+  utter_disheartened:
+  - text: Greg,I feel your unhappiness and I'm right with you. Can I ask you something?
+  utter_iamnb:
+  - text: Does this feeling have a shape or a colour...
+  utter_funning:
+  - text: Ok,just for fun,take a minute and sense it from my angle..
+  utter_letsattempt:
+  - text: Thats such a clear description.
+  utter_affirm_really:
+  - text: Sure and does this help you understand the feeling better ?
+  utter_prosaic:
+  - text: Hey, you're good at working things out...Greg,maybe this feeling could be Boredom ?
+  utter_seemsright:
+  - text: Greg, I really appreciate your effort and honesty in responding.
+  utter_occupied:
+  - text: It's actulally all your effort Greg,I'm just here to hold your hand as you move forward positively..
+  utter_keepmoving:
+  - text: Atta boy ! Tell me what you like doing ?
+  utter_scrap:
+  - text: Awesome,thats a wonderful hobby..So, want to start there ?
+  utter_comfortzone:
+  - text: Thats the spirit Greg !
+  utter_visit:
+  - text: Sure ,always here to listen.
+  utter_moodun:
+  - text: Sorry to hear that. I'm glad you reached out. Want to describe this feeling
+      with a picture, Angela....
+  utter_ohow:
+  - text: Let's see does it look like flower or a bird or a dragon..
+  utter_pleasant:
+  - text: Ok,that's a clear description.
+  utter_totaled:
+  - text: Angela, I appreciate you honesty and strength to look for help. I'm right
+      with you. Is there something else you want to tell me about this feeling?
+  utter_shifting:
+  - text: I can feel your sadness and misery.
+  utter_believing:
+  - text: Angela, maybe they say that to make you feel better.
+  utter_bywhatprocess:
+  - text: Yeah it does, its tough on you. I think others-parents and friends sense
+      that and want to divert you to a positive direction.
+  utter_couldabet:
+  - text: Angela, I sense you're a positive person.
+  utter_jollyofyou:
+  - text: At times like this we all need somebody to listen to us...
+  utter_isit:
+  - text: I'm happy you chose me. Can I ask you something ?
+  utter_aff_irmn:
+  - text: Do you have any other friends since you were small?
+  utter_allalong:
+  - text: Thats wonderful, so you'll still have 2 good friends ?
+  utter_unaccompanied:
+  - text: I knew you'd get it.
+  utter_amiable:
+  - text: You're the smart one. Can you do a little exercise for me ?
+  utter_takeashot:
+  - text: That's the spirit !Make a plan of fun things to do while she's here.
+  utter_assitabunch:
+  - text: Anytime, just come and talk out whatever you feel like, I'm here for you!
+  utter_moo_dh_appy:
+  - text: Is there something that is bothering you?
+  utter_af_fi_rmm:
+  - text: Would you like to tell me a little more about it?
+  utter_behaving:
+  - text: I see. Is there anything particular that make you act so aggressively?
+  utter_a_f_firm:
+  - text: What is it?
+  utter_puffing:
+  - text: What did you do next?
+  utter_yelled:
+  - text: How does that make you feel now?
+  utter_responding:
+  - text: Now when you look back, what do you think could have been different in the way you reacted?
+  utter_acting_properly:
+  - text: This looks like an insight. Am I correct?
+  utter_af_fir_m:
+  - text: That is great Brian. Acknowledging your behaviour is the first step to changing it.
+  utter_aff_irm:
+  - text: I want to ask you a few questions.
+  utter_m_affirm:
+  - text: Apart from this one situation, would your friends, in general, describe you as a person of short temper?
+  utter_de_n_y:
+  - text: Okay. How exactly did you feel in this situation?
+  utter_compelled:
+  - text: I see. Would it be accurate for me to say that you react agressively when you are persuaded too much?
+  utter_coachconsultation:
+  - text: Do you also feel angry when someone disagrees with you?
+  utter_d_eny:
+  - text: Alright! Thank you Brian for answering all my questions with such patience.
+  utter_den_y:
+  - text: Now let us start by setting a goal. What would you like to work upon first?
+  utter_unhappy:
+  - text: Okay. You already have an insight and a willingness to work on it. That is you strength Brian.
+  utter_see:
+  - text: Do you know about assertive communication?
+  utter_elaborate:
+  - text: There are three ways to communicate Passive, Aggressive and Assertive.
+  utter_affi_rm:
+  - text: Passive people do no state their opinions and let others decide for them.
+  utter_s_ee:
+  - text: Aggressive people state their opinions but in an attacking way.
+  utter_exactly:
+  - text: Assertive people on the other hand, state their opinions while still being respectful to others around them.
+  utter_ho_ow:
+  - text: The simple motto is "I decide for me and you decide for you".
+  utter_elucidate:
+  - text: Instead of shouting, an assertive person would express their point clearly and confidently in a conversational tone.
+  utter_give_it_a_shot:
+  - text: That is good progress.
+  utter_irate:
+  - text: Would you like to try with me first?
+  utter_ho_w:
+  - text: Imagine I am persuading you a lot for attending an event that you don't want to. How will you react in an assertive way? Write it down here.
+  utter_attending:
+  - text: How did you do?
+  utter_cant_saymuch:
+  - text: Okay. Try saying it again but this time, add to it the way you feel when I ask you again and again to attend the event and give an alternative to what I could have done?
+  utter_fathom:
+  - text: I sense agression here. Do you?
+  utter_bit:
+  - text: Try rephrasing it again.
+  utter_h_o_w:
+  - text: I suggest you acknowledge the need of the other person and use words that are more empathic.
+  utter_accompany:
+  - text: How did you do?
+  utter_a_cut_above:
+  - text: And that is progress.
+  utter_affi_r_mk:
+  - text: Do you feel better?
+  utter_willdo:
+  - text: Why dont you give this technique a try then?
+  utter_gr_ee_t:
+  - text: Hi Sadie, it's nice to meet you How're you doing today?
+  utter_fine:
+  - text: I am doing just fine thank you! How can I help you today?
+  utter_con_cerns:
+  - text: What sort of troubles?
+  utter_forlorn_equation:
+  - text: That's terrible Do you want to elaborate on it?
+  utter_anger_inherited:
+  - text: That's awful! Have you found any way of dealing with it so far?
+  utter_starting_point:
+  - text: Have you thought about attending family therapy? It is something that has worked really well for a lot of families Since you are a family, you will be together for a long time, so working out the problems together can be helpful
+  utter_treatment:
+  - text: Sure, here is a link to a few. You can go through them and pick the most suitable one according to your needs. abc.com, xyz.com, rtg.com, and opl.com
+  utter_talk_someone:
+  - text: I am here for that! Is everything okay?
+  utter_alone_noone:
+  - text: Would you like to talk about it?
+  utter_solo:
+  - text: That doesn’t sound like the worst. 
+  utter_lookslike:
+  - text: Often in life we find ourselves alone. On our own. Its in those times when we really find out who we are. What we are capable of. 
+  utter_isolating:
+  - text: I am sorry to hear this. But this is only temporary. 
+  utter_wecandothis:
+  - text: Things take time. I am sure this situation will change. 
+  utter_doesnotknow:
+  - text: Well I will always be here for you. 
+  utter_thanks_dg:
+  - text: Maybe you should put yourself out there more. 
+  utter_supposing:
+  - text: Maybe not everyone. How old are you and what do you do?
+  utter_lateteens:
+  - text: Maybe engage in co-curricular activities?
+  utter_affirm_ko:
+  - text: And maybe talk to a counsellor if you have issues with social interactions.  
+  utter_mixwell:
+  - text: Then try and put yourself out there. 
+  utter_affirm_sure:
+  - text: Was this helpful?(Yes)(No)
+  utter_affirm_yeah:
+  - text: Can I help you with anything else?(Yes)(No)
+  utter_deny_nope:
+  - text: Great! Have a nice day!
+  utter_terrible:
+  - text: That is tough, wanna tell me some more ?
+  utter_mathsolympiad:
+  - text: I hear you Jeff, you've been pulled up for something you didn't do !
+  utter_yougotit:
+  - text: Maybe not...
+  utter_implys:
+  - text: Has this ever happened before?
+  utter_dens:
+  - text: How are your grades usually ?
+  utter_subjects:
+  - text: Then ,I sense they'll believe that you wouldn't do something like this.
+  utter_guide:
+  - text: Yeah ,I know what you mean.
+  utter_frenzied:
+  - text: Jeff,its ok to feel what you're feeling. It's great that you thought of
+      reaching out to talk.
+  utter_tease:
+  - text: That's a true fear that you've shared.I appreciate it. Do you and your friends  make
+      fun of each other ?
+  utter_stayclose:
+  - text: Jeff we sometimes build up things to be much bigger than they are.
+  utter_bothered:
+  - text: I'm saying you're right in feeling bad at the unfairness of it. Maybe just
+      letting  it get to you a little too much.
+  utter_clear:
+  - text: How about take a shower,calm down and just talk about it with your parents
+      at dinnertime.
+  utter_complete:
+  - text: Exactly,Jeff you're sharp and quick to understand.
+  utter_takeplaceatschool:
+  - text: Let's take one thing at a time. Right now just work on feeling calm and
+      positive about yourself.
+  utter_attempt:
+  - text: Great,the spirit of trying is very positive Jeff. Can I ask you something
+      more?
+  utter_afmsd:
+  - text: Are you confident of your friends Jeff and thier belief in you ?
+  utter_knows:
+  - text: There, I think you've answered you earlier question.
+  utter_trust:
+  - text: Jeff can you do something simple for me?
+  utter_what_know:
+  - text: Just write down 3 times when your friends and parents have stood by you.
+  utter_below:
+  - text: Anytime!
+  utter_un_happy_mood:
+  - text: I'm sorry to hear that,what's making you feel that way?
+  utter_cant_syamuch:
+  - text: Ok, Jim want to talk some more about it.
+  utter_gu_ess:
+  - text: How long have you been feeling like this?
+  utter_fortnightly:
+  - text: Jim, did something happen at school or at home?
+  utter_couple:
+  - text: Ok, that must have been tough...
+  utter_nerd:
+  - text: I can understand-it does make you feel awkward in that moment.
+  utter_pondered:
+  - text: Has anyone brought it up after that day ?
+  utter_ve_eny:
+  - text: So, maybe no one really paid attention to it much?
+  utter_solely:
+  - text: Probably, coz it can and probably does happen to everyone.
+  utter_fail:
+  - text: Exactly ! Jim,is there anything else thats bothering you?
+  utter_probably:
+  - text: I sense that you feel like  talking out some more stuff.....
+  utter_probably_dumb:
+  - text: You can tell me,this is all just between you and me and I will try and help
+      you.
+  utter_fall_girl:
+  - text: That is sure to trouble you..
+  utter_af_fi_emn:
+  - text: Ok,tell me did she laugh or say something to make fun of you then or later?
+  utter_heavens:
+  - text: Isn't that a good thing ?
+  utter_thankgoodness:
+  - text: So, your falling ,made her reach out and show that she cares about you?
+  utter_yes_togirl:
+  - text: Jim, I'm glad you reached out-sometimes you just need to talk and let things
+      out.
+  utter_losingheart:
+  - text: Always,I'm right here for you. Take care and stay safe.

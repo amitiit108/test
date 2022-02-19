@@ -1,0 +1,3336 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - Hi Albot.
+    - Hi You can call me William
+    - Hi You can call me Sadie
+    - Derek
+    - Emily
+    - Tim
+    - Hi I am Alicia
+    - Hi I am Arnold
+    - Hi I am Justin
+    - Hi I am Janis
+    - Hi You can call me Bob
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - of course
+    - that sounds good
+    - Alright, sounds good.
+    - correct    
+    - yeah
+    - I wish.
+    - Yes...
+    - Yes... I will
+    - hmmm
+    - ummm...
+    - okay
+    - Yeah you’re right.
+    - Yes it is
+    - sure
+    - In some way, yes
+    - Yeah 
+    - yehhh 
+    - Sure ,absolutely !
+    - Alright. This helped.
+    - yup 
+    - yep 
+    - Yeah 
+    - Belief 
+    - Faith
+    - Trust
+    - Yes it does 
+    - Sounds good to me
+    - Yes 
+    - All right
+    - Alright
+    - Aye
+    - oh ok
+    - Exactly
+    - Gladly
+    - Alright, sounds good
+    - sure
+    - okay
+    - fine
+    - may be
+    - Hey,you're right actually!
+    - alright
+    - Sure! 
+    - Definitely
+    - That sounds good 
+    - That sounds good.
+    - Yeah. I think I will. 
+    - yes. I imagine I can. 
+    - yep. I expect I will. 
+    - yehh. I believe I can.
+    - Yeah. I think I can
+    - That sounds great!
+    - That sounds enchanting
+    - It sounds like fun.
+    - It seems worthwhile.
+    - That looks pretty interesting.
+    - I find that interesting.
+    - It seems intriguing.
+    - That seems attractive.
+    - That's sort of interesting.
+    - That looks lovely.
+    - That sounds impressive.
+    - That sounds beautiful.
+    - That sounds enthralling!
+    - That sounds fascinating!
+    - That sounds pleasing.
+    - Totally
+    - Yeah, go ahead
+    - ok! I definitely will.
+    - Yes yes
+    - For sure
+    - Go on
+    - Indeed
+    - By all means
+    - Truly
+    - For certain
+    - Easily            
+    - Clearly
+    - Of course
+    - Okeydokey
+    - Agreed
+    - Right on
+    - Assuredly
+    - Roger that
+    - Kinda    
+    - Hey,thats correct.
+    - right
+    - Right
+    - that's true
+    - you are right
+    - you're definitely right
+    - you're not wrong
+    - you're telling the truth
+    - TRUE
+    - Right?
+    - it is true
+    - it's right
+    - it's the truth
+    - it's true
+    - that is correct
+    - that is right
+    - that is true
+    - that is very true
+    - that's so true
+    - you are correct
+    - you are so right
+    - you're absolutely right
+    - you're right about that
+    - I know that's right
+    - Hey,thats right
+    - Hey,thats true
+    - Hey,thats accurate
+    - Hey,thats precise
+    - Hey,thats exact
+    - Hey,thats valid
+    - Hey,thats dead-on
+    - Hey,thats spot-on
+    - Hey,thats on target
+    - Hey,thats factual
+    - Hey,thats word for word
+    - Hey,thats absolutely right
+    - Hey,thats legit
+    - Hey,thats on the ball
+    - Hey,thats right as rain
+    - Exactly 
+    - True
+    - absolutely
+    - correct
+    - perfect
+    - that's correct
+    - that's true
+    - it's true
+    - that's right
+    - Yeah somewhat
+    - yeah somewhat
+    - yes somewhat
+    - Yes somewhat
+    - Yeah comparatively
+    - Yeah marginally
+    - Yeah to a certain degree
+    - Yeah to a degree
+    - Yeah up to a point
+    - Yeah to some extent
+    - Yeah to a certain extent
+    - Yeah to a point
+    - Yeah sort of.
+    - Yeah a little bit
+    - Yeah kind of
+    - Yeah kinda
+    - Yeah a bit
+    - Yeah a little
+    - Yeah in part
+    - Yeah, that will help.
+    - yes that will help
+    - yup that will help
+    - yehhh that will help
+    - Sure, that will help.
+    - Fine, that will help.
+    - Yes, that will help.
+    - For sure, that will help.
+    - Yup, that will help.
+    - Definitely, that will help.
+    - Precisely, that will help
+    - Certainly, that will help
+    - Ok, that will help.
+    - Oka, that will help.
+    - Yea, that will help.
+    - Indeed, that will help.
+    - Of course, that will help.
+    - Undoubtedly, that will help.
+    - I'm sure, that will help.
+    - Sounds good. 
+    - sounds good 
+    - That's good.
+    - That's great.
+    - Alright. Seems fine to me.
+    - Looks good.
+    - Seems good.
+    - Sounds fine.
+    - You're sure?
+    - Looks fine.
+    - Seems fine.
+    - Looks great.
+    - Seems great.
+    - That's fine
+    - Worth a try
+    - Sure. Let's try.
+    - I agree
+    - Nice one
+    - Good one
+    - Hmm. That sounds right.
+    - I could. 
+    - Really ?
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - no 
+    - Not at all
+    - not really
+    - certainly not
+    - Entirely not
+    - No way
+    - No chance
+    - By no means
+    - Not for a single time
+    - Never
+    - Not even for once
+    - I guess no. 
+    - Under no circumstances
+    - On no account
+    - definitely not
+    - Absolutely not
+    - Nope
+    - Ummm, actually no.
+    - hmm, really no
+    - ummm, surely no
+    - No. Not today
+    - nope not today
+    - no not today
+    - Today is not the day.
+    - Today, no.
+    - No, not just now.
+    - It is not the day.
+    - Today, none.
+    - No, not right now.
+    - Nope, not right now.
+    - Nope, not now.
+    - No way, not today.
+    - Not today, unfortunately.
+    - No way, not currently.
+    - Today isn't going to be the day
+    - It is not the day.
+    - It isn't the day today
+    - No, not now.
+    - No I am not. 
+    - Not at all
+    - No problem
+    - Not at all. Go ahead 
+    - No, Go ahead and do it.
+    - No, Go ahead and just do it.
+    - Nothing, Go ahead and just do it.
+    - Neither, Go ahead and do it.
+    - Not in the least! Go ahead
+    - Certainly not! Go ahead
+    - Absolutely not! Go forward
+    - Absolutely not! Get a move of yourself
+    - Absolutely not!! Go ahead
+    - Certainly not! Go ahead
+    - Certainly not! Go forward
+    - Certainly not! Get a move of yourself
+    - Truly not!! Go ahead
+    - Obviously not, go ahead
+    - At least not! Go ahead
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - feeling low
+    - bad
+    - I am not doing great
+    - not soo good
+    - Hi. I'm really sad
+    - I am not okay.
+    - lost
+    - not tooo good
+    - Not good
+    - Not great really
+    - Not good, I'm in trouble
+    - Not good, I'm in worry
+    - Not good, I'm in problem 
+    - Not good, I'm in issue
+    - Not good, I'm in critical situation
+    - Not good, I'm in Complications
+    - Not good, I'm in complicated situation
+    - Not good, I'm in weird situation
+    - I am not okay.
+    - Not good, I'm in awkward situation
+    - Not good, I'm in big problem
+    - Not good, I'm in inconvenience
+    - Not good, I'm in anxiety
+    - Not good, I'm in disturbance
+    - I am not doing well 
+    - Not good, I'm in conflict
+    - Not good, I'm in difficulty
+    - Not good, I'm in concern
+    - Feeling low
+    - Feeling low
+    - I am feeling stressed.
+    - i am feeling stressed
+    - i'm feeling stressed
+    - I am feeling anxious.
+    - I am feeling tensed.
+    - I am feeling distressed
+    - I am jittery.
+    - I am worried
+    - I am hassled
+    - I am feeling edgy.
+    - I am stressed out
+    - I am feeling fraught
+    - I am feeling nervous
+    - I'm feeling anxious.
+    - I'm feeling tensed.
+    - I am feeling nervous a lot lately.
+    - I'm feeling distressed
+    - I'm jittery.
+    - I'm worried
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - I am not doing well
+    - I'm doing okay, I guess Not so great
+    - i am doing ok i guess not so great
+    - I'm okay not so good
+    - I'm okayish not that great
+    - Not that great i guess I'm okay
+    - Not great at all. I'm ok
+    - I'm not doing too well. I guess I'm ok
+    - Guess it's ok but I don't feel too great
+    - It seems ok but I can't tell for sure
+    - I'm ok I think but not my usual self
+    - I'm ok and everything but not feeling too great
+    - Not great actually. I'm okay I think
+    - Not that great. Okay is what I can say
+    - Don't feel so great. I'm okay
+    - Not the best feeling, I'm okay I guess
+    - Not exactly top of the world but I'm ok I guess
+    - I'm not completely fine but kinda ok
+    - very sad
+    - unhappy
+    - My anger.
+    - my anger 
+    - My temper
+    - My rage
+    - My fury
+    - My wrath
+    - My irritation
+    - My angry nature
+    - My furious nature
+    - My wrathful nature
+    - My irritated nature
+    - My temperament
+    - My acrimonious nature
+    - My antagonistic nature
+    - My annoyance
+    - My indignation
+    - My livid nature
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - not bad
+    - not too bad
+    - not too good
+    - very sad
+    - dizzy
+    - unhappy
+    - low
+    - angry
+    - annoyed
+    - cross
+    - vexed
+    - irritated
+    - exasperated
+    - indignant
+    - irated
+    - aggrieved
+    - irked
+    - piqued
+    - displeased
+    - provoked
+    - galled
+    - resentful
+    - engraged
+    - irate
+    - furious
+    - infuriated
+    - pissed off
+    - cheesed off
+    - mad
+    - antagonized
+    - riled
+    - galled
+    - provoked
+    - miffed
+    - Angred
+    - vexed
+    - livid
+    - extremely sad
+    - I felt guilty.
+    - so sad
+    - Not good
+    - Not that good
+    - Not very good
+    - Not much good
+    - Not that much good
+    - Not so good
+    - Not so Great
+    - Not so amazing
+    - Not so brilliant
+    - Not so superb
+    - Not so Nice
+    - Not so Beautiful
+    - Not so helpful
+    - Not so useful
+    - Not so satisfactory
+    - Not so upright
+    - Not so good qualitywise
+    - Not so beneficial
+    - Not so worthy
+    - Not so authentic
+    - Not so convincing
+    - Not so much good
+    - Not extremely good
+    - Not really too good
+    - Not like too good
+    - It's Not too good
+    - That is Not too good
+    - So it's Not too good
+    - Actually Not too good
+    - Honestly Not too good
+    - awful
+    - not so good
+    - pretty bad
+    - not good enough
+    - that was lame
+    - that was terrible
+    - it is bad
+    - that's bad
+    - this is bad
+    - not good
+    - I'm afraid it's bad
+    - no it's bad
+    - that was awful
+    - bad
+    - so bad
+    - this is too bad
+    - terrible
+    - horrible
+    - horrific
+    - abysmal
+    - it's bad
+    - no good
+    - that was bad
+    - that was horrible
+    - that's lame
+    - that's not good
+    - that's terrible
+    - that's too bad
+    - this is not good
+    - too bad
+    - very bad
+    - bad girl
+    - it's not good
+    - not so good
+    - it's very bad
+    - it's too bad
+    - that's not good enough
+    - well too bad
+    - bad very bad
+    - it's so bad
+    - really bad
+    - it's really bad
+    - bad idea
+    - I'm not doing well
+    - Feel really really guilty
+    - I'm not doing well. Feel really really guilty
+    - that is bad
+    - that was not good
+    - it's not so good
+    - not a good one
+    - oh that's not good
+    - not too good
+    - so lame
+    - that's really bad
+    - it is too bad
+    - bad really bad
+    - Not good, I'm in trouble
+
+- intent: user_talk_someone
+  examples: |
+    - I just wanted someone to talk to. 
+    - I just needed someone to talk to. 
+    - I just required someone to talk to. 
+    - I need someone to talk to
+    - I badly need someone
+    - I could really use some company now
+    - I want to talk
+    - I want to share my thoughts
+    - I am feeling lonely
+    - Loneliness sucks
+    - It's all very boring
+    - I'm getting bored
+    - Can I just have someone to talk to?
+    - Is there anybody to talk?
+    - No one has time to talk
+    - Everybody is busy except me
+    - This loneliness is getting on my nerve
+    - I can't take it anymore
+
+- intent: user_alone
+  examples: |
+    - Usually with friends but sometimes alone.
+    - usually with friends but sometimes alone.
+    - commonly with friends but sometimes alone.
+    - generally with friends but sometimes alone.
+    - typically with friends but sometimes alone.
+    - mostly with friends but sometimes alone.
+    - mainly with friends but sometimes alone.
+    - regularly with friends but sometimes alone.
+    - particularly with friends but sometimes alone.
+    - on a regular basis with friends but sometimes alone.
+    - basically with friends but sometimes alone.
+    - normally with friends but sometimes alone.
+    - customarily with friends but sometimes alone.
+    - routinely with friends but sometimes alone.
+    - standardly with friends but sometimes alone.
+    - habitually with friends but sometimes alone.
+    - traditionally with friends but sometimes alone.
+    - I don’t think I have anyone. 
+    - I don’t think I have anyone. 
+    - I dont believe I have anybody. 
+    - I do not imagine I have anyone. 
+    - I don’t expect I have anyone.
+    - I don't think I have anyone to talk
+    - I don't think I have anyone to hang out
+    - I don't think I have anyone to chill with
+    - I have no one to talk to
+    - I have no one to be with
+    - I have no one to hang out
+    - I have no want to chill with
+    - I have no one with whom I can share my thoughts
+    - I have no one with whom I can talk
+    - I have no one with whom I can have a conversation
+    - I don't think I have anyone to have a conversation with
+    - I don't think I have anyone to spend time with
+    - I think I am completely alone
+    - I think I am totally alone
+    - I don't think I have anyone to sit and talk my heart out 
+    
+- intent: user_solo
+  examples: |
+    - Whats there to talk? I think I am alone. Just on my own.
+    - Whats there to talk? I imagine I am solo. Just on my own. 
+    - What is there to speak? I expect I am lone. Just on my own.
+    - Is there anything to talk about? I think I am the loneliest. Always just by myself
+    - There is nothing to talk about. I am always just alone hair
+    - What is there to talk? I am the loneliest person ever. Just on my own
+    - What is there to talk? I have literally no one. I am always just on my own
+    - I don't think there is anything to talk. I am just always alone and by myself
+    - Nothing new. I am always just alone and by myself
+    - Nothing to talk about it. I think I am alone and just on my own
+    - I am always alone. there is no one around me
+    - I have no one to talk to around me. Just on my own as always.
+    - It's nothing new. I am always alone and just on my own.
+    - This is not a new thing for me. I think I am alone. Just on my own.
+    - I am always alone and that's why I think I am suffering from loneliness
+    - There is nothing to really share about it. It's just me and my thoughts all the day. No one around.
+    - I don't know if I want to talk. I have no one around me
+    - It's tough to say that I want to talk. Because I literally have no one around me  
+        
+- intent: user_lookslike 
+  examples: |
+    - It feels like it though. 
+    - It senses like it nevertheless. 
+    - It detects like it notwithstanding. 
+    - It identyfies like it though. 
+    - It's just that I feel that way
+    - I feel that way though
+    - I feel this way though
+    - It feels like that way only
+    - It's anyway feels like this
+    - Is it not okay to feel like this?
+    - is it something bad to feel like this?
+    - Is it normal to feel like it?
+    - Is it okay to feel like it?
+    - Do you think it's okay to feel like it?
+    - I don't know why I am feeling like this
+    - I don't know but it feels like it though
+    - I don't know what is happening.....I just feel like it
+    - It always feels like it though
+    - I don't know why it feels like it though
+    
+- intent: user_isolating
+  examples: |
+    - But its alienating. I don’t want to feel this way. 
+    - But it is separating. I dont need to detect this way. 
+    - But it's dividing. I do not want to identify this way. 
+    - But it estranging. I don't want to feel this way
+    - But it's turning away. I don't want to feel this way
+    - But it's setting apart. I don't want to feel this way
+    - But it's separating. I don't want to feel this way
+    - But it's dividing. I don't want to feel this way
+    - But it's disuniting. I don't want to feel this way
+    - But it's turning off. I don't want to feel this way
+    - But it's disappointing. I don't want to feel this way
+    - But it's annoying. I don't want to feel this way
+    - But it's bothering. I don't want to feel this way
+    - But it's splitting. I don't want to feel this way.
+    - But it's on linking. I don't want to feel this way. 
+    - It's a very isolated feeling. I don't want to feel this way
+    - I am feeling very lonely and I don't want to feel this way.
+    - It's very irritating. I don't want to feel this way
+
+- intent: user_we_do_this
+  examples: |
+    - How do we do that?
+    - how do we do that
+    - How can we do that?
+    - How can that be done?
+    - What are the ways to do that?
+    - What are the methods to do that?
+    - What is the way to do that?
+    - What is the method to do that?
+    - How can that be possibly done?
+    - What are the possible ways to do that?
+    - What are the possible methods to do that?
+    - What are the possible means to do that?
+    - How are the ways to do that?
+    - How to do that?
+    - Tell me about the ways to do that?
+    - I would like to know how do we do that.
+    - I would want to know how do we do that.
+    - How can we do that?
+    - What is the way to do that?
+    - How can it be done?
+    - Which way can we do it?
+    - How do we succeed in doing this?
+    - What’s the way to achieve this?
+    - Can you tell me how to do that?
+    - Can you guide me on how to do this?
+    - How do you suggest we do it?
+    - Umm, how do you say we do it?
+    - please guide me on how to achieve this.
+    - Is there a way you know how we do that?
+    - Please tell me how do we do that.
+    - Can we discuss how we do that?
+    - What do you say, we discuss the ways we can do that?
+    - I would like to try it.
+    - How do I do that?
+    - How do you know?
+    
+- intent: user_doesnotknow
+  examples: |
+    - What if it doesn’t?
+    - waht if it does not?
+    - what doesn't?
+    - What if it fails?
+    - What if it doesn't work?
+    - What is it turns out to be a failure?
+    - What if it turns out to be not successful?
+    - What if it doesn't help?
+    - What if it doesn't do what it says?
+    - What if it fails to do what it says?
+    - Are you sure it will work?
+    - I am not very sure if it will work
+    - I am not very sure about its work ability
+    - I am not very sure about its helpful Ness
+    - I am not very sure about its usefulness
+    - I don't know if it's going to work or not
+    - I don't know if it's going to help or not
+    - I don't know if it's going to be a success or not
+    
+- intent: user_supposing
+  examples: |
+    - Its not that easy. Everyone is always judging. 
+    - It is not that clear. everybody is every time concluding. 
+    - It's not that simple. one and all is all the time determining.
+    - It's not easy. people are always judging
+    - It's really complicated because everyone is always judge
+    - It's tough because one if you want is always charging
+    - It's really hard because everyone is always judging
+    - It's tough to do because everyone is very judgemental these day
+    - It's not easy because everyone is very judgemental these day
+    - It's complicated because everyone is very judgemental these day
+    - It's hard because everyone is very judgemental these day
+    - It's not really easy because everyone is very judgemental these day
+    - It's not simple because everyone is very judgemental these day
+    - It's tough to say because everyone is very judgemental these day
+    - It's not that simple. Everyone is always judging. 
+    - It's not easy at all. Everyone is always judging. 
+    - You can't say it's simple. Everyone is always judging. 
+    - You can't say it's easy. Everyone is always judging.  
+
+- intent: user_late_teens
+  examples: |
+    - I'm 16 years old
+    - i am 16 years old
+    - 16 years old
+    - I'm 16 years old.
+    - My age is sixteen.
+    - I'm sixteen years old.
+    - My age is 16.
+    - In my age of 16.
+    - I'm a 16 year-old.
+    - So, I'm 16 years old.
+    - Um, I'm a 16 year-old.
+    - Ohkay, so I'm 16 years-old.
+    - I'm an adolescent at the age of 16.
+    - At my own age of 16.
+    - In my 16 years.
+    - In the age of 16.
+    - You get to my age of 16.
+    - When you're my age of 16.
+    - I'm 16 years old 
+    - i am six teen years old
+    - i am 16 years old
+    - My age is 16 years now
+    - I am of 16 years
+    - I am a girl of 16 years old age
+    - I am a boy of 16 years old age
+    - I am 16
+    - My age is not more than 16
+    - 16 that's my age
+    - It's my 16th birthday.... means I am 16 years old
+    - Next year I will be of 16 years
+    - as of now I am 16 years old
+    - According to my birth certificate I am 16 years old
+    - As far as I know I am 16 years old
+    - as per my knowledge I am 16 years old
+    - Yeah I know I am 16 years old
+    - I am a teenager now ....16 years old
+    - I am 15. In school.
+    - I'm fifteen. In school. 
+    - I'm 15. In academy.  
+    - I am 15 years old and a school going kid
+    - I am 15 and I am in school
+    - I am 15 and I study in school
+    - I am 15 and I go to school
+    - I am a school going kid and 15 years old
+    - My age is 15 and I go to school
+    - My age is 15 and I study in school
+    - My age is 15 and I am a school going kid
+    - I am 15. I am in school
+    - I am 15 years old. I am in school
+    - My age is 15. I am in school
+    - I am 15....my schooling age
+    - I am 15 years old school going kid
+    - I study in school because I am 15 years old now
+    - I go to school because I am 15 years old now
+    
+- intent: user_mixwell
+  examples: |
+    - I am fine with interacting. Just don’t really get along with anyone. 
+    - I'm good with merging. Just dont actually get along with everyone. 
+    - I am great with combining. Just do not absolutely get along with one and all. 
+    - I am okay with interacting. Just don’t really get along with anyone.
+    - I am good with interacting. Just don’t really get along with anyone.
+    - It's okay to interact. Just don’t really get along with anyone.
+    - I have no issue with interacting. Just don’t really get along with anyone.
+    - I have no problem with interacting. Just don’t really get along with anyone.
+    - It's okay to interact with people. Just don’t really get along with anyone.
+    - I am comfortable with interacting. Just don’t really get along with anyone.
+    - I don't have any issue with interacting. Just don’t really get along with anyone.
+    - Interacting is fine. Just don’t really get along with anyone.
+    - Interacting is okay. Just don’t really get along with anyone.
+    - no issues with interacting. Just don’t really get along with anyone.
+    - No problem with interacting. Just don’t really get along with anyone.
+    - Interacting is not a problem... the problem is about getting along with anyone.
+    - Interacting is not an issue ... the problem is about getting along with anyone.
+    - Interacting is not a big deal ... the problem is about getting along with anyone.
+
+- intent: user_thanks
+  examples: |
+    - Thanks 
+    - Thank you so much! 
+    - thanks 
+    - Thnaks
+    - thank you
+    - Thnak you
+    - Thanks!
+    - Thanks a ton!
+    - Thanks for your help!
+    - Thanks for your support!
+    - Thanks for your understanding!
+    - Appreciate a lot!
+    - Grateful for your help!
+    - Appreciate a ton!
+    - Much appreciated!
+    - Many thanks!
+    - Thanks a bunch!
+    - Thanks a million!
+    - Much obliged!
+    - TY
+    - Thanks. That kinda helps. 
+    - thank you. that kinda assists.
+    - thanks. that kinda helps.
+    - thank you. That kinda helps.
+    - thanks a lot. That kinda helps.
+    - Thank you so much. That kinda helps.
+    - Thank you for this. That kinda helps.
+    - I want to thank you for this. That kinda helps.
+    - I can't thank you enough. That kinda helps.
+    - Thanking you will not be enough for this
+    - Thank you for helping me out
+    - Thank you so much for helping me
+    - I really needed your help. Thank you.
+    - Thanks a billion. That kinda helps.
+    - Thanks a million. That kinda helps.
+    - Thanks a ton. That kinda helps.
+    - I want to thank you from the bottom of my heart for your help
+    - Thank you so much. I am really grateful to you for this.
+    - Thanks from the bottom of heart!  
+    - Thanks!
+    - Thank you
+    - Thankyou very much
+    - I am grateful
+    - I appreciate your help.. thanks
+    - thanks a lot
+    - many thanks
+    - bro.. thank you for hearing me out
+    - that's sweet.. thanks
+    - really? I found a friend in you.. thank you
+    - thanks for being there..
+    - much obliged..
+    - merci!
+    - you are a lifesavor.. thanks
+    - Thanks bro!
+    - warmest thanks
+    - your words have put a smile on my face.. Thanks
+    - Thank you!
+    - Thanks a ton!
+    - Yes you were. Thanks.
+    - Thanks a lot!
+    - Thank you very much!
+    - TY
+    - TYSM
+    - Thanks a million!
+    - Thanks a bunch!
+    - Grateful!
+    - I'm grateful!
+    - I owe you one!
+    - Thank you so much!
+    - Thank u!
+    - Many thanks!
+    - Appreciate a ton!
+    - Thanks. This helps.
+
+- intent: user_fine
+  examples: |
+    - I'm alright I guess, and you?
+    - i am alright i guess and you
+    - I am alright i guess and you
+    - I am alright I guess, and you?
+    - I'm alright I think, and you?
+    - I am alright I think, and you?
+    - I'm alright I believe, and you?
+    - I am alright I believe, and you?
+    - I'm fine I believe, and you?
+    - I am fine I believe, and you?
+    - I'm good I believe, and you?
+    - I am good I believe, and you?
+    - I'm all right I believe, and you?
+    - I am all right I believe, and you?
+    - I'm fine I guess, and you?
+    - I am fine I guess, and you?
+    - I'm all right I guess, and you?
+    - I am all right I guess, and you?
+
+- intent: user_concerns
+  examples: |
+    - Umm, I think I look kinda gross! 
+    - Umm, I think I look kinda gross!
+    - hmm, I think I look kinda gross!
+    - Yes, I think I look kinda gross!
+    - I have good looking friends
+    - My legs are too thin
+    - Ugh I kinda look gross I think
+    - I think i sorta look gross
+    - I guess I look sort of gross
+    - Uhm I am not kidding but I think I look sorta gross
+    - I have a feeling that I look kinda gross
+    - You know I think I look sorta gross
+    - I look kinda gross don't you think?
+    - I look gross sort of I think
+    - I look sort of gross don't you think?
+    - I look kinda gross that's what I think atleast
+    - I know that I look sorta gross, or atleast that's what I think
+    - Yeah I think I look kinda gross
+    - I look sorta gross ugh don't you think?
+    - Man I really do look kinda gross I think
+    - I've been having troubles at home.
+    - i have been having troubles at home
+    - I have been having trouble at home.
+    - I have been having trouble at my place
+    - I've been having trouble at my place
+    - I have been having issues at home.
+    - I have been having issues at my place
+    - I've been having issues at my place
+    - I've been having issues at home
+    - I am in deep water at home.
+    - I am in deep watert my place
+    - I'm in deep water at my place
+    - I'm in deep water at home
+    - I have been having problems at home.
+    - I have been having problems at my place
+    - I've been having problems at my place
+    - I've been having problems at home
+    
+- intent: user_forlorn_equation
+  examples: |
+    - I've just been feeling so down No matter what I do, the relationship with my father cannot flourish
+    - I've just been feeling so low
+    - I have just been feeling so down
+    - I have just been feeling so low
+    - I've just been feeling so sad
+    - I have just been feeling so sad
+    - I've just been feeling so depressed
+    - I have just been feeling so depressed
+    - I've just been feeling so miserable
+    - I have just been feeling so miserable
+    - I've just been feeling so gloomy
+    - I have just been feeling so gloomy
+    - I've just been feeling so awful
+    - I have just been feeling so awful
+    - I've just been so upset
+    - I have just been so upset- Irrespective of what I do, the relationship with my father cannot flourish
+    - No matter what I do, the relationship with my father cannot prosper
+    - Irrespective of what I do, the relationship with my father cannot prosper
+    - Irrespective of what I do, the relationship with my dad cannot flourish
+    - No matter what I do, the relationship with my dad cannot prosper
+    - Irrespective of what I do, the relationship with my dad cannot prosper
+    - No matter what I do, the relationship with my dad cannot flourish
+    - Irrespective of what I do, the relationship with my father cannot flourish
+    - No matter what I do, the relationship with my father cannot prosper
+    - Irrespective of what I do, the relationship with my father cannot prosper
+    - No matter what I do, the relationship with my father cannot flourish
+    - Irrespective of what I do, the relationship with my old man cannot flourish
+    - No matter what I do, the relationship with my old man cannot prosper
+    - Irrespective of what I do, the relationship with my old man cannot prosper
+    - No matter what I do, the relationship with my old man cannot flourish
+    
+- intent: user_anger_inherited
+  examples: |
+    - So my dad has temper issues He can easily get ticked off and that can last for hours I think i've gotten it from him I do the same thing I get ticked off so easily, it's not even funny So imagine two short fuses at home The moment either of us do something and the other gets annoyed by it, it turns into a huge fight I even feel terrible because my mom has to deal with it
+    - So my father has temper issues
+    - So my daddy has temper issues
+    - So my old mand has temper issues
+    - Basically my father has temper issues
+    - Basically my daddy has temper issues
+    - Basically my old mand has temper issues
+    - So my father has bad temper issues
+    - So my daddy has bad temper issues
+    - So my old mand has bad temper issues
+    - Basically my father has bad temper issues
+    - Basically my daddy has bad temper issues
+    - So my father has foul temper issues
+    - So my daddy has foul temper issues
+    - So my old mand has foul temper issues
+    - Basically my father has foul temper issues
+    - He can simply get ticked off and that can last for hours
+    - He can conveniently get ticked off and that can last for hours
+    - He can get ticked off easily and that can last for hours
+    - He can get ticked off simply and that can last for hours
+    - He can get ticked off conveniently and that can last for hours
+    - He can get ticked off without a hitch and that can last for hours
+    - He can get ticked off like nothing and that can last for hours
+    - He can get ticked off without any trouble and that can last for hours
+    - He can get ticked off with ease and that can last for hours
+    - He can get ticked off without any effort and that can last for hours
+    - He can get ticked off with no trouble and that can last for hours
+    - He can get ticked off just like that and that can last for hours
+    - He can get ticked off with eyes closed and that can last for hours
+    - He can get ticked off with no bother and that can last for hours
+    - He can get ticked off without difficulty and that can last for hours
+    - I think I have got it from him.
+    - I think I've got it from him.
+    - I believe I've gotten it from him.
+    - I believe I have got it from him.
+    - I think I have gotten it from him.
+    - I believe I have gotten it from him.
+    - I am sure I've got it from me.
+    - I am sure I have gotten it from him.
+    - I am sure I've gotten it from him.
+    - I'm sure I've got it from me.
+    - I'm sure I have gotten it from him.
+    - I'm sure I've gotten it from him.
+    - I gather I've got it from me.
+    - I gather I have gotten it from him.
+    - I gather I've gotten it from him.
+    - I do exactly the same thing.
+    - I do just the same thing.
+    - I precisely do the same thing
+    - I just do the same thing.
+    - I entirely do the same thing.
+    - I literally do the same thing.
+    - The same thing is done by me.
+    - Exactly the same thing is done by me.
+    - Precisile the same thing is done by me.
+    - Literally the same thing is done by me
+    - Sic I do the same thing
+    - Figuratively the same thing is done by me.
+    - Indisputably,I do the same thing
+    - Indisputably, the same thing is done by me.
+    - Without fail, I do the same thing.
+    - I get ticked off with such ease, it's not even funny
+    - I get ticked off with the drop of a hat, it's not even funny
+    - I get ticked off so effortlessly, it's not even funny
+    - I get ticked off without any difficulty, it's not even funny
+    - I get ticked off without a hitch, it's not even funny
+    - I get ticked off without a hitch, it's not even amusing
+    - I get ticked off with such ease, it's not even amusing
+    - I get ticked off with the drop of a hat, it's not even amusing
+    - I get ticked off so effortlessly, it's not even amusing
+    - I get ticked off without any difficulty, it's not even amusing
+    - I get ticked off without a hitch, it's not even strange
+    - I get ticked off with such ease, it's not even strange
+    - I get ticked off with the drop of a hat, it's not even strange
+    - I get ticked off so effortlessly, it's not even strange
+    - I get ticked off without any difficulty, it's not even strange
+    - So imagine two short fuses at my place
+    - So imagine two short fuses at my residence
+    - So imagine two short fuses at my house
+    - Thus imagine two short fuses at my place
+    - Thus imagine two short fuses at my residence
+    - Thus imagine two short fuses at my house
+    - Hence imagine two short fuses at my place
+    - Hence imagine two short fuses at my residence
+    - Hence imagine two short fuses at my house
+    - Therefore, imagine two short fuses at my place
+    - Therefore, imagine two short fuses at my residence
+    - Therefore, imagine two short fuses at my house
+    - As a result, imagine two short fuses at my place
+    - As a result, imagine two short fuses at my residence
+    - As a result, imagine two short fuses at my house
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge brawl
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge scuffle
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge fracas
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge tussle
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge quarrel
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge row
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge clash
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge uproar
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge bickering
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge argument
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge ruckus
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge altercations
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge feud
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge conflict
+    - The moment either of us do something and the other gets annoyed by it, it turns into a huge turmoil
+    - I even feel bad because my mom has to deal with it
+    - I even feel bad because my mom has to deal with it
+    - I even feel awful because my mom has to deal with it
+    - I even feel dreadful because my mom has to deal with it
+    - I even feel horrible because my mom has to deal with it
+    - I even feel lousy because my mom has to deal with it
+    - I even feel rotten because my mom has to deal with it
+    - I even feel disgusted because my mom has to deal with it
+    - I even feel bad because my mum has to deal with it
+    - I even feel bad because my mum has to deal with it
+    - I even feel awful because my mum has to deal with it
+    - I even feel dreadful because my mum has to deal with it
+    - I even feel horrible because my mum has to deal with it
+    - I even feel lousy because my mum has to deal with it
+    - I even feel rotten because my mum has to deal with it
+    - I even feel disgusted because my mum has to deal with it
+    
+- intent: user_starting_point
+  examples: |
+    - We had We basically hadn't spoken for a few months Nothing other than what was required  Like saying pass the salt or something on the dinner table We recently made up and it felt so good Mum also looked really happy But 2 days later, we were back to square one
+    - we had one
+    - We had an encounter
+    - We had a fight
+    - We had a showdown
+    - We fought
+    - We had a brawl
+    - We clashed
+    - We had a row
+    - We had a clash
+    - We came to blows
+    - We crossed swords
+    - We had a scuff
+    - We locked horns
+    - We had a confrontation
+    - We had an argument
+    - We literally hadn't spoken for a few months
+    - We basically had not spoken for a few months
+    - We literally had not spoken for a few months
+    - We practically hadn't spoken for a few months
+    - We practically had not spoken for a few months
+    - We primarily had not spoken for a few months
+    - We primarily hadn't spoken for a few months
+    - We essentially had not spoken for a few months
+    - We essentially hadn't spoken for a few months
+    - We basically did not interact for a few months
+    - We literally did not interact for a few months
+    - We practically did not interact for a few months
+    - We primarily did not interact for a few months
+    - We essentially did not interact for a few months
+    - We generally hadn't spoken for a few months.
+    - Only just what was required.
+    - Just what was required
+    - Nothing other than what was necessary
+    - Only just what was necessary
+    - Just what was necessary.
+    - Nothing other than what was essential
+    - Only just what was essential
+    - Just what was esential
+    - Nothing other than what was compulsory
+    - Only just what was compulsory
+    - Just what was compulsory
+    - Nothing other than what was indispensable
+    - Only just what was indispensable
+    - Just what was indispensable
+    - Nothing other than what was imperative
+    - For example, pass the salt or something on the dinner table.
+    - Just like pass the salt or something on the dinner table.
+    - Things like pass the salt or something on the dinner table.
+    - For instance, pass the salt or something on the dinner table.
+    - Cases like, pass the salt or something on the dinner table.
+    - For example, pass the salt or a thing on the dinner table.
+    - Just like pass the salt or anything else on the dinner table.
+    - Things like pass the salt or anything else on the dinner table.
+    - For instance, pass the salt or anything else on the dinner table.
+    - Cases like, pass the salt or anything else on the dinner table.
+    - For example, handover the salt or a thing on the dinner table.
+    - Just like hand over the salt or anything else on the dinner table.
+    - Things like hand over the salt or anything else on the dinner table.
+    - For instance hand over the salt or anything else on the dinner table.
+    - Cases like hand over the salt or anything else on the dinner table.
+    - Only the other day, we made up and it felf so good.
+    - We had just recently made up and it felt so good
+    - We had of late made up and it felt so good
+    - We had lately made up and it felt so good
+    - We had made up a short while ago and it felt so good
+    - We had made up in the recent past and it felt so good
+    - We had made up in the last few weeks and it felt so good
+    - We had made up a little while back and it felt so good
+    - Just a while ago we had made up and it felt so good.
+    - In the recent past we had made up and it felt so good.
+    - Just recently we had made up and it felt so good.
+    - In the recent past we had made up and it felt so good.
+    - Very recently we had made up and it felt so good.
+    - A short while ago we had made up and it felt so good
+    - Only a short while ago we had made up and it felt so good.
+    - My mum also looked really happy.
+    - My mum was also really happy.
+    - My mom also looked really happy.
+    - My mom was also really happy.
+    - My mother also looked really happy.
+    - My mother was also really happy.
+    - My mama also looked really happy.
+    - My mama was also really happy.
+    - My mommy also looked really happy.
+    - My mommy was also really happy.
+    - My mum also looked really delighted
+    - My mum was also really delighted.
+    - My mom also looked delighted.
+    - My mom was also really delighted.
+    - My mother also looked really delighted.
+    - However 2 days later, we were back to square one
+    - However 2 days later, we were back to where we started.
+    - However 2 days later, we were fighting again.
+    - However 2 days later, we were back to the starting point.
+    - However 2 days later, we were back to the beginning
+    - However 2 days later, we were back to the orignal point
+    - Despite that, 2 days later we were back to square one.
+    - Despite that, 2 days later we were back to where we started.
+    - Despite that, 2 days later, we were fighting again.
+    - Depite that 2 days later, we were back to the starting point.
+    - Despite that 2 days later, we were back to the beginning
+    - Despite that 2 days later, we were back to the orignal point
+    - Inspite that 2 days later, we were back to square one
+    - Inspite that 2 days later, we were back to where we started.
+    - Inspite that 2 days later, we were fighting again.
+    
+- intent: user_treatment
+  examples: |
+    - I had thought of going to therapy alone due to the way I was feeling I just didn't know which psychologist to go to or hadn't completely decided yet But that does make more sense Can you recommend any psychologist?
+    - I was thinking of going to therapy alone due to the way I was feeling.
+    - I was thinking of going to therapy all alone due to the way I was feeling.
+    - I was thinking of going to therapy all alone due to my feelings.
+    - I was thinking of going to therapy alone due to my feelings.
+    - I had thought of going to therapy all alone due to the way I was feeling
+    - I had thought of going to therapy all alone due to my feelings.
+    - I had decided to go to therapy all alone due to my feelings.
+    - I had decided to go to therapy all alone due to the way I was feeling
+    - I had decided to go to therapy alone due to the way I was feeling.
+    - I had decided to go to therapy alone due to my feelings.
+    - I was deciding to go to therapy alone due to the way I was feeling
+    - I was deciding to go to therapy alone due to my feelings.
+    - I was deciding to go to therapy all alone due to the way I was feeling
+    - I was deciding to go to therapy all alone due to my feelings.
+    - I had thought of going to therapy all by myself due to the way I was feeling
+    - I was not sure which psychologist to go to or hadn't completely decided yet.
+    - I just did not know which psychologist to go to or hadn't completely decided yet
+    - I just didn't know which psychologist to go to or had not completely decided yet
+    - I was not quite sure which psychologist to go to or hadn't completely decided yet.
+    - I was not sure which psychologist to go to or had not completely decided yet.
+    - I was not quite sure which psychologist to go to or had not completely decided yet.
+    - I was not sure which psychologist to go to or had not completely decided as yet.
+    - I was not quite sure which psychologist to go to or had not completely decided as yet.
+    - I just didn't know which psychologist to go to or hadn't completely decided as yet
+    - I just did not know which psychologist to go to or hadn't completely decided as yet
+    - I just didn't know which psychologist to go to or had not completely decided as yet
+    - I was not too sure which psychologist to go to or hadn't completely decided yet.
+    - I was not too sure which psychologist to go to or hadn't completely decided as yet.
+    - I had no knowledge which psychologist to go to or hadn't completely decided yet
+    - I had no knowledge which psychologist to go to or had not completely decided yet
+    - Agree, that does make more sense
+    - But that does sound more sensible
+    - Sure that does make more sense
+    - Sure that does sound more sensible
+    - Agree, that does sound more sensible
+    - That does make more sense but.
+    - That does sound more sensible but.
+    - Though that does make more sense.
+    - Though that does sound more sensible
+    - That does make more sense though.
+    - That does sound more sensible though.
+    - That does make more sense anyways
+    - That does sound more sensible anyways.
+    - Anyway that does make more sense.
+    - Anyway that does sound more sensible
+    - Can you suggest any psychologist?
+    - Is it possible that you suggest any psychologist?
+    - Is it possible that you recommend any psychologist?
+    - Can you endorse any psychologist?
+    - Is it possible that you endorse any psychologist?
+    - Is it possible that you propose any psychologist?
+    - Can you propose any psychologist?
+    - Can you advice any psychologist?
+    - Is it possible that you advice any psychologist?
+    - Can you offer suggestions for a psychologist?
+    - Is it possible that you offer suggestions for a psychologist?
+    - Can you prescribe any psychologist?
+    - Is it possible that you prescribe any psychologist?
+    - Can you proffer any psychologist?
+    - Is it possible that you proffer any psychologist?
+
+- intent: user_behaving
+  examples: |
+    - I am reacting very aggressively these days. So much that I felt like hitting one of my friends yesterday.
+    - i'm reaccting very aggressively these days so much that i felt like hitting one of friends yesterday.
+    - I am reacting very aggressively these days. So much that I felt like hitting one of my buddies yesterday.
+    - I am reacting very aggressively these days. So much that I felt like hitting one of my mates yesterday.
+    - I am reacting very aggressively these days. So much that I felt like hitting one of my companions yesterday.
+    - I am reacting very aggressively these days. So much that I felt like hitting one of my pals yesterday.
+    - I am reacting very aggressively these days. So much that I felt like hitting one of my chums yesterday.
+    - I am reacting very aggressively these days. So much that I felt like hitting one of my friends yesterday.
+    - I am reacting very destructively these days. So much that I felt like hitting one of my friends yesterday.
+    - I am reacting very belligerently these days. So much that I felt like hitting one of my friends yesterday.
+    - I am reacting very anatagonistically these days. So much that I felt like hitting one of my allies yesterday.
+    - I am reacting very violently these days. So much that I felt like hitting one of my friends yesterday.
+    - I am reacting very ferociously these days. So much that I felt like hitting one of my friends yesterday.
+    - I am reacting very violently these days. So much that I felt like hitting one of my friends yesterday.
+    - I am reacting very belligerently these days. So much that I felt like hitting one of my chums yesterday.
+    - I am reacting very anatagonistically these days. So much that I felt like hitting one of my friends yesterday.
+    - I am reacting very destructively these days. So much that I felt like hitting one of my buddies yesterday.
+    
+- intent: user_puffing
+  examples: |
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me furious.
+    - My best buddies were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me furious.
+    - My chums were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me furious.
+    - My pals were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me furious.
+    - My allies were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me furious.
+    - My mates were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me furious.
+    - My companions were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me furious.
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me mad.
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me fume with anger.
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me fume with livid.
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this incensed me.
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this maddened me.
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me boil with anger
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this outraged me.
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me very angry.
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me hopping mad.
+    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me hopping mad.
+    
+- intent: user_yelled
+  examples: |
+    - I shouted at them and then left the place. 
+    - i shouted at them and then left the place
+    - I screamed at them and then left the place.
+    - I yelled at them and then left the place.
+    - I growled at them and then left the place.
+    - I thundered at them and then left the place.
+    - I shouted at them and then left the spot.
+    - I yelled at them and then left the spot.
+    - I screamed at them and then left the spot.
+    - I growled at them and then left the spot.
+    - I thundered at them and then left the spot.
+    - I shouted at them and then left the scene
+    - I yelled at them and then left the scene
+    - I screamed at them and then left the scene
+    - I growled at them and then left the scene
+    - I thundered at them and then left the scene
+    - I shouted at them and then left the site.
+    
+- intent: user_responding
+  examples: |
+    - I feel bad for reacting this way.
+    - i feel bad for reacting this way
+    - I feel ashamed for reacting this way.
+    - I feel sorry for reacting this way.
+    - I feel bad for reacting in this manner
+    - I feel ashamed for reacting in this manner.
+    - I feel sorry for reacting in this manner
+    - I feel embarrassed for reacting this way.
+    - I feel embarrassed for reacting in this manner.
+    - I feel repentent for reacting this way.
+    - I feel repentent for reacting in this manner.
+    - I feel regretful for reacting this way.
+    - I feel regretful for reacting in this manner.
+    - I feel abashed for reacting this way.
+    - I feel abashed for reacting in this manner.
+    - I feel mortified for reacting this way.
+    - I feel mortified for reacting in this manner.
+    
+- intent: user_acting_properly
+  examples: |
+    - I don't know. In that moment I felt I was doing right. But may be I should not have raised my voice.
+    - I don't know. In that moment I felt I was doing right. But may be I should'nt have raised my voice.
+    - I do not know. In that moment I felt I was doing right. But may be I should'nt have raised my voice.
+    - I do not know. In that moment I felt I was doing right. But may be I should not have raised my voice.
+    - I do not know. In that moment I felt I was doing the right thing. But may be I should not have raised my voice.
+    - I do not know. In that moment I felt I was doing the right thing. But may be I should not have raised my voice.
+    - I don't know. In that moment I felt I was doing the right thing. But may be I should'nt have raised my voice.
+    - I don't know. In that moment I felt I was doing the right thing. But may be I should not have raised my voice.
+    - I don't know. In that moment I felt I was doing right. But perhaps I should'nt have raised my voice.
+    - I do not know. In that moment I felt I was doing right. But perhaps I should'nt have raised my voice.
+    - I do not know. In that moment I felt I was doing right. But perhaps I should not have raised my voice.
+    - I do not know. In that moment I felt I was doing the right thing. But perhaps I should not have raised my voice.
+    - I do not know. In that moment I felt I was doing the right thing. But perhaps I should not have raised my voice.
+    - I don't know. In that moment I felt I was doing the right thing. But perhaps I should'nt have raised my voice.
+    - I don't know. In that moment I felt I was doing the right thing. But perhaps I should not have raised my voice.
+    - I don't know. In that moment I felt I was doing right. But may be I should not gotten angry.
+    
+- intent: user_compelled
+  examples: |
+    - I felt forced.
+    - i felt forced 
+    - I felt forced 
+    - I felt cornered
+    - I felt pushed
+    - I felt that I was being driven into a corner
+    - I felt as if they were forcing me.
+    - I felt that I was being forced.
+    - I felt as if they were pushing me
+    - I felt that I was being pushed.
+    - I felt that I was being forced to smoke
+    - I felt that I was being pushed to smoke
+    - I felt that I was being cornered to smoke
+    - I felt trapped.
+    - I felt as if I was being trapped
+    - I felt that I was being trapped to smoke.
+    - I felt as if they were pushing me to smoke.
+    - I felt as if they were forcing me to smoke.
+    
+- intent: user_see
+  examples: |
+    - I see. 
+    - i see 
+    - Sure.
+    - Got you
+    - Got your point
+    - I see your point
+    - I got your point
+    - I get you
+    - Got it
+    - Roger
+    - Point taken
+    - Point noted
+    - Understand
+    - I got you
+    - Very well
+    
+- intent: user_elaborate
+  examples: |
+    - A bit. Can you tell me more?
+    - a bit can you tell me more
+    - A little. Can you tell me more?
+    - Somewhat. Can you tell me more?
+    - Fairly. Can you tell me more?
+    - Slightly. Can you tell me more?
+    - Quite a bit. Can you tell me more?
+    - Pretty much. Can you tell me more?
+    - Kinda. Can you tell me more?
+    - Sort of. Can you tell me more?
+    - To some extent. Can you tell me more?
+    - Kind of. Can you tell me more?
+    - More or less. Can you tell me more?
+    - To an extent. Can you tell me more?
+    - To a certain extent. Can you tell me more?
+    - To some degree. Can you tell me more?
+    - A tad. Can you tell me more?
+    
+- intent: user_exactly
+  examples: |
+    - This is what I did.
+    - this is what i did
+    - It is what I did.
+    - This is what I have done.
+    - This is what I finished.
+    - This is what I completed
+    - This is what I concluded.
+    - This is what I could do.
+    - It is what I could do.
+    - It is what I have done.
+    - It is what I finished.
+    - It is what I completed
+    - It is what I concluded.
+    - It is what I could do.
+    - This is what I carried out.
+    - It is what I carried out.
+    - This is what I carried off.
+    
+- intent: user_elucidate
+  examples: |
+    - Give me an example.
+    - give me an eample
+    - example please
+    - Please explain with an example.
+    - Please explain with a sample.
+    - Please explain with an instance.
+    - Please illustrate with a case in point.
+    - Please illustrate with an example.
+    - Please illustrate with a sample.
+    - Please illustrate with an instance.
+    - Please illustrate with a case in point.
+    - Give me a sample.
+    - Give me an instance.
+    - Give me a case in point.
+    - Gimme a case in point.
+    - Gimme an example.
+    - Gimme a sample.
+    
+- intent: user_give_it_a_shot
+  examples: |
+    - I think I can do it.
+    - i think i can do it
+    - i can do it
+    - Think I can do it.
+    - I think I will be able to do it.
+    - I believe I can do it.
+    - I believe I will be able to do it.
+    - I think I'll be able to do it.
+    - I believe I'll be able to do it.
+    - Believe I can do it.
+    - Believe I will be able to do it.
+    - Think I will be able to do it.
+    - Believe I'll be able to do it.
+    - I assume I'll be able to do it.
+    - I assume I will be able to do it.
+    - I assume I can do it.
+    - I figure I will be able to do it.
+    - I figure I can do it.
+    
+- intent: user_irate
+  examples: |
+    - But what if I felt angry again. What if i am not able to do it?
+    - but wt if i felt angry again what if i'm not able to do it
+    - But, what I get furious again. What if I am not able to do it?
+    - But, what I get furious again. What if I cannot do it?
+    - But, what if I felt angry again. What if i cannot do it?
+    - But, what I get enraged again. What if I am not able to do it?
+    - But, what I get enraged again. What if I cannot do it?
+    - But, what if I felt livid again. What if i cannot do it?
+    - But, what if I felt livid again. What if i am not able do it?
+    - But, what I get furious again. What if I am unable to do it?
+    - But, what I felt angry again. What if I am unable to do it?
+    - But, what I felt livid again. What if I am unable to do it?
+    - But, what I get enraged again. What if I am unable to do it?
+    - But, what if I get infuriated again. What if i cannot do it?
+    - But, what if I felt infuriated again. What if i am not able do it?
+    - But, what I get infuriated again. What if I am unable to do it?
+    - But, what I get mad again. What if I am unable to do it?
+        
+- intent: user_attending
+  examples: |
+    - Albot, I don't feel like going.
+    - albot i dont feel like going
+    - Albot, I do not feel like going.
+    - Albot, I am not keen to go.
+    - Albot, I am not willing to go.
+    - Albot, I am not interested to go.
+    - Albot, I do not want to go.
+    - Bot, I do not feel like going.
+    - Bot, I do not want like going.
+    - Bot, I am not keen to go.
+    - Bot, I am not willing to go.
+    - Bot, I am not too sure to go.
+    - Albot, I am not too sure to go.
+    - Bot, I am not interested to go.
+    - Bot, I don't feel like going.
+    - Bot, I'm not keen to go.
+    - Bot, I'm not keen to go.
+
+- intent: user_fathom
+  examples: |
+    - Albot, I feel irritated when you say it again and again. I don't want to go. Maybe you can understand that.
+    - albot i feel irritated when you say it again and again i dont want to go maybe you can understand that
+    - Albot, I feel irritated when you repeat it again and again. I don't want to go. Maybe you can understand that.
+    - Albot, I feel irritated when you repeat it again and again. I do not want to go. Maybe you can understand that.
+    - Albot, I feel irritated when you say it again and again. I do not want to go. Maybe you can understand that.
+    - Albot, I feel irritated when you mention it again and again. I do not want to go. Maybe you can understand that.
+    - Albot, I feel irritated when you mention it again and again. I don't want to go. Maybe you can understand that.
+    - Albot, I feel irritated when you repeat it again and again. I don't want to go. Perhaps you can understand that.
+    - Albot, I feel irritated when you repeat it again and again. I do not want to go. Perhaps you can understand that.
+    - Albot, I feel irritated when you say it again and again. I do not want to go. Perhaps you can understand that.
+    - Albot, I feel irritated when you mention it again and again. I do not want to go. Perhaps you can understand that.
+    - Albot, I feel irritated when you mention it again and again. I don't want to go. Perhaps you can understand that.
+    - Albot, I feel irritated when you say it again and again. I don't want to go. Peerhaps you can understand that.
+    - Albot, I feel miffed when you repeat it again and again. I don't want to go. Maybe you can understand that.
+    - Albot, I feel miffed when you repeat it again and again. I do not want to go. Maybe you can understand that.
+    - Albot, I feel miffed when you say it again and again. I do not want to go. Maybe you can understand that.
+    - Albot, I feel miffed when you mention it again and again. I do not want to go. Maybe you can understand that.
+    
+- intent: user_bit
+  examples: |
+    - A bit. 
+    - a bit 
+    - A little
+    - Slightly.
+    - More or less.
+    - Not so much
+    - Somewhat
+    - Pretty much
+    - Sort of
+    - Kinda.
+    - Quite a bit.
+    - To a certain extent
+    - To some extent
+    - Kind of
+    - To an extent.
+    - A tad bit
+    - To a certain degree.
+    
+- intent: user_accompany
+  examples: |
+    - Albot, I know you want to go with me but I don't feel like going there. It will be great if you can understand me here.
+    - Albot, I know you want to come with me but I don't feel like going there. It will be great if you can understand me here.
+    - Albot, I know you want to come with me but I do not feel like going there. It will be great if you can understand me here.
+    - Albot, I know you want to go with me but I do not feel like going there. It will be great if you can understand me here.
+    - Albot, I understand you want to come with me but I don't feel like going there. It will be great if you can understand me here.
+    - Albot, I understand you want to come with me but I do not feel like going there. It will be great if you can understand me here.
+    - Albot, I understand you want to go with me but I do not feel like going there. It will be great if you can understand me here.
+    - Albot, I understand you want to go with me but I don't feel like going there. It will be great if you can understand me here.
+    - Albot, I appreciate you want to come with me but I don't feel like going there. It will be great if you can understand me here.
+    - Albot, I appreciate you want to come with me but I do not feel like going there. It will be great if you can understand me here.
+    - Albot, I appreciate you want to go with me but I do not feel like going there. It will be great if you can understand me here.
+    - Albot, I appreciate you want to go with me but I don't feel like going there. It will be great if you can understand me here.
+    - Albot, I see you want to come with me but I don't feel like going there. It will be great if you can understand me here.
+    - Albot, I see you want to come with me but I do not feel like going there. It will be great if you can understand me here.
+    - Albot, I see you want to go with me but I do not feel like going there. It will be great if you can understand me here.
+    - Albot, I see you want to go with me but I don't feel like going there. It will be great if you can understand me here.
+    
+- intent: user_a_cut_above
+  examples: |
+    - I think I did better.
+    - i think i did better
+    - I feel I did better
+    - I assume I did better
+    - I am assuming I did better
+    - I am hoping I did better
+    - I have a feeling I did better
+    - I sense I did better.
+    - I hope I did better
+    - I believe I did better
+    - I reckon I did better
+    - I gather I did better
+    - I presume I did better
+    - I suppose I did better
+    - I suspect I did better.
+    - I figure I did better.
+    - I dare say I did better
+    
+- intent: user_willdo
+  examples: |
+    - I do. 
+    - i do 
+    - Sure I do
+    - Certainly I do.
+    - Absolutely
+    - Certainly
+    - For sure
+    - Of course.
+    - Yes.
+    - Agreed
+    - Admittedly
+    - Ahuh
+    - Alright
+    - All right
+    - Aye.
+    - Beyond any doubt
+    - Beyond doubt  
+    
+- intent: user_pleasant
+  examples: |
+    - Thats a nice way....it looks like a droopy flower !
+    - that is nice way it looks like a droopy flower
+    - Thats a delicate way....it looks like a droopy flower !
+    - Thats a exact way....it looks like a droopy flower !
+    - Thats a fine way....it looks like a droopy flower !
+    - Thats a good way....it looks like a droopy flower !
+    - Thats a great way....it looks like a droopy flower !
+    - Thats a likeable way....it looks like a droopy flower !
+    - Thats a pleasant way....it looks like a droopy flower !
+    - Thats a amazing way....it looks like a droopy flower !
+    - Thats a superb way....it looks like a droopy flower !
+    - Thats a marvellous way....it looks like a droopy flower !
+    - Thats a beautiful way....it looks like a droopy flower !
+    - Thats a cheerful way....it looks like a droopy flower !
+    - Thats a attractive way....it looks like a droopy flower !
+    - Thats a grand way....it looks like a droopy flower !
+    - Thats a very nice way....it looks like a droopy flower !
+    - it looks like droopy flower nice way.
+    
+- intent: user_totaled
+  examples: |
+    - Yeah,it is, I just feel so sad and wrung out.
+    - yes it is i just feel so sad and wrung out
+    - yep it is i just fell so sad and wrung out.
+    - yup, i am feeling so sad and wrung out.
+    - yehhhh i amvery much so sad and wrung out.
+    - Yeah,it is, I just feel so sorrowful and wrung out.
+    - Yeah,it is, I just feel so unhappy and wrung out.
+    - Yeah,it is, I just feel so miserable and wrung out.
+    - Yeah,it is, I just feel so upset and wrung out.
+    - Yeah,it is, I just feel so blue and wrung out.
+    - Yeah,it is, I just feel so dejected and wrung out.
+    - Yeah,it is, I just feel so forlorn and wrung out.
+    - Yeah,it is, I just feel so glum and wrung out.
+    - Yeah,it is, I just feel so gloomy and wrung out.
+    - Yeah,it is, I just feel so bitter and wrung out.
+    - Yeah,it is, I just feel so grieved and wrung out.
+    - Yeah,it is, I just feel so sullen and wrung out.
+    - Yeah,it is, I just feel so troubled and wrung out.
+    - Yeah,it is, I just feel so low and wrung out.
+    - Yeah,it is, I just feel so low in spirits and wrung out.
+    
+- intent: user_shifting
+  examples: |
+    - How'd you sense that ? My best friend is moving away,we've been friends since grade 1.
+    - how did you sense that my best friend is moving away we have been friends since grade 1.
+    - How'd you sense that ? My best buddy is moving away,we've been friends since grade 1.
+    - How'd you sense that ? My chump is moving away,we've been friends since grade 1.
+    - How'd you sense that ? My bestie is moving away,we've been friends since grade 1.
+    - How'd you sense that ? My best mate is moving away,we've been friends since grade 1.
+    - How'd you sense that ?My homeboy is moving away,we've been friends since grade 1.
+    - How'd you sense that ? My homegirl is moving away,we've been friends since grade 1.
+    - How'd you sense that ? My best mate is moving away,we've been friends since grade 1.
+    - How'd you sense that ? My trusted friend is moving away,we've been friends since grade 1.
+    - How'd you sense that ? My fast friend is moving away,we've been friends since grade 1.
+    - How'd you sense that ? My BFF is moving away,we've been friends since grade 1.
+    - How'd you feel that ? My best friend is moving away,we've been friends since grade 1.
+    - How'd you percieve that ? My best friend is moving away,we've been friends since grade 1.
+    - How'd you get the idea that ? My best friend is moving away,we've been friends since grade 1.
+    - How'd you suspect that ? My best friend is moving away,we've been friends since grade 1.
+    - How'd you judge that ? My best friend is moving away,we've been friends since grade 1.
+    
+- intent: user_believing
+  examples: |
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for understanding.
+    - u can because everyone one just says its ok, these things happen. thanks for understand.
+    - You can- coz everybody one just says its ok ,these things happen. Thanks for understanding.
+    - You can- coz all just says its ok ,these things happen. Thanks for understanding.
+    - You can- coz people just says its ok ,these things happen.Thanks for understanding.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for comprehending.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for consideration.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for realizing.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for being mindful.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for beiing sensitive.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for understanding.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for being empathetic.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for forbearing.
+    - You can- coz everyone one just says its ok ,these things happen.Thanks for being thoughtful.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for support.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for the concern.
+    - You can- coz everyone one just says its ok ,these things happen. Thanks for patience.
+    
+- intent: user_bywhatprocess
+  examples: |
+    - How does that help....it sucks.
+    - how does that help it sucks.
+    - how does that help...it sucks.
+    - However...it sucks.
+    - In what manner that helps....it sucks
+    - In what way that help....it sucks
+    - By what means that help....it sucks
+    - By what method that help....it sucks
+    - How on earth that help....it sucks
+    - Through what medium that help....it sucks
+    - By what virtue that help....it sucks
+    - through whose agency that help....it sucks
+    - From what source that help....it sucks
+    - According to who that help....it sucks
+    - How the hell that help....it sucks
+    - whence that help....it sucks
+    - Whereby that help....it sucks
+    - According to what that help....it sucks
+    - How will that help?
+    - What does that mean? 
+    
+- intent: user_couldabet
+  examples: |
+    - Hmm,that could help 
+    - ummm, that could help.
+    - mmmmm, that would help
+    - hhmmmm that could help...
+    - Hmm,that could aid
+    - Hmm,that could assit
+    - Hmm,that could benefit
+    - Hmm,that could support
+    - Hmm,that helps 
+    - Ok that helps
+    - Yeah that helps
+    - Well, that helps
+    - Sure, that helps
+    - Your're right, that helps
+    - Ofcourse, that helps
+    - Indeed, that helps
+    - Truely, that helps
+    - right, that helps
+    - Yup, that helps
+    
+- intent: user_jollyofyou
+  examples: |
+    - Thats so nice of you ,thanks.
+    - that is so nice of you. thanks.
+    - thanks. that is so nice of you
+    - Thats so nice of you ,thank you
+    - Thats so nice of you ,thanks alot.
+    - Thats so nice of you ,thanks a ton.
+    - Thats so nice of you ,thanks a million.
+    - Thats so nice of you ,cheers.
+    - Thats so nice of you ,much appreciated.
+    - Thats so nice of you ,many thanks.
+    - Thats so nice of you ,greatly appreciated.
+    - Thats so nice of you ,thanks a bunch.
+    - Thats so nice of you ,really thanks.
+    - Thats so nice of you ,i owe you one.
+    - Thats so nice of you ,thank you kindly.
+    - Thats so nice of you ,much obliged.
+    - Thats so nice of you ,I appreciate it.
+    - Thats so nice of you ,appreciated.
+    - that's so nice of you.
+    
+- intent: user_isit
+  examples: |
+    - Yeah,right ?
+    - yeah right?
+    - yes right angela?
+    - yeah Right angela?
+    - yup right angela
+    - yep, right angela
+    - yehhhh right????
+    - Yeh,right ?
+    - Yup,right ?
+    - Yes,right ?
+    - No way
+    - Unbelievable
+    - You don't say
+    - I don't believe it
+    - Oh come on
+    - Come on
+    - Get out
+    - Are you serious ?
+    - Are you kidding?
+    - You're kidding?
+    - good grief?
+    - Really ?
+    
+- intent: user_allalong
+  examples: |
+    - Sure ther's 4 of us ,we've been together all through,we live next door too.
+    - okay there is 4 of us we have been together all through we live next door too.
+    - Sure ther's 4 of us ,we've been close all through,we live next door too.
+    - Sure ther's 4 of us ,we've been together all through,we live nearby too.
+    - Sure ther's 4 of us ,we've been together all through,we live close by too.
+    - Sure ther's 4 of us ,we've been together all through,we live close too.
+    - Sure ther's 4 of us ,we've been together all through,we live not far off.
+    - Sure ther's 4 of us ,we've been together all through,we live at astone's throway too.
+    - Sure ther's 4 of us ,we've been together all through,we live within close range too.
+    - Sure ther's 4 of us ,we've been together all through,we live within sniffing distance too.
+    - Sure ther's 4 of us ,we've been together all through,we live in close vicinity too.
+    - Sure ther's 4 of us ,we've been together all through,we live just round the corner too.
+    - Sure ther's 4 of us ,we've been together all through,we live accross the street too.
+    - Sure ther's 4 of us ,we've been together all through,we live about the place too.
+    - Sure ther's 4 of us ,we've been alltogether all through,we live next door too.
+    - for Sure ther's 4 of us ,we've been together all through,we live next door too.
+    - indeed ther's 4 of us ,we've been together all through,we live next door too.
+    
+- intent: user_unaccompanied
+  examples: |
+    - Hey thats true, 3 of us will still be together and she's the one who'll be alone. Thats  a good way to look at it.
+    - Hey thats true, 3 of us will still be together and she's the one who'll be alone. 
+    - Thats  a good way to look at it.
+    - Hey thats true, 3 of us will still be together and she's the one who'll be all alone.
+    - Hey thats true, 3 of us will still be together and she's the one who'll be solo.
+    - Hey thats true, 3 of us will still be together and she's the one who'll be unaccompanied.
+    - Hey thats true, 3 of us will still be together and she's the one who'll be on her own.
+    - Hey thats true, 3 of us will still be together and she's the one who'll be by herself.
+    - Hey thats true, 3 of us will still be together and she's the one who'll be alone.
+    - Hey thats right, 3 of us will still be together and she's the one who'll be alone.
+    - Hey thats correct, 3 of us will still be together and she's the one who'll be alone.
+    - Hey indeed, 3 of us will still be together and she's the one who'll be alone.
+    - Hey, 3 of us will still be together and she's the one who'll be alone.
+    - Hey ofcourse, 3 of us will still be together and she's the one who'll be alone.
+    - Hey thats exactly true, 3 of us will still be together and she's the one who'll be alone.
+    - Hey thats precisely true, 3 of us will still be together and she's the one who'll be alone.
+    - Hey thats right on, 3 of us will still be together and she's the one who'll be alone.
+    - Hey true that, 3 of us will still be together and she's the one who'll be alone.
+    - Thats  a practical way to look at it.
+    - Thats  a logical way to look at it.
+    - Thats  a rational way to look at it.
+    - Thats  a positive way to look at it.
+    - Thats  a smart way to look at it.
+    - Thats  a sensible way to look at it.
+    - Thats  a plausible way to look at it.
+    - Thats  an effective way to look at it.
+    - Thats  a sound way to look at it.
+    - Thats  a effective way to look at it.
+    - Thats  a just way to look at it.
+    - Thats  a clear way to look at it.
+    - Thats  a constructive way to look at it.
+    - Thats  a favourable way to look at it.
+    - Thats  a hopeful way to look at it.
+    
+- intent: user_amiable
+  examples: |
+    - That is what you meant by looking in the positive direction ,smart!
+    - that is what you meant by looking in the positive direction smart
+    - That is what you meant by looking in the positive direction ,bright!
+    - That is what you meant by looking in the positive direction ,wise!
+    - That is what you meant by looking in the positive direction ,brilliant!
+    - That is what you meant by looking in the positive direction ,crafty!
+    - That is what you meant by looking in the positive direction ,savvy!
+    - That is what you meant by looking in the positive direction ,superb!
+    - That is what you meant by looking in the positive direction ,excellent!
+    - That is what you meant by looking in the positive direction ,splendid!
+    - That is what you meant by looking in the positive direction ,fantastic!
+    - That is what you meant by looking in the positive direction ,marvellous!
+    - That is what you meant by looking in the positive direction ,fine!
+    - That is what you meant by looking in the positive direction ,tremendous!
+    - That is what you meant by looking in the positive direction ,terrific!
+    - That is what you meant by looking in the positive direction ,nice!
+    - That is what you meant by looking in the positive direction ,wow!
+    
+- intent: user_takeashot
+  examples: |
+    - ok,tell me,i'll try
+    - okay tell me i will try
+    - sure i will try tell me
+    - Ok i will try tell me
+    - Sure tell me i will try
+    - ok,tell me, I will give it a shot
+    - ok,tell me, I'll take a crack at it
+    - ok,tell me, I'll take a dab of it
+    - ok,tell me, I'll give it a whirl
+    - ok,tell me, I'll give it a burl
+    - ok,tell me, I'll make an effort
+    - ok,tell me, I'll shoot for it
+    - ok,tell me, I'll make a pass at it
+    - ok,tell me, I'll make an attempt for it
+    - ok,tell me, I'll give it a go
+    - ok,tell me, I'll put it to test
+    - ok,tell me, I'll aim for it
+    - ok,tell me, I'll experiment with it
+    - ok,tell me, I'll check this out
+    - ok,tell me, I'll inspect it
+    
+- intent: user_assitabunch
+  examples: |
+    - That is a fun thing to do, get right on it. I want to  come back for more ,you've helped alot.
+    - That is a fun thing to do, get right on it.
+    - I want to  come back for more ,you've helped alot.
+    - That is a fun thing to do, get on it.
+    - That is a fun thing to do, get right to it.
+    - That is a fun thing to do, set on it.
+    - That is a fun thing to do, buckle down.
+    - That is a fun thing to do, get on with it.
+    - That is a fun thing to do, knuckle down.
+    - That is a fun thing to do, start on it.
+    - That is a fun thing to do, come along.
+    - That is a fun thing to do, tag along.
+    - That is a fun thing to do, lead the way.
+    - That is a fun thing to do, show the way.
+    - That is a fun thing to do, go be a sport.
+    - That is a amusing thing to do, get right on it.
+    - That is a leisure, get right on it.
+    - That is a entertaining thing to do, get right on it.
+    - I would like to  come back for more ,you've helped alot.
+    - I wish to  come back for more ,you've helped alot.
+    - I desire to  come back for more ,you've helped alot.
+    - I long to  come back for more ,you've helped alot.
+    - I want to  return for more ,you've helped alot.
+    - I hope to  come back for more ,you've helped alot.
+    - I want to  get back for more ,you've helped alot.
+    - I want to  come again for more ,you've helped alot.
+    - I feel I want to  come back for more ,you've helped alot.
+    - I want to  come back for more ,you've assisted alot.
+    - I want to  come back for more ,you've stood by me alot.
+    - I want to  come back for more ,you've supported alot.
+    - I want to  come back for more ,you've helped often.
+    - I want to  come back for more ,you've helped many times.
+    - I want to  come back for more ,you've helped quite a few times.
+
+- intent: user_recall
+  examples: |
+    - My friend Jamie told me about you, do you remember him?
+    - do you remember my friend jamie
+    - jamie told me about you do you remember
+    - My friend Jamie informed me about you, do you remember him?
+    - My friend Jamie apprised me about you, do you remember him?
+    - My friend Jamie briefed me about you, do you remember him?
+    - My friend Jamie clued me about you, do you remember him?
+    - My pal Jamie told me about you, do you remember him?
+    - My buddy Jamie told me about you, do you remember him?
+    - My chum Jamie told me about you, do you remember him?
+    - My bro Jamie told me about you, do you remember him?
+    - My homie Jamie told me about you, do you remember him?
+    - My close friend Jamie told me about you, do you remember him?
+    - My best friend Jamie told me about you, do you remember him?
+    - My fellow Jamie told me about you, do you remember him?
+    - My mate Jamie told me about you, do you remember him?
+    - My bud Jamie told me about you, do you remember him?
+    - My folk Jamie told me about you, do you remember him?
+    
+- intent: user_reliable
+  examples: |
+    - Yeah,he said I'd be safe to talk.
+    - yes, he said i be safe to talk
+    - yup, he said i'd be safe to talk
+    - Yeh,he said I'd be safe to talk.
+    - Yes,he said I'd be safe to talk.
+    - Yup,he said I'd be safe to talk.
+    - Yeah,he said I'd be safe to chat
+    - Yeah,he said I'd be safe to converse
+    - Yeah,he said I'd be safe to communicate
+    - Yeah,he said I'd be safe to discuss
+    - Yeah,he said I'd be safe to chit-chat
+    - Yeah,he said I'd be safe to jabber
+    - Uh-huh,he said I'd be safe to talk.
+    - Allright,he said I'd be safe to talk.
+    - ofcourse,he said I'd be safe to talk.
+    - absolutely,he said I'd be safe to talk.
+    - indeed,he said I'd be safe to talk.
+    - Very well,he said I'd be safe to talk.
+    
+- intent: user_beloved
+  examples: |
+    - Hey, that makes me feel special.
+    - that makes me feel special
+    - Hey, that makes me feel dear.
+    - Hey, that makes me feel beloved.
+    - Hey, that makes me feel endeared.
+    - Hey, that makes me feel close.
+    - Hey, that makes me feel valued.
+    - Hey, that makes me feel preferred.
+    - Hey, that makes me feel treasured.
+    - Hey, that makes me feel revered.
+    - Hey, that makes me feel cherished.
+    - Hey, that makes me feel favoured.
+    - Hey, that makes me feel favourite.
+    - Hey, that makes me feel adored.
+    - Hey, that makes me feel admired.
+    - Hey, that makes me feel relished.
+    - Hey, that makes me feel loved.
+    - hey makes me feel special
+
+- intent: user_anxious
+  examples: |
+    - I'm a little nervous..
+    - i am little agitated
+    - i'm a littele tense
+    - i'm a little afraid
+    - i am so worried
+    - i'm a little annoyed
+    - i'm a little apprehensive
+    - i'm a little concerned
+    - i'm a little edgy
+    - i'm a little fussy
+    - i'm a little hesitant
+    - i'm a little hysterical
+    - i'm a little irritable
+    - i'm a little jittery
+    - i'm a little jumpy
+    - i'm a little shaky
+    - i'm a little shy
+    - i'm a little skittish
+    - i'm a little spooked
+    - i'm a little tense
+    - i'm a little timid
+    - i'm a little uneasy
+    - i'm a little uptight
+    - i'm a little volatile
+    - i'm a little weak
+    - i'm a little basket case
+    - i'm a little bothered
+    - i'm a little distressed
+    - i'm a little disturbed
+    - i'm a little excitable
+    - i'm a little fidgety
+    - i'm a little fitful
+    - i'm a little flustered
+    - i'm a little high-strung
+    - i'm a little nervy
+    - i'm a little neurotic
+    - i'm a little on edge
+    - i'm a little overwrought
+    - i'm a little querulous
+    - i'm a little restive
+    - i'm a little ruffled
+    - i'm a little sensitive
+    - i'm a little shrinking
+    - i'm a little snappish
+    - i'm a little solicitous
+    - i'm a little taut
+    - i'm a little timorous'
+    - I'm a little anxious..
+    - I'm a little apprehensive..
+    - I'm a little on the edge..
+    - I'm a little tense..
+    - I'm a little uneasy..
+    - I'm a little timid..
+    - I'm a little toey..
+    - I'm a little stressed..
+    - I'm a little uptight..
+    - I'm a little nervy..
+    - I'm a little fidgety..
+    - I'm a little hesitant..
+    - I'm a little taut..
+    - I'm a little fussy..
+    - I'm a little scared..
+    - Yes and that makes me anxious.
+    - yes and that makes me anxious.
+    - Yes and that worries me.
+    - Yes and that makes me fraught.
+    - Yes and that makes me nervous
+    - Yes and that makes me stressed.
+    - Yes and that makes me tensed
+    - Yes and that makes me worried
+    - Yes and that stresses me.
+    - Yes and that hassles me.
+    - Yes and that makes me edgy.
+    - Yes and that upsets me.
+    - Yeah and that makes me anxious.
+    - Yeah and that makes me worried.
+    - Yea and that worries me.
+    - Yea and that makes me nervous.
+    - Yea and that makes me tensed.
+
+- intent: user_how
+  examples: |
+    - How? 
+    - how?
+    - how
+    - How 
+    - in what way?
+    - by what method?
+    - by what means?
+    - in what manner?
+    - according to what specifications?
+    - Whence?
+    - from what source ? 
+    - how come?
+    - whereby?
+    - to what degree?
+    - by whose help?
+    - after what precedent?
+    - wherewith?
+    - show how?
+    - oh, how
+    - ohhhh how?
+    - OH how?
+    - Oh How?
+    - ohhhh How
+    - Oh, However?
+    - Oh, In what manner?
+    - Oh, In what way?
+    - Oh, By what means?
+    - Oh, By what method?
+    - Oh, How on earth?
+    - Oh, Through what medium?
+    - Oh, By what virtue?
+    - Oh, through whose agency?
+    - Oh, From what source?
+    - Oh, By whose help?
+    - Oh, How the hell?
+    - Oh, whence?
+    - Oh, Whereby?
+    - Really, how?
+
+- intent: user_bymyself
+  examples: |
+    - That was cool I can do this on my own too ?
+    - i can do this on my own
+    - that was very nice will do my own too
+    - it was great can do my own
+    - That was chic...I can do this on my own too ?
+    - That was stylish...I can do this on my own too ?
+    - That was trendy...I can do this on my own too ?
+    - That was hip...I can do this on my own too ?
+    - That was impressive...I can do this on my own too ?
+    - That was funky...I can do this on my own too ?
+    - That was snappy...I can do this on my own too ?
+    - That was snazzy...I can do this on my own too ?
+    - That was swish...I can do this on my own too ?
+    - That was elegant...I can do this on my own too ?
+    - That was happening...I can do this on my own too ?
+    - That was groovy...I can do this on my own too ?
+    - That was fresh...I can do this on my own too ?
+    - That was hot...I can do this on my own too ?
+    - That was swell...I can do this on my own too ?
+    
+- intent: user_abit
+  examples: |
+    - I want to say something..
+    - i need to say something
+    - i have something to say
+    - have something to say
+    - i want to tell something 
+    - i want to announce something
+    - i want to speak something
+    - i want to declare something
+    - i want to assert something
+    - I want to speak something..
+    - I want to comment something..
+    - I want to add something..
+    - I want to communicate something..
+    - I want to respond something..
+    - I want to state something..
+    - I want to announce something..
+    - I want to express something..
+    - I want to convey something..
+    - I want to disclose something..
+    - I want to confess something..
+    - I want to divulge something..
+    - I want to tell something..
+    - I want to admit something..
+    - I want to spell out something..
+    
+- intent: user_assit
+  examples: |
+    - How do you help ?
+    - how you can help?
+    - how do you support
+    - how do you advice
+    - how do you service
+    - How do you assist ?
+    - How do you aid ?
+    - How do you contribute ?
+    - How do you lend a hand ?
+    - How do you collaborate ?
+    - How do you back it up ?
+    - How do you facilitate ?
+    - How do you abet?
+    - How do you back ?
+    - How do you serve ?
+    - How do you be of service ?
+    - How do you give a boost to it ?
+    - How do you hike up ?
+    - How do you jack up ?
+    - How do you give a hand 
+    
+- intent: user_disheartened
+  examples: |
+    - Ok, thanks for the honest answer.
+    - thanks for the answer
+    - thanks for the response
+    - thanks for the reply
+    - thanks for the acknowledgement. 
+    - Ok, thanks for the honest reply.
+    - Ok, thanks for the honest response.
+    - Ok, thanks for the honest reaction.
+    - Ok, thanks for the honest feedback.
+    - Ok, thanks for the honest remark.
+    - Ok, thanks for the honest opinion.
+    - Ok, thanks for the honest view.
+    - Ok, thanks for the honest review.
+    - Ok, thanks for the frank answer.
+    - Ok, thanks for the candid answer.
+    - Ok, thanks for the truthful answer.
+    - Ok, thanks for the straight answer.
+    - Ok, thanks for the direct answer.
+    - Ok, thanks for the outright answer.
+    - Ok, thanks for the straight answer.
+    - I have been feeling unhappy all the time, there's nothing really wrong but I just don't feel good.
+    - i am feeling unhappy all time, there is nothing happend but i don't feel very well
+    - i am feeling bad at all the time, nothing happend but my mood is bad.
+    - I have been feeling upset all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling sad all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling miserable all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling gloomy all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling glum all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling low all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling depressed all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling down all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling dejected all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling blue all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling grim all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling bleak all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling forlorn all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling wretched all the time, there's nothing really wrong but I just don't feel good.
+    - I have been feeling fed up all the time, there's nothing really wrong but I just don't feel good.
+    
+- intent: user_funning
+  examples: |
+    - Haha, are you kidding ?
+    - Ha ha are you joking
+    - haha are you teasing
+    - ha ha ha are you wind up
+    - Haha, are you ridiculing ?
+    - Haha, are you mocking me ?
+    - Haha, are you joking ?
+    - Haha, are you joshing ?
+    - Haha, are you ribbing ?
+    - Haha, are you jeering ?
+    - Haha, are you teasing ?
+    - Haha, are you jestering ?
+    - Haha, are you bantering ?
+    - Haha, are you spoofing ?
+    - Haha, are you duping ?
+    - Haha, are you roasting ?
+    - Haha, are you deluding ?
+    - Haha, are you pretending ?
+    - Haha, are you ragging ?
+    
+- intent: user_letsattempt
+  examples: |
+    - ok....let me give it a try....its flattish and dull grey, like a pond of still water.
+    - let me try its flattish and dull grey, like a pond of still water.
+    - ok...let me give it a shot....its flattish and dull grey, like a pond of still water.
+    - ok...let me take a crack at it....its flattish and dull grey, like a pond of still water.
+    - ok...let me take a dab at it....its flattish and dull grey, like a pond of still water.
+    - ok...let me give it a whirl....its flattish and dull grey, like a pond of still water.
+    - ok...let me give it a burl....its flattish and dull grey, like a pond of still water.
+    - ok...let me make an effort....its flattish and dull grey, like a pond of still water.
+    - ok...let me shoot for it....its flattish and dull grey, like a pond of still water.
+    - ok...let me make a pass at it....its flattish and dull grey, like a pond of still water.
+    - ok...let me make an attempt for it....its flattish and dull grey, like a pond of still water.
+    - ok...let me give it a go....its flattish and dull grey, like a pond of still water.
+    - ok...let me put it to test....its flattish and dull grey, like a pond of still water.
+    - ok...let me aim for it....its flattish and dull grey, like a pond of still water.
+    - ok...let me experiment with it....its flattish and dull grey, like a pond of still water.
+    - ok...let me check this out....its flattish and dull grey, like a pond of still water.
+    - ok...let me inspect it....its flattish and dull grey, like a pond of still water.
+    
+- intent: user_prosaic
+  examples: |
+    - It kind a tells me I'm bored and not doing much...wow,it did help.
+    - i am feeling bored not doing anything
+    - i feel very boring and not doing much
+    - It kinda tells me I'm uninterested and not doing much...wow,it did help.
+    - It kinda tells me I'm disinterested and not doing much...wow,it did help.
+    - It kinda tells me I'm jaded and not doing much...wow,it did help.
+    - It kinda tells me I'm fatigued and not doing much...wow,it did help.
+    - It kinda tells me I'm tired and not doing much...wow,it did help.
+    - It kinda tells me I'm fed-up and not doing much...wow,it did help.
+    - It kinda tells me I'm bored-stiff and not doing much...wow,it did help.
+    - It kinda tells me I'm blase and not doing much...wow,it did help.
+    - It kinda tells me I'm passive and not doing much...wow,it did help.
+    - It kinda tells me I'm listless and not doing much...wow,it did help.
+    - It kinda tells me I'm laid-back and not doing much...wow,it did help.
+    - It kinda tells me I'm uninvolved and not doing much...wow,it did help.
+    - It kinda tells me I'm distant and not doing much...wow,it did help.
+    - It kinda tells me I'm dulled and not doing much...wow,it did help.
+    - It kinda tells me I'm detached and not doing much...wow,it did help.
+    
+- intent: user_seemsright
+  examples: |
+    - yeah, that does make sense.I spend most of my time lying about, not doing my chores or school work or fun stuff....
+    - yes, i spent most of the time on deceptive about only, not doing anything like work or fun or entertainment...
+    - yup, most of the time spent dissembling only, i am not doing much like fun or chores...
+    - yeh, that does make sense. I spend most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - yup, that does make sense. I spend most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - yes, that does make sense. I spend most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - ofcourse, that does make sense. I spend most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - allright, that does make sense. I spend most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - Ok, that does make sense. I spend most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - fine, that does make sense. I spend most of my  time lying about,not doing my chores or school work or fun stuff....
+    - agreed, that does make sense. I spend most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - indeed, that does make sense. I spend most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - yeah, that does make sense. I pass most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - yeah, that does make sense. I while away most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - yeah, that does make sense. I divote most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - yeah, that does make sense. I sqaunder most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - yeah, that does make sense. I kill most of my  time lying about,not doing my chores or school. work or fun stuff....
+    - yeah, that does make sense. I use most of my  time lying about,not doing my chores or school. work or fun stuff....
+    
+- intent: user_occupied
+  examples: |
+    - But you're the one doing the work.
+    - you only doing the work
+    - you are only doing service
+    - but you only working
+    - you are only doing spadework
+    - you only doing the assignments
+    - you're the one doing the tasks
+    - you're the only doing the projects
+    - But you're the one exerting.
+    - But you're the one toiling.
+    - But you're the one actively doing the work.
+    - But you're the one working.
+    - But you're the one diligently working.
+    - But you're the one making an effort
+    - But you're the one going all out.
+    - But you're the one taking all the pains.
+    - But you're the one plugging.
+    - But you're the one hustling
+    - But you're the one grinding.
+    - But you're the one hammering.
+    - But you're the one managing everything.
+    - But you're the one sourcing.
+    - But you're the one at work.
+    
+- intent: user_keepmoving
+  examples: |
+    - Ok, so what do I do to move forward?
+    - what do i do to advance
+    - what do i do to skip
+    - what do i do to stride
+    - okay, what do i do to tread
+    - Ok, so what do I do to advance?
+    - Ok, so this onwards, what do I do to move forward?
+    - Ok, so what do I do to move ahead?
+    - Ok, so what do I do to move further?
+    - Ok, so what do I do to make progress?
+    - Ok, so what do I do to proceed?
+    - Ok, so what do I do to push forward?
+    - Ok, so what do I do to continue on?
+    - Ok, so what do I do to continue ahead?
+    - Ok, so what do I do to move?
+    - Ok, so what do I do to continue?
+    - Ok, so what do I do to march forward?
+    - Ok, so what do I do to get going?
+    - Ok, so what do I do to get ahead?
+    - Ok, so what do I do to forge on?
+        
+- intent: user_scrap
+  examples: |
+    - Not chores, haha...I like roller blading and making collages from trash..
+    - not tasks, haha ... i love roller blading and making collages from waste..
+    - not burden, haha ... i like roller blading and making collage from junk... 
+    - not actually chores, haha.. i do like roller blading and getting to make collages from trash.
+    - i don't prefer chores, haha.. i actually like roller blading and to make collages from trash
+    - not really chores, haha.. i like to do roller blading and make collages from the trash
+    - not doing chores, haha.. i shall like doing roller blading and creating collages from trash
+    - i may not like to do chores, haha.. i would like roller blading and making up the collages from trash
+    - i can't do chores, haha.. i love roller blading and to create collages from the trash
+    - i won't be doing chores, haha.. i really like roller blading and about making the collages from trash
+    - not literally chores, haha.. i prefer roller blading and also making the collages from trash
+    - not the chores, haha.. i will be preferring roller blading and creating some collages from the trash
+    - i wouldn't prefer chores that much, haha.. i literally like roller blading and shall make collages from trash
+    - not liking chores, haha.. i absolutely to do roller blading and having to make collages from the trash
+    - not exactly chores, haha.. i would prefer roller blading and like to make collages from the trash
+    - no chores, haha.. i mostly like to do roller blading and to be creating the collages from trash
+    
+- intent: user_comfortzone
+  examples: |
+    - yeah, i'll get out of my room and do some of this.  
+    - yes, i will get out of my room and do some of this.
+    - yeah, will avoid room and do some of this
+    - yeah, i'll wriggle out of my room and do some of this. 
+    - yeah, i'll cop out of my room and do some of this. 
+    - yeah, i'll pull out of my room and do some of this. 
+    - yeh, i'll get out of my room and do some of this. 
+    - yup, i'll get out of my room and do some of this. 
+    - yep, i'll get out of my room and do some of this. 
+    - yes, i'll get out of my room and do some of this. 
+    - indeed, i'll get out of my room and do some of this. 
+    - fine, i'll get out of my room and do some of this. 
+    - ofcourse, i'll get out of my room and do some of this. 
+    - allright, i'll get out of my room and do some of this. 
+    - yeah, i'll recoil from room and do some of this. 
+    - yeah, i'll wuss out of my room and do some of this. 
+    - surely, i'll get out of my room and do some of this. 
+    - truelly, i'll get out of my room and do some of this.
+
+- intent: user_revisit
+  examples: |
+    - ok,can I come back ,if I want to talk some more?
+    - Ok can i come back if i want to talk some more
+    - Okay can i come back if i want to talk some more
+    - okay can i come back if i want to talk some more
+    - Right ,can I come back ,if I want to  talk some more?
+    - True ,can I come back ,if I want to  talk some more?
+    - exactly ,can I come back ,if I want to  talk some more?
+    - correct ,can I come back ,if I want to  talk some more?
+    - perfect ,can I come back ,if I want to  talk some more?
+    - I guess so ,can I come back ,if I want to  talk some more?
+    - I hope so ,can I come back ,if I want to  talk some more?
+    - I believe so ,can I come back ,if I want to  talk some more?
+    - I think so ,can I come back ,if I want to  talk some more?
+    - yes ,can I come back ,if I want to  talk some more?
+    - yup ,can I come back ,if I want to  talk some more?
+    - that's correct ,can I come back ,if I want to  talk some more?
+    - that's true ,can I come back ,if I want to  talk some more?
+    - it's true ,can I come back ,if I want to  talk some more?
+    - that's right ,can I come back ,if I want to  talk some more?
+    - Hey,thanks ...Jamie was right,you're cool.might come back .
+    - Yes, whenever I'm angry,I'll reach out and talk, can I?
+    - yup, whenever angry will reach out.
+    - Yes ,whenever I'm furious,I'll reach out and talk, can I?
+    - Yes ,whenever I'm infuriated,I'll reach out and talk, can I?
+    - Yes ,whenever I'm enraged,I'll reach out and talk, can I?
+    - Yes ,whenever I'm outraged,I'll reach out and talk, can I?
+    - Yes ,whenever I'm bitter,I'll reach out and talk, can I?
+    - Yes ,whenever I'm mad,I'll reach out and talk, can I?
+    - Yes ,whenever I'm agitated,I'll reach out and talk, can I?
+    - Yes ,whenever I'm iritated,I'll reach out and talk, can I?
+    - Yes ,whenever I'm annoyed,I'll reach out and talk, can I?
+    - Yes ,whenever I'm aggravated,I'll reach out and talk, can I?
+    - Yes ,whenever I'm sore,I'll reach out and talk, can I?
+    - Yes ,whenever I'm miffed,I'll reach out and talk, can I?
+    - Yes ,whenever I'm vexed,I'll reach out and talk, can I?
+    - Yes ,whenever I'm troubled,I'll reach out and talk, can I?
+    - Yes ,whenever I'm piqued,I'll reach out and talk, can I?
+    - Ok, and if I'm feeling low can I come back to talk
+    - gee thanks.I am going to try out your suggestions. I'll come back to update you.
+    - Nah,not now,I'm good with this thing I saw....though I'll come back to figure out more
+
+- intent: user_cantsaymuch
+  examples: |
+    - Umm,Idon't know 
+    - ummm i dont know
+    - i dont know 
+    - I didn't understand.
+    - Umm, I have no idea
+    - Umm, I have no clue
+    - Umm, I have no information
+    - Umm, I don't know yes
+    - Umm, don't ask me
+    - Umm, I really don't know
+    - Umm, actually I don't know
+    - Umm, honestly I don't know
+    - Umm, to be honest I don't know
+    - Umm, in fact I don't know
+    - Umm, as a fact I don't know
+    - Umm, I am not aware of it
+    - Umm, I have no clue at all
+    - Umm, I am not updated about it
+    - Umm, I have not been informed
+    - idk
+    - i have no idea
+    - I don't know,just feeling that way.
+    - hmm, feeling like that
+    - i can't find, just feeling that
+    - idk
+    - not yet
+    - i am not sure
+    - Not sure if i can talk with her
+    - Haven't spoken yet
+    - I am not fully confident about it
+    - I am hesitant
+    - yeah I don't know
+    - no I don't know
+    - Nuh-uh I don't know
+    - Hmm I don't know 
+    - yes I don't know
+    - Maybe, don't know
+    - I don't know really
+    - Really I don't know 
+    - Okay I don't know
+    - Okay don't know
+    - Nope I don't know 
+    - no I really don't know 
+    - really have no idea
+    - Hmm no idea
+    - Yeah no idea
+    - idk whats happening.
+    - I don't know if this will work.
+    - i dont know if this will work
+    - I do not know if this will work.
+    - I'm not sure if this will work.
+    - I am not sure if this will work.
+    - I doubt if this will work.
+    - I don't think this will work.
+    - I'm not quite sure this will work.
+    - I am not quite sure this will work.
+    - I'm doubtful if this will work.
+    - I am doubtful if this will work.
+    - I'm unsure if this will work.
+    - I am unsure if this will work.
+    - I'm skeptical if this will work.
+    - I am skeptical if this will work.
+    - I'm not so sure that this will work.
+    - I am not so sure tht this will work.
+
+- intent: user_guess
+  examples: |
+    - ok, I guess... 
+    - okay, I guess... 
+    - ok, I guess
+    - ok,I Think
+    - ok,I hope
+    - ok,I Believe
+    - ok,I do guess
+    - ok,I do think
+    - ok,I do believe
+    - ok,I do hope
+    - ok,I assume
+    - ok,I presume
+    - ok,I reckon
+    - ok,I agree
+    - ok,I appreciate
+    - ok,I imagine 
+    - ok,I do assume
+    - ok,I do presume
+    - Yeah,I guess..
+    - Yeah I guess.
+
+- intent: user_fortnightly
+  examples: |
+    - For almost two weeks.
+    - yes nearly two weeks
+    - yeah virtually two weeks
+    - close to two weeks
+    - For the last two weeks...
+    - 2 months.
+    - It's more than a week now. 
+    - I find it both.
+    - I got both of them
+    - Both of them are here
+    - I have managed to find both
+    - It took time…but got both 
+    - I find the two
+    - I got the pair
+    - I dig out both
+
+- intent: user_coach_consultation
+  examples: |
+    - Hey, that would be awesome !
+    - Hi, that should be awesome.
+    - Hello, that would be very nice.
+    - hello, that should be very good.
+    - hey, that should be excellent.
+    - Hey, that would be amazing
+    - Hey, that would be Great
+    - Hey, that would be excellent
+    - Hey, that would be superb
+    - Hey, that would be salient brilliant
+    - Hey, that would be extraordinary
+    - Hey, that would be beyond imagination
+    - Hey, that would be Beautiful
+    - Hey, that would be exciting
+    - Hey, that would be interesting
+    - Hey, that would be so good
+    - Hey, that would be alright
+    - Hey, that would be perfect
+    - Hey, that would be correct
+    - Hey, that would be The perfect fit
+    - Yes. That would be correct.
+    - yes that would be correct
+    - yup that would be correct
+    - Yeah that would be correct
+    - yeah that would be better
+    - Sure. That would be correct.
+    - Sure. That would be right
+    - Yea. That would be correct.
+    - Yea. That would be right
+    - Of course. That would be correct.
+    - Of course. That would be right
+    - Yup. That would be correct.
+    - Yup. That would be right
+    - Yah. That would be correct.
+    - Yah. That would be right
+    - Certainly. That would be correct.
+    - Certainly. That would be right
+    - Indeed. That would be correct.
+    - Indeed. That would be right
+    - Aye. That would be correct.
+
+- intent: user_cantsaymuch
+  examples: |
+    - Umm,Idon't know 
+    - ummm i dont know
+    - i dont know 
+    - I didn't understand.
+    - Umm, I have no idea
+    - Umm, I have no clue
+    - Umm, I have no information
+    - Umm, I don't know yes
+    - Umm, don't ask me
+    - Umm, I really don't know
+    - Umm, actually I don't know
+    - Umm, honestly I don't know
+    - Umm, to be honest I don't know
+    - Umm, in fact I don't know
+    - Umm, as a fact I don't know
+    - Umm, I am not aware of it
+    - Umm, I have no clue at all
+    - Umm, I am not updated about it
+    - Umm, I have not been informed
+    - idk
+    - i have no idea
+    - I don't know,just feeling that way.
+    - hmm, feeling like that
+    - i can't find, just feeling that
+    - idk
+    - not yet
+    - i am not sure
+    - Not sure if i can talk with her
+    - Haven't spoken yet
+    - I am not fully confident about it
+    - I am hesitant
+    - yeah I don't know
+    - no I don't know
+    - Nuh-uh I don't know
+    - Hmm I don't know 
+    - yes I don't know
+    - Maybe, don't know
+    - I don't know really
+    - Really I don't know 
+    - Okay I don't know
+    - Okay don't know
+    - Nope I don't know 
+    - no I really don't know 
+    - really have no idea
+    - Hmm no idea
+    - Yeah no idea
+    - idk whats happening.
+    - I don't know if this will work.
+    - i dont know if this will work
+    - I do not know if this will work.
+    - I'm not sure if this will work.
+    - I am not sure if this will work.
+    - I doubt if this will work.
+    - I don't think this will work.
+    - I'm not quite sure this will work.
+    - I am not quite sure this will work.
+    - I'm doubtful if this will work.
+    - I am doubtful if this will work.
+    - I'm unsure if this will work.
+    - I am unsure if this will work.
+    - I'm skeptical if this will work.
+    - I am skeptical if this will work.
+    - I'm not so sure that this will work.
+    - I am not so sure tht this will work.
+
+- intent: user_terrible
+  examples: |
+    - I had a bad day at school
+    - at school i had not good day
+    - i had a tough day at school
+    - there was not good day at school yasterday
+    - i experience very bad day yasterday at school
+    - i feel very bad at yesterday
+    - I had a bad day at school, you know
+    - I've been having a bad day at school.
+    - I've been having a bad day at practice
+    - I was having a bad day at practice
+    - I was having a bad day at school
+    - I was having a bad day in school
+    - I was having a terrible day in school
+    - I was having a awful day in school
+    - I had a terrible day at school
+    - I had a awful day at school
+    - actually i had a bad day at school 
+    - my experience at school was very bad yesterday
+    - i had feels distress at school
+    - i had very very distress at school 
+    - I had a rough day at school
+
+- intent: user_mathsolympiad 
+  examples: |
+    - We had a math quiz, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - yesterday we had maths exam, and I knew all the answers,but the boy sitting before me kept asking answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - in our school we had mathamatic quiz, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - math quize had in our school, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - i had a math quiz, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - i had math test, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - math test was conducted by my teacher yesterday, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - mathematic test was taken by my teacher,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - yesterday math quiz had there, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - at math test yesterday, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - at math quiz yesterday, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - at math test, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+    - mathamatic test yesterday, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
+
+- intent: user_yougotit
+  examples: |
+    - Exactly,atleast you get it.My parents are going to be so mad.
+    - yes you get the point.my mom and dad are going to be so mad at me
+    - yes you get it .my mom and dad are gonna be so mad at me
+    - yeee you get it that there was not my fault.my mom and dad are gonna be so mad at me    
+    - Oh yes you understood correctly that my parents are gonna be so infuriated about this.
+    - The point is that atleast you get it that my parents will be mad at me
+    - I am glad that you atleast get it. I know my parents are going to be so angry
+    - My parents are gonna be so furious at me and I am absolutely relieved to know that you get it
+    - Wow I am so happy to know that you get it, now atleast you know that my parents are so mad at me
+    - You are correct about getting it that my mom and dad are going to be agitated about it
+    - Thank God that you get it,and now we both kknow that my parents are gonna be mad
+    - Me and you atleast got it, and now on the same page that my parents are going to react crazily 
+    - You actuallly get it right and my parents are going be super unhappy.
+    - This feels so great because you got it and understood that my parents are gonna be so mad
+    - Surely you get it right that my parents are definitely going to feel angry about it    
+    
+- intent: user_subjects 
+  examples: |
+    - Good, always,I enjoy my subjects.
+    - i always enjoy my subjects
+    - i like my subjects
+    - Actually I always loved my subjects
+    - Right, I have always felt good about my subjects
+    - You know what I actually love my subjects
+    - The fact is that my subjects reflect my liking for them
+    - Great, I feel there’s a good connect between me and my subjects
+    - I Your are right that I always like my subjects
+    - Cool, my subjects always amuse me
+    - Yes, so I always take joy in my subjects
+    - I cherish my subjects
+    - I always find my subjects appealing
+    - I treasure my subjects
+    - I value my subjects
+
+- intent: user_guide 
+  examples: |
+    - Hey thats absolutly correct, even my Academic counsellor stood up for me.Still that teacher kept ranting
+    - yes that is correct, even my Academic counsellor stood up for me.Still that teacher kept ranting
+    - yes that is perfect, even my Academic counsellor stood up for me.Still that teacher kept ranting
+    - So that’s quite right, even my Academic counsellor supported me.Still that teacher kept ranting
+    - Yes that is not wrong, even my Academic counsellor boosted my morale by supporting me,.still that teacher kept ranting
+    - Yes that’s fair, my Academic counsellor also stood up for me.however that teacher kept ranting
+    - Exactly that’s correct, my Academic counsellor even stood up for me.but Still that teacher kept ranting
+    - Actually that’s the truth, my Academic counsellor even gave me all sort of support and even after that the teacher kept ranting
+    - Hey that's entirely conclusive, even though my Academic counsellor stood up for me.but that teacher kept ranting
+    - Even my Academic counsellor stood up for me but still  that teacher kept ranting. So that’s correct on your part.
+    - I would say that you are correct. My Academic counsellor didn’t leave my side butl that teacher kept shouting
+    - That’s totally accurate, That teacher kept ranting even though my Academic counsellor stood up for me
+    - Hey, that's absolutely perfect. That teacher didn’t stop ranting but my academic counsellor was supporting me continuously
+    - My academic counsellor’s support was unwavering but that teacher kept ranting and that’s right without any doubt
+    - My academic counsellor chose to be by my side throughout that time when the teacher didn’t stop ranting, you are right.
+
+- intent: user_frenzied
+  examples: |
+    - I was so mad in school, just wanted to get home and lock myself in my room.
+    - there was not good day at school, i went to home and lock room myself.
+    - i felt much angry in school, just wished to get home and to lock myself in my room
+    - i feel like pretty mad in school, i did wished to get home amd to lock myself into my room
+    - i was being mad in school, wish to get home and to lock myself up in my room
+    - i was actually mad in school, i do wish to get home and to lock myself in my room
+    - i had been much mad in school, i do wanted to get to home and getting myself locked in my room
+    - i could be much mad in school, only want to get home and to lock myself into my room
+    - i became so mad in school, i only wished to get to home and able to lock myself in my room
+    - i grown so mad in school, i actually wished to get home and get locked into my room
+    - i was feeling much mad in school, i really wanted to get home and locking myself in the room
+    - i actually be much mad in school, want to get home and to lock myself in my room
+    - i felt like so mad in school, just needed to get at home and locking myself into my room
+    - i had felt much angry in school, i had wished to get home and to lock myself in the room
+    - i literally felt much mad in school, just do need to get home and locking up myself in the room
+    - i already did felt mad in school, just i could think of getting to home and lock myself up in my room
+    - i shall become so mad in school, just will like to get to home and lock myself into my room
+    
+- intent: user_tease
+  examples: |
+    - Bet everybody in class will make fun of me now.
+    - Bet everybody in class will laughing on me now.
+    - Bet all are make fun of me now.
+    - i can bet that each one in class is gonna make fun of me
+    - i could bet that everyone in the class is likely to make fun of me now
+    - i shall bet that each one into my class wold make fun of me now
+    - i actually bet each of them from class about to make fun of me now
+    - i would surely bet that everyone from class will be making fun of me
+    - i could actually bet that each one from my class would make fun of me now
+    - i may bet that each one on my class would make fun of me now
+    - i am able to bet that everybody in my class is going to make fun of me now
+    - i surely bet that each one from my class can get to make fun of me now
+    - i would like to bet that everyone in class would be getting to make fun of me now
+    - i am ready to bet that each one within my class is just going to make fun of me now
+    - i must bet that everybody from my class will be making fun of me now
+    - i literally could bet everyone from my class suppose to make fun of me now
+    - i would make a bet that everybody from my class can be making fun of me now
+    - i will bet that everybody being in my class would be making fun of me now
+    
+- intent: user_stayclose
+  examples: |
+    - nahh,we stick together,but you know how guys are 
+    - no, we stick together, but u know how guys are
+    - no, we are there with each other, but you know how these guys are
+    - nope, we are being together, but you do know how can these guys be
+    - no, we could be together, but you can know how those guys really are
+    - no, we often stick together, but you know how the guys really are
+    - nah, we do stick together, but you could know how these guys have been
+    - no, we tend to stick together, but you also know how these guys could be
+    - nah, we might stick together, but you shall know how these guys can be
+    - no, we are able to stick together, but you do know how must these guys are being
+    - nah, we do got to stick together, but you know how can guys really be
+    - no, we actually stick together, but you could know how literally these guys are
+    - no, we just stick together, but you can know how the guys actually are
+    - nope, we have been together, but you are knowing how the guys would be
+    - no, we shall stick together, but you know how the guys have really been
+    - nah, we can be able to stick together, but you can make out how these guys could be
+    - nope, we will be together, but you could even know how the guys can actually be
+    
+- intent: user_bothered
+  examples: |
+    - Ok, so you're saying maybe I'm worrying too much about this?
+    - i am worrying too much about this
+    - i am so worried about this
+    - ok, are you trying to say that i am worrying much for this
+    - ok, so you mean i am getting to worry much about this
+    - ok, i might be worrying about this is that you saying
+    - ok, so you meant i have been worrying much about this
+    - ok, do you mean i could be worrying much about this
+    - ok, you could say i do worry much about his 
+    - ok, did you just say i do worry about it so much
+    - ok, have you trying to say i could worry about it too much
+    - ok, so you say i would be worrying too much about this
+    - ok, so you got to say i can be worrying about it that much
+    - ok, so you could say i shall be worrying about it so much 
+    - ok, you are actually saying i am getting to worry much about this
+    - ok, you just said maybe i can worry for this too much
+    - ok, so you trying to mean i would be worrying for this that much
+    - ok, so you do say i could worry about this so much
+        
+- intent: user_clear
+  examples: |
+    - That's an honest  response.maybe I am.What do I do ?
+    - honest response.what do i do next?
+    - maybe that is honest response.what do i do today? 
+    - i think that is such a honest response. i maybe like this
+    - i do think that can be a honest response. i might could be
+    - that had been an honest response. i might be like this
+    - that shall be an honest response. i suppose to be like this
+    - that is actually an honest response. i could be like this
+    - that is such an honest reply. i have been like this
+    - that seems to be an honest response. i maybe like this
+    - that is really an honest response. i can be
+    - i found it an honest reply. i shall be
+    - that is a very honest reply. might i can be
+    - that have been a honest response. i could really be
+    - what would i do
+    - what can i do
+    - what is it that i can do
+    - what am i supposed to do
+    - what may i do
+    - what must i do
+    - what will i do
+    - what could i do
+    - what is there i could do
+    - what should i do
+    - what do i got to do
+    - what shall i got to do
+    - what will i need to do
+    - what would i get to do
+    - what shall i do
+    - that is being an honest response. i supposedly be
+    - that could be an honest response. i might be
+    - that is literally an honest response. perhaps i can be
+    - that is much of a honest response. it may be i am
+    
+- intent: user_complete
+  examples: |
+    - Sure, get it out in the open and be done with it.
+    - okay, get it out in the open and to be done.
+    - okay, be out with it in open and get over with it
+    - okay, give it out in the open and just get done with it
+    - sure, bring this up in open and get it finish off
+    - okay, out this up in the open and be ready to finish it off
+    - sure, be put with this in the open and getting over with it
+    - sure, just put this up in the open and achieve it
+    - sure, you could get this out in the open and get all over with it
+    - okay, bring this out in the open and accomplish it
+    - sure, do have this out in the open and get done with it
+    - sure, give this out in the open and getting over with this
+    - okay, you can be out in the open and get it complete
+    - sure, you shall get it out in the open and get over with this
+    - okay, do bring this up in the open and able to get done with it
+    - sure, get this out into the open and would be done with it
+    - sure, just get to out this out in the open and surely get done with this
+
+- intent: user_takeplaceatschool 
+  examples: |
+    - But what'll happen at school?
+    - what happen at school?
+    - what will happen at school?
+    - but what will happen at school
+    - but what shall get happened at school
+    - but what could get happene at school
+    - but what would get happened at school
+    - but what might happen at school
+    - but what is there that could happen at school
+    - but what is supposed to happen at school
+    - but what must get happen at school
+    - but what is going to happen at school
+    - but what might going to happen at school
+    - but what is it that could happen at school
+    - but what suppose could get happen at school
+    - but what could happen at school
+    - but what is actually going to happen at school
+    - but what really could happen at school
+
+- intent: user_attempt
+  examples: |
+    - yeah,i'll try
+    - i will try
+    - sure, i will try it
+    - okay, i'll try' 
+    - I'll try...
+    - I mean... I can try to
+    - I mean, I could try.
+    - I mean, I might try.
+    - I mean, I could try.
+    - I mean, I may try.
+    - I mean, I might also try.
+    - I mean, I can also try.
+    - I mean, I could really try.
+    - I mean, I can make an attempt.
+    - I mean... I could try.
+    - I mean... I could indeed try.
+    - I mean... I could still try.
+    - I mean... I could very well try.
+    - I mean... I'm going to try
+    - I'mean.. I can attempt to
+    - I mean... I'm planning to try
+    - yes, i will try
+    - yup, i shall try
+    - yes, i am suppose to try
+    - yea, i can try
+    - yup, i might try
+    - yes, i should try
+    - yes, i can get to try
+    - yes, i will get to try
+    - yup, i wish to try
+    - yes, i would try
+    - yup, i could try
+    - yes, i must try
+    - yup, i would try
+    - yes, i really could try
+    - yes, i am willing to try
+    
+- intent: user_trust 
+  examples: |
+    - I get it ,about what'll happen in school- nothing coz they believe in me.
+    - what will happen in school - nothing they believe
+    - i could make out regarding what shall happen at school - can't be anything as they do believe me
+    - i do get it, about what can happen in school - no a single thing as they have believe upon me
+    - i do know, about what may get happen at school - nothing as they got believe upon me
+    - i could get it, about what suppose to get happen in school - nothing because they could believe on me
+    - i actually get it, about what is going to happen in school - cannot be anything coz they are believing on me
+    - i shall get it, about what would happen in school - nothing because they really believe on me
+    - i can know, about what could get happened in school - nothing because they just believe on me
+    - i got it, about what can just happen in school - nothing because they absolutely believe upon me
+    - i am able to make out, about what may happen in school - nothing because they are able to believe on me
+    - i just got it, about what might happen in school - nothing because they do got believe upon me
+    - i can make out, regarding what shall get happened in school - nothing  because they had been believing me
+    - i absolutely get it, about what is it that can happen in school - nothing because they must be believing in me
+    - i really get it, about what will be happening in school - nothing uch as they have got believe upon me
+    - i will be getting it, about what actually happens in school - not a thing as they will believe upon me
+    - i get it, about what is gonna happen at the school - nothing because they would be believing on me
+
+- intent: user_below
+  examples: |
+    - OK,3 is too less, I see what you mean. 
+    - 3 is too less, what you mean.
+    - I feel better. 
+    - Can I come back ?
+    - I feel better already...
+    - sure,I can come back,right?
+    - This seems better.
+    - ok, 3 is much less, i know what do you mean
+    - ok, 3 can be less, i do see what did you mean
+    - ok, 3 shall be very less, i do know what you are saying
+    - ok, 3 has been too less, i can see what have you mean
+    - ok, 3 is being much less, i could see what had you mean
+    - ok, 3 is very uch less, i do see what you had mean
+    - ok, 3 will be less, i can make out what you mean
+    - ok, 3 is actually too less, i am able to see what do you mean
+    - ok, 3 should be too less, i am knowing what you mean
+    - ok, 3 is really much less, i get it what do you mean
+    - ok, 3 is going to be too less, i could know what you mean
+    - ok, 3 is literally too less, i am able to see what you mean
+    - ok, 3 had been much less, i see what you meant
+    - ok, 3 seems to be much less, i can sense what you mean
+    - ok, 3 is likely to be much less, i understand what do you mean
+
+- intent: user_what
+  examples: |
+    - What? 
+    - what 
+    - What do you mean?
+    - what is the meaning?
+    - What are you saying?
+    - What are you talking?
+    - Are you sure?
+    - What is it?
+    - What the heck?
+    - What the hell?
+    - Is it?
+    - Can it be?
+    - Whut?
+    - Wat?
+    - Wat the heck?
+    - Wat the hell?
+    - Seriously?
+    - What is it? 
+    - what is it 
+    - tell me more
+    - let me know
+    - What's it?
+    - What's that?
+    - Can you explain?
+    - Can you let me know what is it?
+    - Tell me what it is
+    - What can it be?
+    - Is it possible to let me know what it is?
+    - Can you tell me what it is?
+    - Please let me know what it is.
+    - Tell me
+    - Please explain
+    - What can it be possibly?
+    - What is that?
+    - what is that
+    - what is thta?
+    - What is that
+    - What exactly is it?
+    - Can you tell me what you're talking about?
+    - What is it, exactly?
+    - What precisely is it?
+    - What specifically is it?
+    - What exactly is that really?
+    - What is it, essentially?
+    - What is it, particularly clear?
+    - Earth is that?
+    - What do you have there?
+    - What on earth is that?
+    - How do you work this?
+    - What good does that?
+    - What did you got there?
+    - What are you doing?
+    - Tell me more about it.
+    - ok,what?
+    - okay, what
+    - okay, what you mean
+    - okay, what is it
+    - okay, what you say
+    - okay, what do you mean
+    - ok, what suppose
+    - ok, what had you mean
+    - ok, what does it mean
+    - ok, what might
+    - ok, what it shall be
+    - ok, what you suppose to mean
+    - ok, what you just say
+    - ok, what is there you say
+    - ok, what you meant
+    - ok, what did you say
+
+- intent: user_couple
+  examples: |
+    - Yes,a bunch of us were riding our bikes on the school field--my bike wobbled and I fell off ! The guys started making fun of me and there were some girls around.
+    - yes, a group of us were riding on our bikes upon the school field. my bike got shaked and i did fell off it. the guys began to make fun of me and also some girls were present there
+    - yup, some of us rode our bikes onto school field. my bike did got lurched and i had fell off it. the guys had made fun of me and few of the girls were being there
+    - yes, there was a bunch of us riding bikes on school field. my bike just quivered and i happen to fell off it. the guys have made fun of me and there had been girls around
+    - yup, many of us have ride our bikes onto school field. my bike had got wobbled and i have fell off it. the guys happened to make fun of me and few girls were also present there
+    - yes, bunch of us supposed to ride bikes on the school field. my bike bobed and i just feel off it. the guys just started to make fun of me and there had been some girls around
+    - yeah, some of us simply rode bikes onto school field. my bike rocked and i have fell down from it. the guys have started to make fun of me and there shall be some girls around
+    - yes, the bunch of us had been riding bikes onto school field. my bike was shaking and i had fell off it. the guys did got to make fun of me and there had been girls around
+    - yeah, few of us were riding our bikes upon the school field. my bike quivered and i fell off it. the guys were making fun of me and there supposed to be some girls around
+    - yes, we as a bunch have been riding bikes on the school field. my bike jiggled and i had fell off it. the guys really made fun of me and some of the girls being around
+    - yes, there got to be bunch of us getting to ride their bikes on the school field. my bike began to teeter and i did fell off it. the guys got into making fun of me and there seem to be some girls around
+    - yeah, group of us had got to ride our bikes on the school field. my bike actually faltered and i really fell off it. the guys just began to make fun of me and there were actually some girls around as well
+    - yes, few of us were riding bikes on the school field. my bike had got jiggled and i literally fell off it. the guys have begun to make fun of me and there seems to be some girls around
+    - yeah, very few of us were riding our bikes on this school field. my bike have started to wobble and i just fell off it. the guys begin to make fun of me and few girls being present there as well
+    - yes, some of us did rode our bikes onto the school field. my bike did swayed and i just fell off it. the guys literally made fun of me and there could be some girls around as well
+    - yup, bunch of us were riding our bikes upon the school field. my bike was swaying and i actually fell off it. the guys had just began to make fun of me and also there have been few girls around
+
+- intent: user_nerd
+  examples: |
+    - I felt like a dork !
+    - I felt like geek
+    - notice like a dork
+    - i did felt like an idiot
+    - i feel like an jerk
+    - i could feel like the jerk
+    - i have been feeling like an idiot
+    - i could just feel like some moron
+    - i can feel like some dork
+    - i got to feel like a loony
+    - i too feel like some idiot
+    - i shall feel like the geek
+    - i would be feeling like schmo
+    - i will feel like the idiot
+    - i do feel like some idiot
+    - i have felt like the dork
+    - i actually feel like a jerk
+    - i feel like some lunatic
+    
+- intent: user_pondered
+  examples: |
+    - I am still feeling stupid and keep thinking about it.
+    - i feeling stupid and keep thinking about it.
+    - i had felt like stupid and going to think about it
+    - i could feel like stupid and thinking about it
+    - i just feel like some stupid and getting to think about it
+    - i had been feeling like a fool and shall think about it
+    - i really feel like a fool and will be thinking about it
+    - i would feel like stupid and have been thinking about it
+    - i can be feeling like stupid and could think about it
+    - i will be feeling stupid and getting to think much about it
+    - i may feel like stupid and can think a lot about it
+    - i would be feeling like stupid and gonna think about it
+    - i am very much feeling like stupid and will keep thinking about it
+    - i just feel myself as foolish and would constantly think about it
+    - i am literally feeling like stupid and thinking really much about it
+    - i suppose to feel stupid and gonna think about it
+    - i would still feel like some fool and getting to really think about it
+        
+- intent: user_solely
+  examples: |
+    - Could be, so only I'm thinking about it ?
+    - should be, so only i am thinking about it
+    - may be, so i think about it only
+    - will be, so am i only thinking about it
+    - shall be, so i got to be only thinking about it
+    - can be, so only i must be thinking about it
+    - might be, so only i can be thinking about it
+    - possibly be, so only i shall be thinking about it
+    - supposed to be, so only i had been thinking about it
+    - would be, so only i happened to think about it
+    - it can be, so only have i been thinking about it
+    - likely, so had i been only thinking about it
+    - probably, so i shall think about it only
+    - can be possible, so only i have been thinking about it
+    - it could be, so am i going to be only one thinking about it
+    - perhaps, am i being the only one thinking about it
+    - most likely, so i could be the only one to think about it
+        
+- intent: user_fail
+  examples: |
+    - Thats true, we fall all the time !
+    - that is fact, we fall all the time
+    - that is much true, we had fallen all the time
+    - that maybe true, we could fall all the time
+    - this shall be true, we are able to fall all the time
+    - this is being true, we do fall each time
+    - this can be true, we might fall each of the time
+    - that could be true, we can suppose to fall every time
+    - that seems true, we can fall each of the time
+    - that had been true, we have fallen each of the time
+    - that's gonna be true, we may fall all the time
+    - that's so true, we actually fall all the time
+    - that shall be true, we ought to fall all the time
+    - that has been true, we could be falling each time
+    - that is very true, we might have fallen each time
+    - that must be true, we could fall each of the time
+    - that is really true, we suppose to fall each time
+    
+- intent: user_probably
+  examples: |
+    - nah..no, maybe,why ?
+    - no..no, maybe why?
+    - no, perhaps why?
+    - no, possibly why?    
+    - no, can be, why
+    - nope, it could be, why
+    - no, it supposed to be, why though
+    - no, it got to be, why so
+    - no, it shall be, why
+    - no, it seems to be, why
+    - nah, it might be ,why
+    - no, it can be, why so
+    - no, it may be, why though
+    - no, it would be , why
+    - no, possibly, why
+    - no, it might be, why so
+    - no, perhaps, why
+    - no, perceivably, why
+    - nope, might be, why
+    
+- intent: user_probably_dumb
+  examples: |
+    - idk,its probably dumb
+    - idk, its perhaps dumb
+    - idk, its possibly dumb
+    - i can't say, it could be dumb
+    - i am not knowing, it shall be dumb
+    - i may not know, it seems to be dumb
+    - i do not know, it could seem dumb
+    - i cannot say, it might be dumb
+    - i don't know, it is being dumb
+    - i couldn't say, it does seems dumb
+    - i can't even know, it had been dumb
+    - i might not know, it is gonna be dumb
+    - i won't know, its maybe dumb
+    - i can't even say, it is supposed to be dumb
+    - i actually do not know, it seems somewhat dumb
+    - i won't be knowing, it is somewhere dumb
+    - i cannot know, it will seem dumb
+    - i really do not know, it can be dumb
+        
+- intent: user_fall_girl
+  examples: |
+    - Well, there's this girl I like and she saw me fall
+    - welll, there is this girl i like and she saw me fall
+    - um, there is some girl whom i like and she did see me fall
+    - um, a girl i do like and she happened to see me fall
+    - well, there is some girl whom i am liking and she have seen me fall
+    - well, there is a girl i like and she did saw me falling
+    - umm, there is this girl whom i really like and she has saw me fall
+    - umm, there is some girl whom i like and she actually saw me fall
+    - umm, this girl whom i have been liking and she did saw me fall
+    - well, there has been a girl i like and she really saw me fall
+    - umm, there could be this girl i could like and she suppose to see me fall
+    - umm, there is a girl i do like and she supposedly saw me fall
+    - well, there had been a girl whom i like and she just got to see me fall
+    - umm, i am liking some girl and she has actually saw me fall
+    - well, i have been liking a girl and she did see me really fall
+    - umm, there is being a girl whom i like and she literally saw me having a fall
+    - so, there is this girl whom i like much and she have seen me falling
+    
+- intent: user_heavens
+  examples: |
+    - Gosh no,she actually came up and asked ,if I was hurt
+    - Gosh no,she actually came up and asked ,if I was hurt
+    - Gosh no,she actually came up and asked ,if I was hurt
+    - Gosh no,she actually came up and asked ,if I was hurt
+    - oh no, she came to me and have asked if i had been hurt
+    - oh gosh no, she happened to come to me and asking me if i was hurt
+    - omg no, she had come upto me and asked, if i got hurt
+    - gosh no way, she has come up and asking, if i did got hurt
+    - ohh no, she did came to me and asked, if i have got hurt
+    - oh no, she just came upto me and asking, if i have been hurt
+    - gosh no, she could come upto me and asked, if i could get hurt
+    - gosh no, she did came up and asked, if i had got hurt
+    - oh my gosh no, she came to me and asked if i was okay or got hurt
+    - oh no, she did got to me and asked if i was got hurt
+    - oh gosh no, she have come upto me and asked, if i may be hurt
+    - gosh no, she happened to come upto me and asked, if i literally was hurt
+    - gosh no, she literally came upto me and asked, if i might got hurt
+    - oh gosh, she has come to me and asked, if i got hurt
+    - gosh no, she has came to me and really asked, if i did got hurt
+    
+- intent: user_thankgoodness
+  examples: |
+    - Hey,it is a good thing I didn't get it 
+    - it is good thing i didn't understant it
+    - hello, it is good  i did not get it
+    - hello, it is good thing- but i didn't get it
+    - hey, that is some good thing. i did not got it
+    - hey, it shall be a good thing, i had not got it
+    - hey, it have been a good thing. i have not got it
+    - hey, it could be a good thing. i do not seem to get it
+    - hey, it had been a good thing. i may not seem to get it
+    - hey, it can be a good thing, i had not got it
+    - hey, it would be a good thing. i didn't seem to get it
+    - hey, it will be a good thing. i might not get it
+    - hey, it is more likely to be a good thing. i haven't got it
+    - hey, it actually is a good thing. i have not got it
+    - hey, it might be a good thing. i couldn't get it
+    - hey, it is much of a good thing. even i did not got it
+    - hey, it is really a good thing. i can't get it
+    - hey, it does seem a good thing. i shall not get it
+    - hey, it seems to be much of a good thing. i won't be getting it
+    
+- intent: user_yes_togirl
+  examples: |
+    - yep,this is great,wish I'd fallen earlier.
+    - yes this is good, wish i'd fallen earlier.
+    - yeah this is better, wish i'd fallen earlier
+    - yeah this is well, wish i'd fallen earlier
+    - yes, this is good, i wish i can get this fall earlier
+    - yea, this is being good, i do wish i might have had this fall earlier
+    - yes, that is great, i wish i may have fallen earlier
+    - yep, this is so great, i could wish i might fallen earlier
+    - yes, this seems good, i wish i suppose to had a fall earlier
+    - yeah, this shall be great, i can wish i would have fallen earlier
+    - yes, this can be great, i really wish i could have fallen earlier
+    - yup, this is so good, i could have wished to fall earlier
+    - yes, this seems so good, i wish i may had fallen earlier
+    - yep, this is been great, i can wish i can have fallen earlier
+    - yes, this is much great, i could wish i would have fallen earlier
+    - yes, this seems much great, i did wish i can have fallen earlier
+    - yup, this feels so good, i actually wish i could had fallen earlier
+    - yes, this does seems great, i wish i might had fallen earlier
+    - yup, this shall be good, i do wish i would may had a fall earlier
+        
+- intent: user_losingheart
+  examples: |
+    - Yeah,I was feeling lost and alone now I'm ok.
+    - Yes,I was feeling very lost and alone but  now I'm ok.
+    - Yes,I  feeling lost , alone , I'm ok.
+    - Yeah,I was feeling lost now I'm ok.
+    - Can I come back and talk some more?
+    - yup, i did felt lost and lonely now i do feel okay
+    - yes, i feel lost an lonely now i can be okay
+    - yea, i have felt lost and alone now i feel much okay
+    - yep, i supposed to feel lost and alone now i could be ok
+    - yes, i felt much alone and lost now i am feeling okay
+    - yeah, i could feel lost and alone now i had felt okay
+    - yep, i did felt alone and lost now i am very okay
+    - yes, i happened to feel alone and lost now i have been okay
+    - yeah, i got to feel lost and alone now i am really okay
+    - yes, i did felt lost and alone now i had been okay
+    - yes, i got into feeling lost and alone now i am much ok
+    - yup, earlier i felt alone and lost now i can feel okay
+    - yeah, i actually was feeling pretty lost and alone now i might be okay
+    - yes, i felt pretty lost and alone now i have been okay
+    - yup, i had felt very alone and lost now i am feeling okay
+       
+
