@@ -102,6 +102,19 @@ intents:
 - user_thankgoodness
 - user_yes_togirl
 - user_losingheart
+- user_good_mood
+- user_confession
+- user_confess_realized
+- user_unvariedroutine
+- user_takedelight
+- user_undertook
+- user_typical
+- user_somewhat
+- user_ahead
+- user_amazing
+- user_totally
+- user_best_loved
+- user_bye
 
 responses:
   utter_default:
@@ -389,3 +402,41 @@ responses:
       out.
   utter_losingheart:
   - text: Always,I'm right here for you. Take care and stay safe.
+  utter_ray:
+  - text: It's so great to have you here! What do your friends call you?
+  utter_lucas:
+  - text: Would you be okay with me calling you Luke then?
+  utter_betteryes:
+  - text: Yay! That makes me so happy! I'm so excited to get to know you a little better, Luke! Would you like that?
+  utter_tellingfar:
+  - text: Alrighty then! Let's start off with you telling me how your day is going so far?
+  utter_goodmood:
+  - text: That's great! How would you rate it on a scale from 1-10? With 10 being the best
+  utter_confession:
+  - text: Feel like telling me why you would rate it at 4?
+  utter_confessrealized:
+  - text: I see...what does your general day look like, Luke?
+  utter_unvariedroutine:
+  - text: Oh my! And what do you enjoy doing the most? Any hobbies that you pursue?
+  utter_takedelight:
+  - text: Wow! that sounds wonderful!
+  utter_undertook:
+  - text: Have you not been getting the time to do that?
+  utter_typical:
+  - text: And do you think that that could be contributing to you feeing really monotonous and bored?
+  utter_somewhat:
+  - text: Luke, can I ask you a question if you don't mind?
+  utter_ahead:
+  - text: You rated your day as a 4/10 today. But I am going to ask you to think about something right now
+  utter_dessert:
+  - text: I want you to think about you getting up right now, going to the kitchen, and whipping up and baking your favourite dessert. How does that thought make you feel?
+  utter_amazzing:
+  - text: Do you think that if you did that, your day would become a 10/10?
+  utter_totally:
+  - text: It makes me so happy to hear that! I'm sure that whenever you feel bored and have the need to do something exciting, you can make that happen immediately just by doing something you love
+  utter_bestloved:
+  - text: That just made me drool!
+  utter_revisit:
+  - text: It was great talking to you, Luke! Feel free to come back here whenever you feel like it!
+  utter_bye:
+  - text: Bye for now! Looking forward to hearing from you again!

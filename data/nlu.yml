@@ -26,6 +26,8 @@ nlu:
     - Hi I am Justin
     - Hi I am Janis
     - Hi You can call me Bob
+    - Hi Ray!
+    - My name is Lucas but my friends call me Luke.
 
 - intent: affirm
   examples: |
@@ -2453,6 +2455,7 @@ nlu:
     - Ok, and if I'm feeling low can I come back to talk
     - gee thanks.I am going to try out your suggestions. I'll come back to update you.
     - Nah,not now,I'm good with this thing I saw....though I'll come back to figure out more
+    - Got to go now! Time to bake!
 
 - intent: user_cantsaymuch
   examples: |
@@ -3332,5 +3335,427 @@ nlu:
     - yeah, i actually was feeling pretty lost and alone now i might be okay
     - yes, i felt pretty lost and alone now i have been okay
     - yup, i had felt very alone and lost now i am feeling okay
+    
+- intent: user_good_mood
+  examples: |
+    - It's going fine..
+    - it is much fine
+    - it had been fine
+    - it would be fine
+    - it is surely fine
+    - it is actually fine
+    - it is really fine
+    - it is very fine
+    - it shall be fine
+    - it will be fine
+    - it is so fine
+    - it is literally fine
+    - it is supposed to be fine
+    - it happens to be fine
+    - it seems to be fine
+    - it is going good
+    - good
+    - going really good
+    - Good
+    
+- intent: user_confession
+  examples: |
+    - I would say today I am at 4
+    - i guess today i am being at 4
+    - i can just say today i shall be at 4
+    - i will say today i had been at 4
+    - i could say today i must be at 4
+    - i am able to say this day i am at 4
+    - i must say today i have been at 4
+    - i mean today i am at 4
+    - i just mean today i would be at 4
+    - i got to say today i will be at 4
+    - i am saying today i am at 4
+    - i shall say today i have been at 4
+    - i am going to say today i reached at 4
+    - i actually mean today i am being at 4
+    - i do have to say today i happen to be at 4
+    - i just say today i am here at 4
+        
+- intent: user_confess_realized
+  examples: |
+    - Umm... I don't know...
+    - I haven't really done anything exciting today..
+    - I am out
+    - Can't remember
+    - Have no idea about it
+    - No clue at all
+    - I don't have that information
+    - I am not the right person to answer
+    - Didn't get time to look at 
+    - I'll check and let you know
+    - I'll get back to you with this
+    - Not sure about it
+    - It's beyond me
+    - Not my area of expertise...
+    - Not a pro at it
+    - It can be many things....not sure..
+    - What do you suggest?
+    - Nothing exciting
+    - All that daily chores only
+    - It's all same
+    - I had nothing exciting in my day
+    - My days are always dull
+    - I wish to do something interesting
+    - Nothing interesting
+    - Nothing to tell about it
+    - Just as always
+    - So-so
+    - Kinda boring
+    - Nothing much
+    - As usual
+    - Trying something new could be fun actually
+    - Doing same shut every single day
+    - My day was really very boring
+    - My day was really a bad one
+    - Haven't done anything exciting today
+    - It was very monotonous
+    - My day was full of monotony
+    - Having a bad day
+    - Having the worst day
+    - I am getting bored
+    - I Hate boredom
+    - I don't want to get bored
+    - I wanted to do something exciting but....
+    - I don't know how to explain this
+    - It's very annoying
+    - I am feeling very depressed
+    - Umm... I don't know...I haven't really done anything exciting today..
+
+- intent: user_unvariedroutine
+  examples: |
+    - The same, everyday, I guess. I wake up, have breakfast, go to school, come back, do my homework, have dinner and then go to sleep. It has all become so monotonous and boring.
+    - The same, everyday, I guess. I wake up, have breakfast, go to school, come back, do my homework, have dinner and then go to sleep.
+    - I guess it's same every day. Waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep.
+    - My everyday routine is same as always. I wake up, have breakfast, go to school, come back, do my homework, have dinner and then go to sleep.
+    - My days are very similar. All I do is waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep.
+    - My days are identical to each other. I do nothing outside of Waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep.
+    - From waking up to going to bed at night I guess my every day is same. In the morning I have breakfast then go to school and come back, do my homework then dinner and then go to sleep
+    - I guess my days are very alike. It includes waking up, having breakfast, going to school, coming back, doing my homework, having dinner and then go to sleep.
+    - My days are not really different from each other….waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep.
+    - I guess every day is indistinguishable. My routine includes work like waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep.
+    - I feel like my days are very monotonous. They include nothing but waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep.
+    - I believe days are very equivalent to each other. I wake up, have breakfast, go to school, come back, do my homework, have dinner and then go to sleep.
+    - I don't think my days are very different from each other. It's just about waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep.
+    - I guess my every day is becoming very indifferent. Because I do nothing outside waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep.
+    - I guess everyday it's the same happening on a loop...waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep.
+    - My every day is repetition of each other because all I do is waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep.
+    - I guess it's impossible to find any difference in my everyday routine. Waking up, having breakfast, going to school, coming back home, doing homework then dinner and sleep is all I do.
+    - It has all become so monotonous and boring
+    - It's all very monotonous
+    - I Hate monotony
+    - It's all same here
+    - Nothing has changed at all
+    - Everything is same
+    - I don't know how to handle this
+    - I am getting bored
+    - I Hate boredom
+    - I don't want to get bored
+    - It's so irritating
+    - I have literally no one around
+    - I am always alone
+    - I am feeling lonely here
+    - I hate it here
+    - I don't like it here
+    - It's all very boring
+    - Everyday it's all the same
+    - It's like time has stopped
+    - No excitement in life at all
+    - It's all very monotonous
+    - Doing these same things everyday....
+    - Feeling bored
+    - Need to get out of here
+    - I think I need a vacation
+    - I want to do something different
+    - Nothing can engage me these days
+    - Feeling shit
+    - All this is very tiring
+    - I hate my days now
+    - It feels so dull and dumb
+    - It's all so mundane
+    - Very lifeless
+    - It's tiring
+    - It's tedious 
+    - Nothing really excites me these days
+    - It's all become very colourless
+    - Very much irksome
+    - Such spiritless things I do throughout the day
+    - I feel disheartened
+    - I feel dejected
+    - Feeling sick 
+    - I am tired
+    - I am bored
+    - It's all very monotonous
+    - Feeling frustrated
+    
+- intent: user_takedelight
+  examples: |
+    - I really enjoy baking! It makes me really happy
+    - Baking is my passion
+    - I love baking
+    - I am passionate about baking 
+    - Baking never fails to amaze me
+    - I always find baking surprising
+    - Baking is life
+    - Baking makes me feel breathing
+    - Baking is something I can do whole day
+    - Baking makes me alive
+    - I haven't spent a single day not baking anything
+    - Baking is something I always enjoy
+    - I want to pursue my career as a baker
+    - I find Baking mysterious and that is what attracts me 
+    - Baking is fun 
+    - Nothing can be better than baking something
+    - I just love baking
+    - I love to bake
+    - baking has always been my passion
+    - I can do baking all the day
+    - I am obsessed with baking
+    - I am a big fan of baking
+    - Baking is my passion
+    - Baking is my life
+    - I find making very interesting
+    - I find making very magical
+    - I find baking very mysterious
+    - Can't live without waking
+    - Baking makes me really happy
+    - I feel good when I bake
+    - I feel so good to bake 
+    
+- intent: user_undertook
+  examples: |
+    - Though I haven't really done that in a long time..
+    - I guess I can do it
+    - Back then I used to do it a lot
+    - I was a pro at it
+    - I was great at it
+    - I don't do it now
+    - It's been so long I have done this
+    - Doing it after so long
+    - I am a bit scared….after so long I am doing it
+    - Not really sure about it
+    - Will I be able to do it?
+    - What if I fail?
+    - Scared of doing it
+    - Feeling tensed
+    - It's not my cup of tea now 
+    - It's out of my control
+    - I have done it for long
+    - It's been so long
+    - I am not in touch of it
+    - I don't have practice 
+    - I don't have enough practice
+    - I don't think I can do it
+    - I am a bit confused about it
+    - not sure about it
+    - I am not really very sure about it
+    - I don't know if I can do it
+    - there was a time when I have done it a lot
+    - I was a pro at it
+    - Now I don't think I can do it
+    - I have given up for a longer time
+    - Let's see what happens
+        
+- intent: user_typical
+  examples: |
+    - Actually I do have time... but I'm generally just stuck in my daily routine that I haven't really done anything much outside of that
+    - I haven't really tried it before
+    - I already have a lot on my plate
+    - I have time but I also need to finish my usual works first
+    - I mean I'm not sure
+    - I am already stuck with my daily routine
+    - I don't get that much energy to do anything new after finishing all my usual tasks
+    - I have time but I don't feel like doing it
+    - Okay...I will think about it and let you know
+    - I haven't really got a chance to try new things
+    - My day is all about my daily routine
+    - It's just me and my daily routine everyday
+    - It must be nice to try different things but.....
+    - I generally feel very lazy after finishing all my daily chores
+    - Maybe I will try this in sometime 
+    - It's a good habit to do things out of schedule
+    - I haven't really tried to annoying much outside my daily routine
+    - I already have a lot on my plate....so I avoid doing things outside my daily schedule
+    - I have time but I also need to finish my usual works first…maybe then I can try something new
+    - I mean I'm not sure..... once my daily scheduled works are done I will try to do something new
+    - I am already stuck with my daily routine.....I will try something new of I get time
+    - I don't get that much energy to do anything new after finishing all my usual tasks
+    - I have time but I don't feel like doing it after finishing my scheduled works for the day
+    - Okay...I will think about doing something outside of my daily routine
+    - I haven't really got a chance to try new things outside my daily routine
+    - My day is all about my daily routine.... after that I get time but I used to be too tired to do someone
+    - It's just me and my daily routine everyday…don't really try anything outside that
+    - It must be nice to try different things outside the daily routine
+    - I generally feel very lazy after finishing all my daily scheduled works...that's why I don't try anything new
+    - Maybe I will try this after I am done with all my daily works
+    - It's a good habit to do things out of schedule...but I am generally stuck in my daily routine
+    
+- intent: user_somewhat
+  examples: |
+    - Yeah, you can say that
+    - yes, you are able to say that
+    - yes, you could repeat that
+    - yup, you must say that
+    - yeah, you might say that
+    - yes, you can be saying that
+    - yeah, you can get to say that
+    - yes, you shall say that
+    - yup, you suppose to say that
+    - yes, you said it right
+    - yeah, you got it right
+    - yes, you are right
+    - yeah, ofcourse you could say that
+    - yes, the point of fact
+    - yes, this is the fact
+    - yeah, you saying right
+    
+- intent: user_ahead
+  examples: |
+    - Yes, go ahead.
+    - yup, you can go ahead
+    - yes, please go ahead
+    - yes, you shall begin
+    - yeah, you may start
+    - yup, you could start
+    - yes, you could go ahead
+    - yea, you must go ahead
+    - yup, you should go ahead
+    - yeah, just go ahead
+    - yes, you might start
+    - yes, you could begin
+    - yes, you must start
+    - yeah, please start
+    - yes, you should start
+    - yeah, do go ahead
+    
+- intent: user_amazing
+  examples: |
+    - That sounds absolutely wonderful!
+    - that do sounds wonderful
+    - this sounds so wonderful
+    - that is actually wonderful
+    - that had been wonderful
+    - that is so delightful
+    - that is literally wonderful
+    - that would be really wonderful
+    - that does sounds wonderful
+    - that happens to be wonderful
+    - that did seemed to be wonderful
+    - that really sounds wonderful
+    - that is really so wonderful
+    - that got to be so wonderful
+    - that sounds really wonderful
+    - that is being very wonderful
+    
+- intent: user_totally
+  examples: |
+    - I'm sure it will! I think I will do exactly that right now!
+    - It'll work for sure 
+    - No chance of it getting failed- 
+    - I'll do that
+    - I am going to do the same thing
+    - Don't take too much stress about it
+    - It will be fine
+    - I am hundred percent sure about it
+    - Doing it right now
+    - Can't wait to do it
+    - I am up for it
+    - This can't fail
+    - I completely agree with you
+    - I think that's the only way of doing it
+    - There is no other way to do it
+    - That is the right thing to do
+    - I am sure about it
+    - I have no doubt about it
+    - I am completely sanguine about it
+    - I totally agree with that
+    - It will definitely work
+    - This cannot be a fail
+    - It will definitely work very well
+    - I have full faith on this
+    - I know it will work
+    - There is no chance it can fail
+    - It cannot be a fail
+    - It has to work
+    - It has to be a success
+    - We have to make it a success
+    - We need to make it a success
+    - I will do that
+    - I like that idea
+    - I love that idea
+    - That's what I'm going to do
+    - I will do exactly the same
+    - I totally agree with your idea
+    - I totally agree with that
+    - I have no doubt in this
+    - I think it is going to work
+    - I think it will be very helpful
+    - This can't go wrong
+    - It will definitely help me
+    - This will be very helpful for me
+    - I am going to try it
+    - Thank you so much for this amazing idea
+    
+- intent: user_best_loved
+  examples: |
+    - I think so too! Thanks, that advice has actually turned my day around! Suddenly, I am so excited to bake my favourite chocolate cake!
+    - Thanks, that advice has made my day
+    - Thanks, my day has been turned around because of that advice
+    - Thanks, that is a brilliant advice….You have made my day
+    - Thanks a ton for such a good advice! It has made my day
+    - Thanks a lot for your advice, it has actually turned my day around!
+    - Thanks buddy! your advice is something I really needed…you have turned my day around
+    - Thanks, I am really grateful for this amazing advice, it has made my day
+    - Thanks for this brilliant suggestion, it has actually turned my day around!
+    - Thank you so much for advising me this...It has made my day
+    - Thank you so much for this piece of advice…you have made my day cheerful
+    - Your advice has turned my day around…all my love and thanks to you
+    - Thay piece of advice has made my day…can't describe how thankful I am
+    - Thanks,  your advise has encouraged me for the day…please accept my endless gratitude
+    - You don't know how you have made my day…all I can say is thanks
+    - I want to thank you from the bottom of my heart for this advice…you have turned my day around
+    - Suddenly, I am too excited to bake my favourite chocolate cake
+    - Suddenly, I am feeling very excited to bake my favourite chocolate cake!
+    - Suddenly, I am so energetic to bake my favourite chocolate cake!
+    - Suddenly, I am super excited to bake my favourite chocolate cake!
+    - Suddenly, I'm getting too excited to bake my favourite chocolate cake!
+    - Suddenly, I am feeling charged up to bake my favourite chocolate cake!
+    - Suddenly, I am so enthusiastic to bake my favourite chocolate cake!
+    - suddenly, I am so thrilled to bake my favourite chocolate cake!
+    - Suddenly, I am so exuberant to bake my favourite chocolate cake!
+    - Suddenly, I am so full of beans to bake my favourite chocolate cake!
+    - Suddenly, I am so enlivened to bake my favourite chocolate cake!
+    - Suddenly, I am so stirred to bake my favourite chocolate cake!
+    - Suddenly, I am so delighted to bake my favourite chocolate cake!
+    - Suddenly, I am so exhilarated to bake my favourite chocolaFte cake!
+    - Suddenly, I am so tickled to bake my favourite chocolate cake!
+    
+- intent: user_bye
+  examples: |
+    - Bye 
+    - bye 
+    - goodbye 
+    - gudbye 
+    - goodbye
+    - good-bye
+    - bye-bye
+    - ciao
+    - hey, bye
+    - goodbye
+    - hello, cheerio
+    - farewell
+    - bye-bye
+    - good-bye
+    - ta-ta
+    - Adios
+    - au revoir
+    - sayonara
+    - good-by
+    - I will! Bye
        
 

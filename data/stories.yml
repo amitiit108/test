@@ -291,4 +291,45 @@ stories:
   - action: utter_yes_togirl
   - intent: user_losingheart
   - action: utter_losingheart
+  
+- story: Boredom 4.18
+  steps: 
+  - intent: greet
+  - action: utter_ray
+  - intent: greet
+  - action: utter_lucas
+  - intent: affirm
+  - action: utter_betteryes
+  - intent: affirm
+  - action: utter_tellingfar
+  - intent: user_good_mood
+  - action: utter_goodmood
+  - intent: user_confession
+  - action: utter_confession
+  - intent: user_confess_realized
+  - action: utter_confessrealized
+  - intent: user_unvariedroutine
+  - action: utter_unvariedroutine
+  - intent: user_takedelight
+  - action: utter_takedelight
+  - intent: user_undertook
+  - action: utter_undertook
+  - intent: user_typical
+  - action: utter_typical
+  - intent: user_somewhat
+  - action: utter_somewhat
+  - intent: user_ahead
+  - action: utter_ahead
+  - intent: affirm
+  - action: utter_dessert
+  - intent: user_amazing
+  - action: utter_amazzing
+  - intent: user_totally
+  - action: utter_totally
+  - intent: user_best_loved
+  - action: utter_bestloved
+  - intent: user_revisit
+  - action: utter_revisit
+  - intent: user_bye
+  - action: utter_bye
 
