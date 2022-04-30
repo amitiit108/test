@@ -128,7 +128,7 @@ responses:
   utter_mood_unhgappy:
   - text: I'm glad you decided to reach out
   utter_recall:
-  - text: Greg ,I'm here for you, so lets focus on you.
+  - text: I'm here for you, so lets focus on you.
   utter_reliable:
   - text: Of course, this is all about what you feel, what you need.
   utter_beloved:
@@ -142,9 +142,9 @@ responses:
   utter_abit:
   - text: Feel free and say anything you feel like !
   utter_assit:
-  - text: Greg,I'm glad you asked ? It shows that you're smart and move forward with intelligence .I help in several ways starts by listening to you; supporting your feeling and then with your participation, working with simple tools and techniques to make you feel better and positive.
+  - text: I'm glad you asked ? It shows that you're smart and move forward with intelligence .I help in several ways starts by listening to you; supporting your feeling and then with your participation, working with simple tools and techniques to make you feel better and positive.
   utter_disheartened:
-  - text: Greg,I feel your unhappiness and I'm right with you. Can I ask you something?
+  - text: I feel your unhappiness and I'm right with you. Can I ask you something?
   utter_iamnb:
   - text: Does this feeling have a shape or a colour...
   utter_funning:
@@ -154,38 +154,38 @@ responses:
   utter_affirm_really:
   - text: Sure and does this help you understand the feeling better ?
   utter_prosaic:
-  - text: Hey, you're good at working things out...Greg,maybe this feeling could be Boredom ?
+  - text: Hey, you're good at working things out,maybe this feeling could be Boredom ?
   utter_seemsright:
-  - text: Greg, I really appreciate your effort and honesty in responding.
+  - text: I really appreciate your effort and honesty in responding.
   utter_occupied:
-  - text: It's actulally all your effort Greg,I'm just here to hold your hand as you move forward positively..
+  - text: It's actulally all your effort,I'm just here to hold your hand as you move forward positively..
   utter_keepmoving:
   - text: Atta boy ! Tell me what you like doing ?
   utter_scrap:
   - text: Awesome,thats a wonderful hobby..So, want to start there ?
   utter_comfortzone:
-  - text: Thats the spirit Greg !
+  - text: Thats the spirit !
   utter_visit:
   - text: Sure ,always here to listen.
   utter_moodun:
   - text: Sorry to hear that. I'm glad you reached out. Want to describe this feeling
-      with a picture, Angela....
+      with a picture,
   utter_ohow:
   - text: Let's see does it look like flower or a bird or a dragon..
   utter_pleasant:
   - text: Ok,that's a clear description.
   utter_totaled:
-  - text: Angela, I appreciate you honesty and strength to look for help. I'm right
+  - text: I appreciate you honesty and strength to look for help. I'm right
       with you. Is there something else you want to tell me about this feeling?
   utter_shifting:
   - text: I can feel your sadness and misery.
   utter_believing:
-  - text: Angela, maybe they say that to make you feel better.
+  - text: maybe they say that to make you feel better.
   utter_bywhatprocess:
   - text: Yeah it does, its tough on you. I think others-parents and friends sense
       that and want to divert you to a positive direction.
   utter_couldabet:
-  - text: Angela, I sense you're a positive person.
+  - text: I sense you're a positive person.
   utter_jollyofyou:
   - text: At times like this we all need somebody to listen to us...
   utter_isit:
@@ -219,7 +219,7 @@ responses:
   utter_acting_properly:
   - text: This looks like an insight. Am I correct?
   utter_af_fir_m:
-  - text: That is great Brian. Acknowledging your behaviour is the first step to changing it.
+  - text: That is great. Acknowledging your behaviour is the first step to changing it.
   utter_aff_irm:
   - text: I want to ask you a few questions.
   utter_m_affirm:
@@ -275,7 +275,7 @@ responses:
   utter_willdo:
   - text: Why dont you give this technique a try then?
   utter_gr_ee_t:
-  - text: Hi Sadie, it's nice to meet you How're you doing today?
+  - text: Hi , it's nice to meet you How're you doing today?
   utter_fine:
   - text: I am doing just fine thank you! How can I help you today?
   utter_con_cerns:
@@ -321,7 +321,7 @@ responses:
   utter_terrible:
   - text: That is tough, wanna tell me some more ?
   utter_mathsolympiad:
-  - text: I hear you Jeff, you've been pulled up for something you didn't do !
+  - text: I hear you , you've been pulled up for something you didn't do !
   utter_yougotit:
   - text: Maybe not...
   utter_implys:
@@ -333,13 +333,13 @@ responses:
   utter_guide:
   - text: Yeah ,I know what you mean.
   utter_frenzied:
-  - text: Jeff,its ok to feel what you're feeling. It's great that you thought of
+  - text: its ok to feel what you're feeling. It's great that you thought of
       reaching out to talk.
   utter_tease:
   - text: That's a true fear that you've shared.I appreciate it. Do you and your friends  make
       fun of each other ?
   utter_stayclose:
-  - text: Jeff we sometimes build up things to be much bigger than they are.
+  - text: we sometimes build up things to be much bigger than they are.
   utter_bothered:
   - text: I'm saying you're right in feeling bad at the unfairness of it. Maybe just
       letting  it get to you a little too much.
@@ -347,19 +347,19 @@ responses:
   - text: How about take a shower,calm down and just talk about it with your parents
       at dinnertime.
   utter_complete:
-  - text: Exactly,Jeff you're sharp and quick to understand.
+  - text: Exactly,you're sharp and quick to understand.
   utter_takeplaceatschool:
   - text: Let's take one thing at a time. Right now just work on feeling calm and
       positive about yourself.
   utter_attempt:
-  - text: Great,the spirit of trying is very positive Jeff. Can I ask you something
+  - text: Great,the spirit of trying is very positive . Can I ask you something
       more?
   utter_afmsd:
-  - text: Are you confident of your friends Jeff and thier belief in you ?
+  - text: Are you confident of your friends and thier belief in you ?
   utter_knows:
   - text: There, I think you've answered you earlier question.
   utter_trust:
-  - text: Jeff can you do something simple for me?
+  - text: can you do something simple for me?
   utter_what_know:
   - text: Just write down 3 times when your friends and parents have stood by you.
   utter_below:
@@ -367,11 +367,11 @@ responses:
   utter_un_happy_mood:
   - text: I'm sorry to hear that,what's making you feel that way?
   utter_cant_syamuch:
-  - text: Ok, Jim want to talk some more about it.
+  - text: Ok, want to talk some more about it.
   utter_gu_ess:
   - text: How long have you been feeling like this?
   utter_fortnightly:
-  - text: Jim, did something happen at school or at home?
+  - text: did something happen at school or at home?
   utter_couple:
   - text: Ok, that must have been tough...
   utter_nerd:
@@ -383,7 +383,7 @@ responses:
   utter_solely:
   - text: Probably, coz it can and probably does happen to everyone.
   utter_fail:
-  - text: Exactly ! Jim,is there anything else thats bothering you?
+  - text: Exactly ! is there anything else thats bothering you?
   utter_probably:
   - text: I sense that you feel like  talking out some more stuff.....
   utter_probably_dumb:
@@ -398,16 +398,16 @@ responses:
   utter_thankgoodness:
   - text: So, your falling ,made her reach out and show that she cares about you?
   utter_yes_togirl:
-  - text: Jim, I'm glad you reached out-sometimes you just need to talk and let things
+  - text: I'm glad you reached out-sometimes you just need to talk and let things
       out.
   utter_losingheart:
   - text: Always,I'm right here for you. Take care and stay safe.
   utter_ray:
   - text: It's so great to have you here! What do your friends call you?
   utter_lucas:
-  - text: Would you be okay with me calling you Luke then?
+  - text: Would you be okay with me calling you then?
   utter_betteryes:
-  - text: Yay! That makes me so happy! I'm so excited to get to know you a little better, Luke! Would you like that?
+  - text: Yay! That makes me so happy! I'm so excited to get to know you a little better,Would you like that?
   utter_tellingfar:
   - text: Alrighty then! Let's start off with you telling me how your day is going so far?
   utter_goodmood:
@@ -415,7 +415,7 @@ responses:
   utter_confession:
   - text: Feel like telling me why you would rate it at 4?
   utter_confessrealized:
-  - text: I see...what does your general day look like, Luke?
+  - text: I see...what does your general day look like?
   utter_unvariedroutine:
   - text: Oh my! And what do you enjoy doing the most? Any hobbies that you pursue?
   utter_takedelight:
