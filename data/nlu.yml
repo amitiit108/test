@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -28,7 +27,6 @@ nlu:
     - Hi You can call me Bob
     - Hi Ray!
     - My name is Lucas but my friends call me Luke.
-
 - intent: affirm
   examples: |
     - yes
@@ -36,7 +34,7 @@ nlu:
     - of course
     - that sounds good
     - Alright, sounds good.
-    - correct    
+    - correct
     - yeah
     - I wish.
     - Yes...
@@ -48,19 +46,18 @@ nlu:
     - Yes it is
     - sure
     - In some way, yes
-    - Yeah 
-    - yehhh 
+    - Yeah
+    - yehhh
     - Sure ,absolutely !
     - Alright. This helped.
-    - yup 
-    - yep 
-    - Yeah 
-    - Belief 
+    - yup
+    - yep
+    - Belief
     - Faith
     - Trust
-    - Yes it does 
+    - Yes it does
     - Sounds good to me
-    - Yes 
+    - Yes
     - All right
     - Alright
     - Aye
@@ -68,19 +65,17 @@ nlu:
     - Exactly
     - Gladly
     - Alright, sounds good
-    - sure
-    - okay
     - fine
     - may be
     - Hey,you're right actually!
     - alright
-    - Sure! 
+    - Sure!
     - Definitely
-    - That sounds good 
+    - That sounds good
     - That sounds good.
-    - Yeah. I think I will. 
-    - yes. I imagine I can. 
-    - yep. I expect I will. 
+    - Yeah. I think I will.
+    - yes. I imagine I can.
+    - yep. I expect I will.
     - yehh. I believe I can.
     - Yeah. I think I can
     - That sounds great!
@@ -108,7 +103,7 @@ nlu:
     - By all means
     - Truly
     - For certain
-    - Easily            
+    - Easily
     - Clearly
     - Of course
     - Okeydokey
@@ -116,7 +111,7 @@ nlu:
     - Right on
     - Assuredly
     - Roger that
-    - Kinda    
+    - Kinda
     - Hey,thats correct.
     - right
     - Right
@@ -156,14 +151,10 @@ nlu:
     - Hey,thats legit
     - Hey,thats on the ball
     - Hey,thats right as rain
-    - Exactly 
     - True
     - absolutely
-    - correct
     - perfect
     - that's correct
-    - that's true
-    - it's true
     - that's right
     - Yeah somewhat
     - yeah somewhat
@@ -203,8 +194,8 @@ nlu:
     - Of course, that will help.
     - Undoubtedly, that will help.
     - I'm sure, that will help.
-    - Sounds good. 
-    - sounds good 
+    - Sounds good.
+    - sounds good
     - That's good.
     - That's great.
     - Alright. Seems fine to me.
@@ -223,9 +214,8 @@ nlu:
     - Nice one
     - Good one
     - Hmm. That sounds right.
-    - I could. 
+    - I could.
     - Really ?
-
 - intent: deny
   examples: |
     - no
@@ -235,9 +225,7 @@ nlu:
     - don't like that
     - no way
     - not really
-    - no 
     - Not at all
-    - not really
     - certainly not
     - Entirely not
     - No way
@@ -246,7 +234,7 @@ nlu:
     - Not for a single time
     - Never
     - Not even for once
-    - I guess no. 
+    - I guess no.
     - Under no circumstances
     - On no account
     - definitely not
@@ -270,13 +258,11 @@ nlu:
     - Not today, unfortunately.
     - No way, not currently.
     - Today isn't going to be the day
-    - It is not the day.
     - It isn't the day today
     - No, not now.
-    - No I am not. 
-    - Not at all
+    - No I am not.
     - No problem
-    - Not at all. Go ahead 
+    - Not at all. Go ahead
     - No, Go ahead and do it.
     - No, Go ahead and just do it.
     - Nothing, Go ahead and just do it.
@@ -286,13 +272,11 @@ nlu:
     - Absolutely not! Go forward
     - Absolutely not! Get a move of yourself
     - Absolutely not!! Go ahead
-    - Certainly not! Go ahead
     - Certainly not! Go forward
     - Certainly not! Get a move of yourself
     - Truly not!! Go ahead
     - Obviously not, go ahead
     - At least not! Go ahead
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -308,23 +292,21 @@ nlu:
     - Not great really
     - Not good, I'm in trouble
     - Not good, I'm in worry
-    - Not good, I'm in problem 
+    - Not good, I'm in problem
     - Not good, I'm in issue
     - Not good, I'm in critical situation
     - Not good, I'm in Complications
     - Not good, I'm in complicated situation
     - Not good, I'm in weird situation
-    - I am not okay.
     - Not good, I'm in awkward situation
     - Not good, I'm in big problem
     - Not good, I'm in inconvenience
     - Not good, I'm in anxiety
     - Not good, I'm in disturbance
-    - I am not doing well 
+    - I am not doing well
     - Not good, I'm in conflict
     - Not good, I'm in difficulty
     - Not good, I'm in concern
-    - Feeling low
     - Feeling low
     - I am feeling stressed.
     - i am feeling stressed
@@ -351,7 +333,6 @@ nlu:
     - super sad
     - I'm so sad
     - sad
-    - I am not doing well
     - I'm doing okay, I guess Not so great
     - i am doing ok i guess not so great
     - I'm okay not so good
@@ -372,7 +353,7 @@ nlu:
     - very sad
     - unhappy
     - My anger.
-    - my anger 
+    - my anger
     - My temper
     - My rage
     - My fury
@@ -396,9 +377,7 @@ nlu:
     - not bad
     - not too bad
     - not too good
-    - very sad
     - dizzy
-    - unhappy
     - low
     - angry
     - annoyed
@@ -424,16 +403,11 @@ nlu:
     - mad
     - antagonized
     - riled
-    - galled
-    - provoked
     - miffed
     - Angred
-    - vexed
     - livid
     - extremely sad
     - I felt guilty.
-    - so sad
-    - Not good
     - Not that good
     - Not very good
     - Not much good
@@ -472,11 +446,9 @@ nlu:
     - it is bad
     - that's bad
     - this is bad
-    - not good
     - I'm afraid it's bad
     - no it's bad
     - that was awful
-    - bad
     - so bad
     - this is too bad
     - terrible
@@ -496,7 +468,6 @@ nlu:
     - very bad
     - bad girl
     - it's not good
-    - not so good
     - it's very bad
     - it's too bad
     - that's not good enough
@@ -514,18 +485,15 @@ nlu:
     - it's not so good
     - not a good one
     - oh that's not good
-    - not too good
     - so lame
     - that's really bad
     - it is too bad
     - bad really bad
-    - Not good, I'm in trouble
-
 - intent: user_talk_someone
   examples: |
-    - I just wanted someone to talk to. 
-    - I just needed someone to talk to. 
-    - I just required someone to talk to. 
+    - I just wanted someone to talk to.
+    - I just needed someone to talk to.
+    - I just required someone to talk to.
     - I need someone to talk to
     - I badly need someone
     - I could really use some company now
@@ -541,7 +509,6 @@ nlu:
     - Everybody is busy except me
     - This loneliness is getting on my nerve
     - I can't take it anymore
-
 - intent: user_alone
   examples: |
     - Usually with friends but sometimes alone.
@@ -561,10 +528,9 @@ nlu:
     - standardly with friends but sometimes alone.
     - habitually with friends but sometimes alone.
     - traditionally with friends but sometimes alone.
-    - I don’t think I have anyone. 
-    - I don’t think I have anyone. 
-    - I dont believe I have anybody. 
-    - I do not imagine I have anyone. 
+    - I don’t think I have anyone.
+    - I dont believe I have anybody.
+    - I do not imagine I have anyone.
     - I don’t expect I have anyone.
     - I don't think I have anyone to talk
     - I don't think I have anyone to hang out
@@ -580,12 +546,11 @@ nlu:
     - I don't think I have anyone to spend time with
     - I think I am completely alone
     - I think I am totally alone
-    - I don't think I have anyone to sit and talk my heart out 
-    
+    - I don't think I have anyone to sit and talk my heart out
 - intent: user_solo
   examples: |
     - Whats there to talk? I think I am alone. Just on my own.
-    - Whats there to talk? I imagine I am solo. Just on my own. 
+    - Whats there to talk? I imagine I am solo. Just on my own.
     - What is there to speak? I expect I am lone. Just on my own.
     - Is there anything to talk about? I think I am the loneliest. Always just by myself
     - There is nothing to talk about. I am always just alone hair
@@ -601,14 +566,13 @@ nlu:
     - I am always alone and that's why I think I am suffering from loneliness
     - There is nothing to really share about it. It's just me and my thoughts all the day. No one around.
     - I don't know if I want to talk. I have no one around me
-    - It's tough to say that I want to talk. Because I literally have no one around me  
-        
-- intent: user_lookslike 
+    - It's tough to say that I want to talk. Because I literally have no one around me
+- intent: user_lookslike
   examples: |
-    - It feels like it though. 
-    - It senses like it nevertheless. 
-    - It detects like it notwithstanding. 
-    - It identyfies like it though. 
+    - It feels like it though.
+    - It senses like it nevertheless.
+    - It detects like it notwithstanding.
+    - It identyfies like it though.
     - It's just that I feel that way
     - I feel that way though
     - I feel this way though
@@ -624,12 +588,11 @@ nlu:
     - I don't know what is happening.....I just feel like it
     - It always feels like it though
     - I don't know why it feels like it though
-    
 - intent: user_isolating
   examples: |
-    - But its alienating. I don’t want to feel this way. 
-    - But it is separating. I dont need to detect this way. 
-    - But it's dividing. I do not want to identify this way. 
+    - But its alienating. I don’t want to feel this way.
+    - But it is separating. I dont need to detect this way.
+    - But it's dividing. I do not want to identify this way.
     - But it estranging. I don't want to feel this way
     - But it's turning away. I don't want to feel this way
     - But it's setting apart. I don't want to feel this way
@@ -641,11 +604,10 @@ nlu:
     - But it's annoying. I don't want to feel this way
     - But it's bothering. I don't want to feel this way
     - But it's splitting. I don't want to feel this way.
-    - But it's on linking. I don't want to feel this way. 
+    - But it's on linking. I don't want to feel this way.
     - It's a very isolated feeling. I don't want to feel this way
     - I am feeling very lonely and I don't want to feel this way.
     - It's very irritating. I don't want to feel this way
-
 - intent: user_we_do_this
   examples: |
     - How do we do that?
@@ -665,8 +627,6 @@ nlu:
     - Tell me about the ways to do that?
     - I would like to know how do we do that.
     - I would want to know how do we do that.
-    - How can we do that?
-    - What is the way to do that?
     - How can it be done?
     - Which way can we do it?
     - How do we succeed in doing this?
@@ -683,7 +643,6 @@ nlu:
     - I would like to try it.
     - How do I do that?
     - How do you know?
-    
 - intent: user_doesnotknow
   examples: |
     - What if it doesn’t?
@@ -704,11 +663,10 @@ nlu:
     - I don't know if it's going to work or not
     - I don't know if it's going to help or not
     - I don't know if it's going to be a success or not
-    
 - intent: user_supposing
   examples: |
-    - Its not that easy. Everyone is always judging. 
-    - It is not that clear. everybody is every time concluding. 
+    - Its not that easy. Everyone is always judging.
+    - It is not that clear. everybody is every time concluding.
     - It's not that simple. one and all is all the time determining.
     - It's not easy. people are always judging
     - It's really complicated because everyone is always judge
@@ -721,11 +679,10 @@ nlu:
     - It's not really easy because everyone is very judgemental these day
     - It's not simple because everyone is very judgemental these day
     - It's tough to say because everyone is very judgemental these day
-    - It's not that simple. Everyone is always judging. 
-    - It's not easy at all. Everyone is always judging. 
-    - You can't say it's simple. Everyone is always judging. 
-    - You can't say it's easy. Everyone is always judging.  
-
+    - It's not that simple. Everyone is always judging.
+    - It's not easy at all. Everyone is always judging.
+    - You can't say it's simple. Everyone is always judging.
+    - You can't say it's easy. Everyone is always judging.
 - intent: user_late_teens
   examples: |
     - I'm 16 years old
@@ -746,9 +703,7 @@ nlu:
     - In the age of 16.
     - You get to my age of 16.
     - When you're my age of 16.
-    - I'm 16 years old 
     - i am six teen years old
-    - i am 16 years old
     - My age is 16 years now
     - I am of 16 years
     - I am a girl of 16 years old age
@@ -765,8 +720,8 @@ nlu:
     - Yeah I know I am 16 years old
     - I am a teenager now ....16 years old
     - I am 15. In school.
-    - I'm fifteen. In school. 
-    - I'm 15. In academy.  
+    - I'm fifteen. In school.
+    - I'm 15. In academy.
     - I am 15 years old and a school going kid
     - I am 15 and I am in school
     - I am 15 and I study in school
@@ -782,12 +737,11 @@ nlu:
     - I am 15 years old school going kid
     - I study in school because I am 15 years old now
     - I go to school because I am 15 years old now
-    
 - intent: user_mixwell
   examples: |
-    - I am fine with interacting. Just don’t really get along with anyone. 
-    - I'm good with merging. Just dont actually get along with everyone. 
-    - I am great with combining. Just do not absolutely get along with one and all. 
+    - I am fine with interacting. Just don’t really get along with anyone.
+    - I'm good with merging. Just dont actually get along with everyone.
+    - I am great with combining. Just do not absolutely get along with one and all.
     - I am okay with interacting. Just don’t really get along with anyone.
     - I am good with interacting. Just don’t really get along with anyone.
     - It's okay to interact. Just don’t really get along with anyone.
@@ -803,12 +757,11 @@ nlu:
     - Interacting is not a problem... the problem is about getting along with anyone.
     - Interacting is not an issue ... the problem is about getting along with anyone.
     - Interacting is not a big deal ... the problem is about getting along with anyone.
-
 - intent: user_thanks
   examples: |
-    - Thanks 
-    - Thank you so much! 
-    - thanks 
+    - Thanks
+    - Thank you so much!
+    - thanks
     - Thnaks
     - thank you
     - Thnak you
@@ -826,7 +779,7 @@ nlu:
     - Thanks a million!
     - Much obliged!
     - TY
-    - Thanks. That kinda helps. 
+    - Thanks. That kinda helps.
     - thank you. that kinda assists.
     - thanks. that kinda helps.
     - thank you. That kinda helps.
@@ -844,8 +797,7 @@ nlu:
     - Thanks a ton. That kinda helps.
     - I want to thank you from the bottom of my heart for your help
     - Thank you so much. I am really grateful to you for this.
-    - Thanks from the bottom of heart!  
-    - Thanks!
+    - Thanks from the bottom of heart!
     - Thank you
     - Thankyou very much
     - I am grateful
@@ -863,23 +815,15 @@ nlu:
     - warmest thanks
     - your words have put a smile on my face.. Thanks
     - Thank you!
-    - Thanks a ton!
     - Yes you were. Thanks.
     - Thanks a lot!
     - Thank you very much!
-    - TY
     - TYSM
-    - Thanks a million!
-    - Thanks a bunch!
     - Grateful!
     - I'm grateful!
     - I owe you one!
-    - Thank you so much!
     - Thank u!
-    - Many thanks!
-    - Appreciate a ton!
     - Thanks. This helps.
-
 - intent: user_fine
   examples: |
     - I'm alright I guess, and you?
@@ -900,10 +844,8 @@ nlu:
     - I am fine I guess, and you?
     - I'm all right I guess, and you?
     - I am all right I guess, and you?
-
 - intent: user_concerns
   examples: |
-    - Umm, I think I look kinda gross! 
     - Umm, I think I look kinda gross!
     - hmm, I think I look kinda gross!
     - Yes, I think I look kinda gross!
@@ -940,7 +882,6 @@ nlu:
     - I have been having problems at my place
     - I've been having problems at my place
     - I've been having problems at home
-    
 - intent: user_forlorn_equation
   examples: |
     - I've just been feeling so down No matter what I do, the relationship with my father cannot flourish
@@ -966,14 +907,11 @@ nlu:
     - Irrespective of what I do, the relationship with my dad cannot prosper
     - No matter what I do, the relationship with my dad cannot flourish
     - Irrespective of what I do, the relationship with my father cannot flourish
-    - No matter what I do, the relationship with my father cannot prosper
-    - Irrespective of what I do, the relationship with my father cannot prosper
     - No matter what I do, the relationship with my father cannot flourish
     - Irrespective of what I do, the relationship with my old man cannot flourish
     - No matter what I do, the relationship with my old man cannot prosper
     - Irrespective of what I do, the relationship with my old man cannot prosper
     - No matter what I do, the relationship with my old man cannot flourish
-    
 - intent: user_anger_inherited
   examples: |
     - So my dad has temper issues He can easily get ticked off and that can last for hours I think i've gotten it from him I do the same thing I get ticked off so easily, it's not even funny So imagine two short fuses at home The moment either of us do something and the other gets annoyed by it, it turns into a huge fight I even feel terrible because my mom has to deal with it
@@ -1083,7 +1021,6 @@ nlu:
     - The moment either of us do something and the other gets annoyed by it, it turns into a huge conflict
     - The moment either of us do something and the other gets annoyed by it, it turns into a huge turmoil
     - I even feel bad because my mom has to deal with it
-    - I even feel bad because my mom has to deal with it
     - I even feel awful because my mom has to deal with it
     - I even feel dreadful because my mom has to deal with it
     - I even feel horrible because my mom has to deal with it
@@ -1091,14 +1028,12 @@ nlu:
     - I even feel rotten because my mom has to deal with it
     - I even feel disgusted because my mom has to deal with it
     - I even feel bad because my mum has to deal with it
-    - I even feel bad because my mum has to deal with it
     - I even feel awful because my mum has to deal with it
     - I even feel dreadful because my mum has to deal with it
     - I even feel horrible because my mum has to deal with it
     - I even feel lousy because my mum has to deal with it
     - I even feel rotten because my mum has to deal with it
     - I even feel disgusted because my mum has to deal with it
-    
 - intent: user_starting_point
   examples: |
     - We had We basically hadn't spoken for a few months Nothing other than what was required  Like saying pass the salt or something on the dinner table We recently made up and it felt so good Mum also looked really happy But 2 days later, we were back to square one
@@ -1173,7 +1108,6 @@ nlu:
     - Just a while ago we had made up and it felt so good.
     - In the recent past we had made up and it felt so good.
     - Just recently we had made up and it felt so good.
-    - In the recent past we had made up and it felt so good.
     - Very recently we had made up and it felt so good.
     - A short while ago we had made up and it felt so good
     - Only a short while ago we had made up and it felt so good.
@@ -1207,7 +1141,6 @@ nlu:
     - Inspite that 2 days later, we were back to square one
     - Inspite that 2 days later, we were back to where we started.
     - Inspite that 2 days later, we were fighting again.
-    
 - intent: user_treatment
   examples: |
     - I had thought of going to therapy alone due to the way I was feeling I just didn't know which psychologist to go to or hadn't completely decided yet But that does make more sense Can you recommend any psychologist?
@@ -1271,7 +1204,6 @@ nlu:
     - Is it possible that you prescribe any psychologist?
     - Can you proffer any psychologist?
     - Is it possible that you proffer any psychologist?
-
 - intent: user_behaving
   examples: |
     - I am reacting very aggressively these days. So much that I felt like hitting one of my friends yesterday.
@@ -1281,17 +1213,14 @@ nlu:
     - I am reacting very aggressively these days. So much that I felt like hitting one of my companions yesterday.
     - I am reacting very aggressively these days. So much that I felt like hitting one of my pals yesterday.
     - I am reacting very aggressively these days. So much that I felt like hitting one of my chums yesterday.
-    - I am reacting very aggressively these days. So much that I felt like hitting one of my friends yesterday.
     - I am reacting very destructively these days. So much that I felt like hitting one of my friends yesterday.
     - I am reacting very belligerently these days. So much that I felt like hitting one of my friends yesterday.
     - I am reacting very anatagonistically these days. So much that I felt like hitting one of my allies yesterday.
     - I am reacting very violently these days. So much that I felt like hitting one of my friends yesterday.
     - I am reacting very ferociously these days. So much that I felt like hitting one of my friends yesterday.
-    - I am reacting very violently these days. So much that I felt like hitting one of my friends yesterday.
     - I am reacting very belligerently these days. So much that I felt like hitting one of my chums yesterday.
     - I am reacting very anatagonistically these days. So much that I felt like hitting one of my friends yesterday.
     - I am reacting very destructively these days. So much that I felt like hitting one of my buddies yesterday.
-    
 - intent: user_puffing
   examples: |
     - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me furious.
@@ -1310,11 +1239,9 @@ nlu:
     - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this outraged me.
     - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me very angry.
     - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me hopping mad.
-    - My friends were smoking yesterday. When they asked me to I said no. But they would not let the topic go, this made me hopping mad.
-    
 - intent: user_yelled
   examples: |
-    - I shouted at them and then left the place. 
+    - I shouted at them and then left the place.
     - i shouted at them and then left the place
     - I screamed at them and then left the place.
     - I yelled at them and then left the place.
@@ -1331,7 +1258,6 @@ nlu:
     - I growled at them and then left the scene
     - I thundered at them and then left the scene
     - I shouted at them and then left the site.
-    
 - intent: user_responding
   examples: |
     - I feel bad for reacting this way.
@@ -1351,7 +1277,6 @@ nlu:
     - I feel abashed for reacting in this manner.
     - I feel mortified for reacting this way.
     - I feel mortified for reacting in this manner.
-    
 - intent: user_acting_properly
   examples: |
     - I don't know. In that moment I felt I was doing right. But may be I should not have raised my voice.
@@ -1359,23 +1284,20 @@ nlu:
     - I do not know. In that moment I felt I was doing right. But may be I should'nt have raised my voice.
     - I do not know. In that moment I felt I was doing right. But may be I should not have raised my voice.
     - I do not know. In that moment I felt I was doing the right thing. But may be I should not have raised my voice.
-    - I do not know. In that moment I felt I was doing the right thing. But may be I should not have raised my voice.
     - I don't know. In that moment I felt I was doing the right thing. But may be I should'nt have raised my voice.
     - I don't know. In that moment I felt I was doing the right thing. But may be I should not have raised my voice.
     - I don't know. In that moment I felt I was doing right. But perhaps I should'nt have raised my voice.
     - I do not know. In that moment I felt I was doing right. But perhaps I should'nt have raised my voice.
     - I do not know. In that moment I felt I was doing right. But perhaps I should not have raised my voice.
     - I do not know. In that moment I felt I was doing the right thing. But perhaps I should not have raised my voice.
-    - I do not know. In that moment I felt I was doing the right thing. But perhaps I should not have raised my voice.
     - I don't know. In that moment I felt I was doing the right thing. But perhaps I should'nt have raised my voice.
     - I don't know. In that moment I felt I was doing the right thing. But perhaps I should not have raised my voice.
     - I don't know. In that moment I felt I was doing right. But may be I should not gotten angry.
-    
 - intent: user_compelled
   examples: |
     - I felt forced.
-    - i felt forced 
-    - I felt forced 
+    - i felt forced
+    - I felt forced
     - I felt cornered
     - I felt pushed
     - I felt that I was being driven into a corner
@@ -1391,11 +1313,10 @@ nlu:
     - I felt that I was being trapped to smoke.
     - I felt as if they were pushing me to smoke.
     - I felt as if they were forcing me to smoke.
-    
 - intent: user_see
   examples: |
-    - I see. 
-    - i see 
+    - I see.
+    - i see
     - Sure.
     - Got you
     - Got your point
@@ -1409,7 +1330,6 @@ nlu:
     - Understand
     - I got you
     - Very well
-    
 - intent: user_elaborate
   examples: |
     - A bit. Can you tell me more?
@@ -1429,7 +1349,6 @@ nlu:
     - To a certain extent. Can you tell me more?
     - To some degree. Can you tell me more?
     - A tad. Can you tell me more?
-    
 - intent: user_exactly
   examples: |
     - This is what I did.
@@ -1445,11 +1364,9 @@ nlu:
     - It is what I finished.
     - It is what I completed
     - It is what I concluded.
-    - It is what I could do.
     - This is what I carried out.
     - It is what I carried out.
     - This is what I carried off.
-    
 - intent: user_elucidate
   examples: |
     - Give me an example.
@@ -1462,14 +1379,12 @@ nlu:
     - Please illustrate with an example.
     - Please illustrate with a sample.
     - Please illustrate with an instance.
-    - Please illustrate with a case in point.
     - Give me a sample.
     - Give me an instance.
     - Give me a case in point.
     - Gimme a case in point.
     - Gimme an example.
     - Gimme a sample.
-    
 - intent: user_give_it_a_shot
   examples: |
     - I think I can do it.
@@ -1490,7 +1405,6 @@ nlu:
     - I assume I can do it.
     - I figure I will be able to do it.
     - I figure I can do it.
-    
 - intent: user_irate
   examples: |
     - But what if I felt angry again. What if i am not able to do it?
@@ -1510,7 +1424,6 @@ nlu:
     - But, what if I felt infuriated again. What if i am not able do it?
     - But, what I get infuriated again. What if I am unable to do it?
     - But, what I get mad again. What if I am unable to do it?
-        
 - intent: user_attending
   examples: |
     - Albot, I don't feel like going.
@@ -1529,8 +1442,6 @@ nlu:
     - Bot, I am not interested to go.
     - Bot, I don't feel like going.
     - Bot, I'm not keen to go.
-    - Bot, I'm not keen to go.
-
 - intent: user_fathom
   examples: |
     - Albot, I feel irritated when you say it again and again. I don't want to go. Maybe you can understand that.
@@ -1550,11 +1461,10 @@ nlu:
     - Albot, I feel miffed when you repeat it again and again. I do not want to go. Maybe you can understand that.
     - Albot, I feel miffed when you say it again and again. I do not want to go. Maybe you can understand that.
     - Albot, I feel miffed when you mention it again and again. I do not want to go. Maybe you can understand that.
-    
 - intent: user_bit
   examples: |
-    - A bit. 
-    - a bit 
+    - A bit.
+    - a bit
     - A little
     - Slightly.
     - More or less.
@@ -1570,7 +1480,6 @@ nlu:
     - To an extent.
     - A tad bit
     - To a certain degree.
-    
 - intent: user_accompany
   examples: |
     - Albot, I know you want to go with me but I don't feel like going there. It will be great if you can understand me here.
@@ -1589,7 +1498,6 @@ nlu:
     - Albot, I see you want to come with me but I do not feel like going there. It will be great if you can understand me here.
     - Albot, I see you want to go with me but I do not feel like going there. It will be great if you can understand me here.
     - Albot, I see you want to go with me but I don't feel like going there. It will be great if you can understand me here.
-    
 - intent: user_a_cut_above
   examples: |
     - I think I did better.
@@ -1609,11 +1517,10 @@ nlu:
     - I suspect I did better.
     - I figure I did better.
     - I dare say I did better
-    
 - intent: user_willdo
   examples: |
-    - I do. 
-    - i do 
+    - I do.
+    - i do
     - Sure I do
     - Certainly I do.
     - Absolutely
@@ -1628,8 +1535,7 @@ nlu:
     - All right
     - Aye.
     - Beyond any doubt
-    - Beyond doubt  
-    
+    - Beyond doubt
 - intent: user_pleasant
   examples: |
     - Thats a nice way....it looks like a droopy flower !
@@ -1650,7 +1556,6 @@ nlu:
     - Thats a grand way....it looks like a droopy flower !
     - Thats a very nice way....it looks like a droopy flower !
     - it looks like droopy flower nice way.
-    
 - intent: user_totaled
   examples: |
     - Yeah,it is, I just feel so sad and wrung out.
@@ -1673,7 +1578,6 @@ nlu:
     - Yeah,it is, I just feel so troubled and wrung out.
     - Yeah,it is, I just feel so low and wrung out.
     - Yeah,it is, I just feel so low in spirits and wrung out.
-    
 - intent: user_shifting
   examples: |
     - How'd you sense that ? My best friend is moving away,we've been friends since grade 1.
@@ -1684,7 +1588,6 @@ nlu:
     - How'd you sense that ? My best mate is moving away,we've been friends since grade 1.
     - How'd you sense that ?My homeboy is moving away,we've been friends since grade 1.
     - How'd you sense that ? My homegirl is moving away,we've been friends since grade 1.
-    - How'd you sense that ? My best mate is moving away,we've been friends since grade 1.
     - How'd you sense that ? My trusted friend is moving away,we've been friends since grade 1.
     - How'd you sense that ? My fast friend is moving away,we've been friends since grade 1.
     - How'd you sense that ? My BFF is moving away,we've been friends since grade 1.
@@ -1693,7 +1596,6 @@ nlu:
     - How'd you get the idea that ? My best friend is moving away,we've been friends since grade 1.
     - How'd you suspect that ? My best friend is moving away,we've been friends since grade 1.
     - How'd you judge that ? My best friend is moving away,we've been friends since grade 1.
-    
 - intent: user_believing
   examples: |
     - You can- coz everyone one just says its ok ,these things happen. Thanks for understanding.
@@ -1706,14 +1608,12 @@ nlu:
     - You can- coz everyone one just says its ok ,these things happen. Thanks for realizing.
     - You can- coz everyone one just says its ok ,these things happen. Thanks for being mindful.
     - You can- coz everyone one just says its ok ,these things happen. Thanks for beiing sensitive.
-    - You can- coz everyone one just says its ok ,these things happen. Thanks for understanding.
     - You can- coz everyone one just says its ok ,these things happen. Thanks for being empathetic.
     - You can- coz everyone one just says its ok ,these things happen. Thanks for forbearing.
     - You can- coz everyone one just says its ok ,these things happen.Thanks for being thoughtful.
     - You can- coz everyone one just says its ok ,these things happen. Thanks for support.
     - You can- coz everyone one just says its ok ,these things happen. Thanks for the concern.
     - You can- coz everyone one just says its ok ,these things happen. Thanks for patience.
-    
 - intent: user_bywhatprocess
   examples: |
     - How does that help....it sucks.
@@ -1735,11 +1635,10 @@ nlu:
     - Whereby that help....it sucks
     - According to what that help....it sucks
     - How will that help?
-    - What does that mean? 
-    
+    - What does that mean?
 - intent: user_couldabet
   examples: |
-    - Hmm,that could help 
+    - Hmm,that could help
     - ummm, that could help.
     - mmmmm, that would help
     - hhmmmm that could help...
@@ -1747,7 +1646,7 @@ nlu:
     - Hmm,that could assit
     - Hmm,that could benefit
     - Hmm,that could support
-    - Hmm,that helps 
+    - Hmm,that helps
     - Ok that helps
     - Yeah that helps
     - Well, that helps
@@ -1758,7 +1657,6 @@ nlu:
     - Truely, that helps
     - right, that helps
     - Yup, that helps
-    
 - intent: user_jollyofyou
   examples: |
     - Thats so nice of you ,thanks.
@@ -1780,7 +1678,6 @@ nlu:
     - Thats so nice of you ,I appreciate it.
     - Thats so nice of you ,appreciated.
     - that's so nice of you.
-    
 - intent: user_isit
   examples: |
     - Yeah,right ?
@@ -1805,7 +1702,6 @@ nlu:
     - You're kidding?
     - good grief?
     - Really ?
-    
 - intent: user_allalong
   examples: |
     - Sure ther's 4 of us ,we've been together all through,we live next door too.
@@ -1825,18 +1721,16 @@ nlu:
     - Sure ther's 4 of us ,we've been alltogether all through,we live next door too.
     - for Sure ther's 4 of us ,we've been together all through,we live next door too.
     - indeed ther's 4 of us ,we've been together all through,we live next door too.
-    
 - intent: user_unaccompanied
   examples: |
     - Hey thats true, 3 of us will still be together and she's the one who'll be alone. Thats  a good way to look at it.
-    - Hey thats true, 3 of us will still be together and she's the one who'll be alone. 
+    - Hey thats true, 3 of us will still be together and she's the one who'll be alone.
     - Thats  a good way to look at it.
     - Hey thats true, 3 of us will still be together and she's the one who'll be all alone.
     - Hey thats true, 3 of us will still be together and she's the one who'll be solo.
     - Hey thats true, 3 of us will still be together and she's the one who'll be unaccompanied.
     - Hey thats true, 3 of us will still be together and she's the one who'll be on her own.
     - Hey thats true, 3 of us will still be together and she's the one who'll be by herself.
-    - Hey thats true, 3 of us will still be together and she's the one who'll be alone.
     - Hey thats right, 3 of us will still be together and she's the one who'll be alone.
     - Hey thats correct, 3 of us will still be together and she's the one who'll be alone.
     - Hey indeed, 3 of us will still be together and she's the one who'll be alone.
@@ -1861,7 +1755,6 @@ nlu:
     - Thats  a constructive way to look at it.
     - Thats  a favourable way to look at it.
     - Thats  a hopeful way to look at it.
-    
 - intent: user_amiable
   examples: |
     - That is what you meant by looking in the positive direction ,smart!
@@ -1881,7 +1774,6 @@ nlu:
     - That is what you meant by looking in the positive direction ,terrific!
     - That is what you meant by looking in the positive direction ,nice!
     - That is what you meant by looking in the positive direction ,wow!
-    
 - intent: user_takeashot
   examples: |
     - ok,tell me,i'll try
@@ -1904,7 +1796,6 @@ nlu:
     - ok,tell me, I'll experiment with it
     - ok,tell me, I'll check this out
     - ok,tell me, I'll inspect it
-    
 - intent: user_assitabunch
   examples: |
     - That is a fun thing to do, get right on it. I want to  come back for more ,you've helped alot.
@@ -1940,7 +1831,6 @@ nlu:
     - I want to  come back for more ,you've helped often.
     - I want to  come back for more ,you've helped many times.
     - I want to  come back for more ,you've helped quite a few times.
-
 - intent: user_recall
   examples: |
     - My friend Jamie told me about you, do you remember him?
@@ -1961,7 +1851,6 @@ nlu:
     - My mate Jamie told me about you, do you remember him?
     - My bud Jamie told me about you, do you remember him?
     - My folk Jamie told me about you, do you remember him?
-    
 - intent: user_reliable
   examples: |
     - Yeah,he said I'd be safe to talk.
@@ -1982,7 +1871,6 @@ nlu:
     - absolutely,he said I'd be safe to talk.
     - indeed,he said I'd be safe to talk.
     - Very well,he said I'd be safe to talk.
-    
 - intent: user_beloved
   examples: |
     - Hey, that makes me feel special.
@@ -2003,7 +1891,6 @@ nlu:
     - Hey, that makes me feel relished.
     - Hey, that makes me feel loved.
     - hey makes me feel special
-
 - intent: user_anxious
   examples: |
     - I'm a little nervous..
@@ -2085,20 +1972,19 @@ nlu:
     - Yea and that worries me.
     - Yea and that makes me nervous.
     - Yea and that makes me tensed.
-
 - intent: user_how
   examples: |
-    - How? 
+    - How?
     - how?
     - how
-    - How 
+    - How
     - in what way?
     - by what method?
     - by what means?
     - in what manner?
     - according to what specifications?
     - Whence?
-    - from what source ? 
+    - from what source ?
     - how come?
     - whereby?
     - to what degree?
@@ -2126,7 +2012,6 @@ nlu:
     - Oh, whence?
     - Oh, Whereby?
     - Really, how?
-
 - intent: user_bymyself
   examples: |
     - That was cool I can do this on my own too ?
@@ -2148,14 +2033,13 @@ nlu:
     - That was fresh...I can do this on my own too ?
     - That was hot...I can do this on my own too ?
     - That was swell...I can do this on my own too ?
-    
 - intent: user_abit
   examples: |
     - I want to say something..
     - i need to say something
     - i have something to say
     - have something to say
-    - i want to tell something 
+    - i want to tell something
     - i want to announce something
     - i want to speak something
     - i want to declare something
@@ -2175,7 +2059,6 @@ nlu:
     - I want to tell something..
     - I want to admit something..
     - I want to spell out something..
-    
 - intent: user_assit
   examples: |
     - How do you help ?
@@ -2197,15 +2080,14 @@ nlu:
     - How do you give a boost to it ?
     - How do you hike up ?
     - How do you jack up ?
-    - How do you give a hand 
-    
+    - How do you give a hand
 - intent: user_disheartened
   examples: |
     - Ok, thanks for the honest answer.
     - thanks for the answer
     - thanks for the response
     - thanks for the reply
-    - thanks for the acknowledgement. 
+    - thanks for the acknowledgement.
     - Ok, thanks for the honest reply.
     - Ok, thanks for the honest response.
     - Ok, thanks for the honest reaction.
@@ -2220,7 +2102,6 @@ nlu:
     - Ok, thanks for the straight answer.
     - Ok, thanks for the direct answer.
     - Ok, thanks for the outright answer.
-    - Ok, thanks for the straight answer.
     - I have been feeling unhappy all the time, there's nothing really wrong but I just don't feel good.
     - i am feeling unhappy all time, there is nothing happend but i don't feel very well
     - i am feeling bad at all the time, nothing happend but my mood is bad.
@@ -2239,7 +2120,6 @@ nlu:
     - I have been feeling forlorn all the time, there's nothing really wrong but I just don't feel good.
     - I have been feeling wretched all the time, there's nothing really wrong but I just don't feel good.
     - I have been feeling fed up all the time, there's nothing really wrong but I just don't feel good.
-    
 - intent: user_funning
   examples: |
     - Haha, are you kidding ?
@@ -2261,7 +2141,6 @@ nlu:
     - Haha, are you deluding ?
     - Haha, are you pretending ?
     - Haha, are you ragging ?
-    
 - intent: user_letsattempt
   examples: |
     - ok....let me give it a try....its flattish and dull grey, like a pond of still water.
@@ -2281,7 +2160,6 @@ nlu:
     - ok...let me experiment with it....its flattish and dull grey, like a pond of still water.
     - ok...let me check this out....its flattish and dull grey, like a pond of still water.
     - ok...let me inspect it....its flattish and dull grey, like a pond of still water.
-    
 - intent: user_prosaic
   examples: |
     - It kind a tells me I'm bored and not doing much...wow,it did help.
@@ -2302,7 +2180,6 @@ nlu:
     - It kinda tells me I'm distant and not doing much...wow,it did help.
     - It kinda tells me I'm dulled and not doing much...wow,it did help.
     - It kinda tells me I'm detached and not doing much...wow,it did help.
-    
 - intent: user_seemsright
   examples: |
     - yeah, that does make sense.I spend most of my time lying about, not doing my chores or school work or fun stuff....
@@ -2323,7 +2200,6 @@ nlu:
     - yeah, that does make sense. I sqaunder most of my  time lying about,not doing my chores or school. work or fun stuff....
     - yeah, that does make sense. I kill most of my  time lying about,not doing my chores or school. work or fun stuff....
     - yeah, that does make sense. I use most of my  time lying about,not doing my chores or school. work or fun stuff....
-    
 - intent: user_occupied
   examples: |
     - But you're the one doing the work.
@@ -2349,7 +2225,6 @@ nlu:
     - But you're the one managing everything.
     - But you're the one sourcing.
     - But you're the one at work.
-    
 - intent: user_keepmoving
   examples: |
     - Ok, so what do I do to move forward?
@@ -2372,12 +2247,11 @@ nlu:
     - Ok, so what do I do to get going?
     - Ok, so what do I do to get ahead?
     - Ok, so what do I do to forge on?
-        
 - intent: user_scrap
   examples: |
     - Not chores, haha...I like roller blading and making collages from trash..
     - not tasks, haha ... i love roller blading and making collages from waste..
-    - not burden, haha ... i like roller blading and making collage from junk... 
+    - not burden, haha ... i like roller blading and making collage from junk...
     - not actually chores, haha.. i do like roller blading and getting to make collages from trash.
     - i don't prefer chores, haha.. i actually like roller blading and to make collages from trash
     - not really chores, haha.. i like to do roller blading and make collages from the trash
@@ -2391,28 +2265,26 @@ nlu:
     - not liking chores, haha.. i absolutely to do roller blading and having to make collages from the trash
     - not exactly chores, haha.. i would prefer roller blading and like to make collages from the trash
     - no chores, haha.. i mostly like to do roller blading and to be creating the collages from trash
-    
 - intent: user_comfortzone
   examples: |
-    - yeah, i'll get out of my room and do some of this.  
+    - yeah, i'll get out of my room and do some of this.
     - yes, i will get out of my room and do some of this.
     - yeah, will avoid room and do some of this
-    - yeah, i'll wriggle out of my room and do some of this. 
-    - yeah, i'll cop out of my room and do some of this. 
-    - yeah, i'll pull out of my room and do some of this. 
-    - yeh, i'll get out of my room and do some of this. 
-    - yup, i'll get out of my room and do some of this. 
-    - yep, i'll get out of my room and do some of this. 
-    - yes, i'll get out of my room and do some of this. 
-    - indeed, i'll get out of my room and do some of this. 
-    - fine, i'll get out of my room and do some of this. 
-    - ofcourse, i'll get out of my room and do some of this. 
-    - allright, i'll get out of my room and do some of this. 
-    - yeah, i'll recoil from room and do some of this. 
-    - yeah, i'll wuss out of my room and do some of this. 
-    - surely, i'll get out of my room and do some of this. 
+    - yeah, i'll wriggle out of my room and do some of this.
+    - yeah, i'll cop out of my room and do some of this.
+    - yeah, i'll pull out of my room and do some of this.
+    - yeh, i'll get out of my room and do some of this.
+    - yup, i'll get out of my room and do some of this.
+    - yep, i'll get out of my room and do some of this.
+    - yes, i'll get out of my room and do some of this.
+    - indeed, i'll get out of my room and do some of this.
+    - fine, i'll get out of my room and do some of this.
+    - ofcourse, i'll get out of my room and do some of this.
+    - allright, i'll get out of my room and do some of this.
+    - yeah, i'll recoil from room and do some of this.
+    - yeah, i'll wuss out of my room and do some of this.
+    - surely, i'll get out of my room and do some of this.
     - truelly, i'll get out of my room and do some of this.
-
 - intent: user_revisit
   examples: |
     - ok,can I come back ,if I want to talk some more?
@@ -2456,12 +2328,11 @@ nlu:
     - gee thanks.I am going to try out your suggestions. I'll come back to update you.
     - Nah,not now,I'm good with this thing I saw....though I'll come back to figure out more
     - Got to go now! Time to bake!
-
 - intent: user_cantsaymuch
   examples: |
-    - Umm,Idon't know 
+    - Umm,Idon't know
     - ummm i dont know
-    - i dont know 
+    - i dont know
     - I didn't understand.
     - Umm, I have no idea
     - Umm, I have no clue
@@ -2483,7 +2354,6 @@ nlu:
     - I don't know,just feeling that way.
     - hmm, feeling like that
     - i can't find, just feeling that
-    - idk
     - not yet
     - i am not sure
     - Not sure if i can talk with her
@@ -2493,15 +2363,15 @@ nlu:
     - yeah I don't know
     - no I don't know
     - Nuh-uh I don't know
-    - Hmm I don't know 
+    - Hmm I don't know
     - yes I don't know
     - Maybe, don't know
     - I don't know really
-    - Really I don't know 
+    - Really I don't know
     - Okay I don't know
     - Okay don't know
-    - Nope I don't know 
-    - no I really don't know 
+    - Nope I don't know
+    - no I really don't know
     - really have no idea
     - Hmm no idea
     - Yeah no idea
@@ -2523,11 +2393,10 @@ nlu:
     - I am skeptical if this will work.
     - I'm not so sure that this will work.
     - I am not so sure tht this will work.
-
 - intent: user_guess
   examples: |
-    - ok, I guess... 
-    - okay, I guess... 
+    - ok, I guess...
+    - okay, I guess...
     - ok, I guess
     - ok,I Think
     - ok,I hope
@@ -2541,12 +2410,11 @@ nlu:
     - ok,I reckon
     - ok,I agree
     - ok,I appreciate
-    - ok,I imagine 
+    - ok,I imagine
     - ok,I do assume
     - ok,I do presume
     - Yeah,I guess..
     - Yeah I guess.
-
 - intent: user_fortnightly
   examples: |
     - For almost two weeks.
@@ -2555,16 +2423,15 @@ nlu:
     - close to two weeks
     - For the last two weeks...
     - 2 months.
-    - It's more than a week now. 
+    - It's more than a week now.
     - I find it both.
     - I got both of them
     - Both of them are here
     - I have managed to find both
-    - It took time…but got both 
+    - It took time…but got both
     - I find the two
     - I got the pair
     - I dig out both
-
 - intent: user_coach_consultation
   examples: |
     - Hey, that would be awesome !
@@ -2607,74 +2474,6 @@ nlu:
     - Indeed. That would be correct.
     - Indeed. That would be right
     - Aye. That would be correct.
-
-- intent: user_cantsaymuch
-  examples: |
-    - Umm,Idon't know 
-    - ummm i dont know
-    - i dont know 
-    - I didn't understand.
-    - Umm, I have no idea
-    - Umm, I have no clue
-    - Umm, I have no information
-    - Umm, I don't know yes
-    - Umm, don't ask me
-    - Umm, I really don't know
-    - Umm, actually I don't know
-    - Umm, honestly I don't know
-    - Umm, to be honest I don't know
-    - Umm, in fact I don't know
-    - Umm, as a fact I don't know
-    - Umm, I am not aware of it
-    - Umm, I have no clue at all
-    - Umm, I am not updated about it
-    - Umm, I have not been informed
-    - idk
-    - i have no idea
-    - I don't know,just feeling that way.
-    - hmm, feeling like that
-    - i can't find, just feeling that
-    - idk
-    - not yet
-    - i am not sure
-    - Not sure if i can talk with her
-    - Haven't spoken yet
-    - I am not fully confident about it
-    - I am hesitant
-    - yeah I don't know
-    - no I don't know
-    - Nuh-uh I don't know
-    - Hmm I don't know 
-    - yes I don't know
-    - Maybe, don't know
-    - I don't know really
-    - Really I don't know 
-    - Okay I don't know
-    - Okay don't know
-    - Nope I don't know 
-    - no I really don't know 
-    - really have no idea
-    - Hmm no idea
-    - Yeah no idea
-    - idk whats happening.
-    - I don't know if this will work.
-    - i dont know if this will work
-    - I do not know if this will work.
-    - I'm not sure if this will work.
-    - I am not sure if this will work.
-    - I doubt if this will work.
-    - I don't think this will work.
-    - I'm not quite sure this will work.
-    - I am not quite sure this will work.
-    - I'm doubtful if this will work.
-    - I am doubtful if this will work.
-    - I'm unsure if this will work.
-    - I am unsure if this will work.
-    - I'm skeptical if this will work.
-    - I am skeptical if this will work.
-    - I'm not so sure that this will work.
-    - I am not so sure tht this will work.
-
 - intent: user_terrible
   examples: |
     - I had a bad day at school
@@ -2693,13 +2492,12 @@ nlu:
     - I was having a awful day in school
     - I had a terrible day at school
     - I had a awful day at school
-    - actually i had a bad day at school 
+    - actually i had a bad day at school
     - my experience at school was very bad yesterday
     - i had feels distress at school
-    - i had very very distress at school 
+    - i had very very distress at school
     - I had a rough day at school
-
-- intent: user_mathsolympiad 
+- intent: user_mathsolympiad
   examples: |
     - We had a math quiz, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
     - yesterday we had maths exam, and I knew all the answers,but the boy sitting before me kept asking answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
@@ -2714,13 +2512,12 @@ nlu:
     - at math quiz yesterday, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
     - at math test, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
     - mathamatic test yesterday, and I knew all the answers,but the guy behind me kept asking for the answers and my teacher saw him and sent us both out of class for cheating.I swear I wasn't ,Iknew every thing ! Shit !
-
 - intent: user_yougotit
   examples: |
     - Exactly,atleast you get it.My parents are going to be so mad.
     - yes you get the point.my mom and dad are going to be so mad at me
     - yes you get it .my mom and dad are gonna be so mad at me
-    - yeee you get it that there was not my fault.my mom and dad are gonna be so mad at me    
+    - yeee you get it that there was not my fault.my mom and dad are gonna be so mad at me
     - Oh yes you understood correctly that my parents are gonna be so infuriated about this.
     - The point is that atleast you get it that my parents will be mad at me
     - I am glad that you atleast get it. I know my parents are going to be so angry
@@ -2728,12 +2525,11 @@ nlu:
     - Wow I am so happy to know that you get it, now atleast you know that my parents are so mad at me
     - You are correct about getting it that my mom and dad are going to be agitated about it
     - Thank God that you get it,and now we both kknow that my parents are gonna be mad
-    - Me and you atleast got it, and now on the same page that my parents are going to react crazily 
+    - Me and you atleast got it, and now on the same page that my parents are going to react crazily
     - You actuallly get it right and my parents are going be super unhappy.
     - This feels so great because you got it and understood that my parents are gonna be so mad
-    - Surely you get it right that my parents are definitely going to feel angry about it    
-    
-- intent: user_subjects 
+    - Surely you get it right that my parents are definitely going to feel angry about it
+- intent: user_subjects
   examples: |
     - Good, always,I enjoy my subjects.
     - i always enjoy my subjects
@@ -2750,8 +2546,7 @@ nlu:
     - I always find my subjects appealing
     - I treasure my subjects
     - I value my subjects
-
-- intent: user_guide 
+- intent: user_guide
   examples: |
     - Hey thats absolutly correct, even my Academic counsellor stood up for me.Still that teacher kept ranting
     - yes that is correct, even my Academic counsellor stood up for me.Still that teacher kept ranting
@@ -2768,7 +2563,6 @@ nlu:
     - Hey, that's absolutely perfect. That teacher didn’t stop ranting but my academic counsellor was supporting me continuously
     - My academic counsellor’s support was unwavering but that teacher kept ranting and that’s right without any doubt
     - My academic counsellor chose to be by my side throughout that time when the teacher didn’t stop ranting, you are right.
-
 - intent: user_frenzied
   examples: |
     - I was so mad in school, just wanted to get home and lock myself in my room.
@@ -2788,7 +2582,6 @@ nlu:
     - i literally felt much mad in school, just do need to get home and locking up myself in the room
     - i already did felt mad in school, just i could think of getting to home and lock myself up in my room
     - i shall become so mad in school, just will like to get to home and lock myself into my room
-    
 - intent: user_tease
   examples: |
     - Bet everybody in class will make fun of me now.
@@ -2809,10 +2602,9 @@ nlu:
     - i literally could bet everyone from my class suppose to make fun of me now
     - i would make a bet that everybody from my class can be making fun of me now
     - i will bet that everybody being in my class would be making fun of me now
-    
 - intent: user_stayclose
   examples: |
-    - nahh,we stick together,but you know how guys are 
+    - nahh,we stick together,but you know how guys are
     - no, we stick together, but u know how guys are
     - no, we are there with each other, but you know how these guys are
     - nope, we are being together, but you do know how can these guys be
@@ -2829,7 +2621,6 @@ nlu:
     - no, we shall stick together, but you know how the guys have really been
     - nah, we can be able to stick together, but you can make out how these guys could be
     - nope, we will be together, but you could even know how the guys can actually be
-    
 - intent: user_bothered
   examples: |
     - Ok, so you're saying maybe I'm worrying too much about this?
@@ -2840,22 +2631,21 @@ nlu:
     - ok, i might be worrying about this is that you saying
     - ok, so you meant i have been worrying much about this
     - ok, do you mean i could be worrying much about this
-    - ok, you could say i do worry much about his 
+    - ok, you could say i do worry much about his
     - ok, did you just say i do worry about it so much
     - ok, have you trying to say i could worry about it too much
     - ok, so you say i would be worrying too much about this
     - ok, so you got to say i can be worrying about it that much
-    - ok, so you could say i shall be worrying about it so much 
+    - ok, so you could say i shall be worrying about it so much
     - ok, you are actually saying i am getting to worry much about this
     - ok, you just said maybe i can worry for this too much
     - ok, so you trying to mean i would be worrying for this that much
     - ok, so you do say i could worry about this so much
-        
 - intent: user_clear
   examples: |
     - That's an honest  response.maybe I am.What do I do ?
     - honest response.what do i do next?
-    - maybe that is honest response.what do i do today? 
+    - maybe that is honest response.what do i do today?
     - i think that is such a honest response. i maybe like this
     - i do think that can be a honest response. i might could be
     - that had been an honest response. i might be like this
@@ -2886,7 +2676,6 @@ nlu:
     - that could be an honest response. i might be
     - that is literally an honest response. perhaps i can be
     - that is much of a honest response. it may be i am
-    
 - intent: user_complete
   examples: |
     - Sure, get it out in the open and be done with it.
@@ -2906,8 +2695,7 @@ nlu:
     - okay, do bring this up in the open and able to get done with it
     - sure, get this out into the open and would be done with it
     - sure, just get to out this out in the open and surely get done with this
-
-- intent: user_takeplaceatschool 
+- intent: user_takeplaceatschool
   examples: |
     - But what'll happen at school?
     - what happen at school?
@@ -2927,18 +2715,16 @@ nlu:
     - but what could happen at school
     - but what is actually going to happen at school
     - but what really could happen at school
-
 - intent: user_attempt
   examples: |
     - yeah,i'll try
     - i will try
     - sure, i will try it
-    - okay, i'll try' 
+    - okay, i'll try'
     - I'll try...
     - I mean... I can try to
     - I mean, I could try.
     - I mean, I might try.
-    - I mean, I could try.
     - I mean, I may try.
     - I mean, I might also try.
     - I mean, I can also try.
@@ -2966,8 +2752,7 @@ nlu:
     - yup, i would try
     - yes, i really could try
     - yes, i am willing to try
-    
-- intent: user_trust 
+- intent: user_trust
   examples: |
     - I get it ,about what'll happen in school- nothing coz they believe in me.
     - what will happen in school - nothing they believe
@@ -2986,12 +2771,11 @@ nlu:
     - i really get it, about what will be happening in school - nothing uch as they have got believe upon me
     - i will be getting it, about what actually happens in school - not a thing as they will believe upon me
     - i get it, about what is gonna happen at the school - nothing because they would be believing on me
-
 - intent: user_below
   examples: |
-    - OK,3 is too less, I see what you mean. 
+    - OK,3 is too less, I see what you mean.
     - 3 is too less, what you mean.
-    - I feel better. 
+    - I feel better.
     - Can I come back ?
     - I feel better already...
     - sure,I can come back,right?
@@ -3011,11 +2795,10 @@ nlu:
     - ok, 3 had been much less, i see what you meant
     - ok, 3 seems to be much less, i can sense what you mean
     - ok, 3 is likely to be much less, i understand what do you mean
-
 - intent: user_what
   examples: |
-    - What? 
-    - what 
+    - What?
+    - what
     - What do you mean?
     - what is the meaning?
     - What are you saying?
@@ -3031,8 +2814,7 @@ nlu:
     - Wat the heck?
     - Wat the hell?
     - Seriously?
-    - What is it? 
-    - what is it 
+    - what is it
     - tell me more
     - let me know
     - What's it?
@@ -3083,7 +2865,6 @@ nlu:
     - ok, what is there you say
     - ok, what you meant
     - ok, what did you say
-
 - intent: user_couple
   examples: |
     - Yes,a bunch of us were riding our bikes on the school field--my bike wobbled and I fell off ! The guys started making fun of me and there were some girls around.
@@ -3102,7 +2883,6 @@ nlu:
     - yeah, very few of us were riding our bikes on this school field. my bike have started to wobble and i just fell off it. the guys begin to make fun of me and few girls being present there as well
     - yes, some of us did rode our bikes onto the school field. my bike did swayed and i just fell off it. the guys literally made fun of me and there could be some girls around as well
     - yup, bunch of us were riding our bikes upon the school field. my bike was swaying and i actually fell off it. the guys had just began to make fun of me and also there have been few girls around
-
 - intent: user_nerd
   examples: |
     - I felt like a dork !
@@ -3123,7 +2903,6 @@ nlu:
     - i have felt like the dork
     - i actually feel like a jerk
     - i feel like some lunatic
-    
 - intent: user_pondered
   examples: |
     - I am still feeling stupid and keep thinking about it.
@@ -3143,7 +2922,6 @@ nlu:
     - i am literally feeling like stupid and thinking really much about it
     - i suppose to feel stupid and gonna think about it
     - i would still feel like some fool and getting to really think about it
-        
 - intent: user_solely
   examples: |
     - Could be, so only I'm thinking about it ?
@@ -3163,7 +2941,6 @@ nlu:
     - it could be, so am i going to be only one thinking about it
     - perhaps, am i being the only one thinking about it
     - most likely, so i could be the only one to think about it
-        
 - intent: user_fail
   examples: |
     - Thats true, we fall all the time !
@@ -3183,13 +2960,12 @@ nlu:
     - that is very true, we might have fallen each time
     - that must be true, we could fall each of the time
     - that is really true, we suppose to fall each time
-    
 - intent: user_probably
   examples: |
     - nah..no, maybe,why ?
     - no..no, maybe why?
     - no, perhaps why?
-    - no, possibly why?    
+    - no, possibly why?
     - no, can be, why
     - nope, it could be, why
     - no, it supposed to be, why though
@@ -3205,7 +2981,6 @@ nlu:
     - no, perhaps, why
     - no, perceivably, why
     - nope, might be, why
-    
 - intent: user_probably_dumb
   examples: |
     - idk,its probably dumb
@@ -3226,7 +3001,6 @@ nlu:
     - i won't be knowing, it is somewhere dumb
     - i cannot know, it will seem dumb
     - i really do not know, it can be dumb
-        
 - intent: user_fall_girl
   examples: |
     - Well, there's this girl I like and she saw me fall
@@ -3246,12 +3020,8 @@ nlu:
     - well, i have been liking a girl and she did see me really fall
     - umm, there is being a girl whom i like and she literally saw me having a fall
     - so, there is this girl whom i like much and she have seen me falling
-    
 - intent: user_heavens
   examples: |
-    - Gosh no,she actually came up and asked ,if I was hurt
-    - Gosh no,she actually came up and asked ,if I was hurt
-    - Gosh no,she actually came up and asked ,if I was hurt
     - Gosh no,she actually came up and asked ,if I was hurt
     - oh no, she came to me and have asked if i had been hurt
     - oh gosh no, she happened to come to me and asking me if i was hurt
@@ -3268,10 +3038,9 @@ nlu:
     - gosh no, she literally came upto me and asked, if i might got hurt
     - oh gosh, she has come to me and asked, if i got hurt
     - gosh no, she has came to me and really asked, if i did got hurt
-    
 - intent: user_thankgoodness
   examples: |
-    - Hey,it is a good thing I didn't get it 
+    - Hey,it is a good thing I didn't get it
     - it is good thing i didn't understant it
     - hello, it is good  i did not get it
     - hello, it is good thing- but i didn't get it
@@ -3290,7 +3059,6 @@ nlu:
     - hey, it is really a good thing. i can't get it
     - hey, it does seem a good thing. i shall not get it
     - hey, it seems to be much of a good thing. i won't be getting it
-    
 - intent: user_yes_togirl
   examples: |
     - yep,this is great,wish I'd fallen earlier.
@@ -3312,7 +3080,6 @@ nlu:
     - yup, this feels so good, i actually wish i could had fallen earlier
     - yes, this does seems great, i wish i might had fallen earlier
     - yup, this shall be good, i do wish i would may had a fall earlier
-        
 - intent: user_losingheart
   examples: |
     - Yeah,I was feeling lost and alone now I'm ok.
@@ -3335,7 +3102,6 @@ nlu:
     - yeah, i actually was feeling pretty lost and alone now i might be okay
     - yes, i felt pretty lost and alone now i have been okay
     - yup, i had felt very alone and lost now i am feeling okay
-    
 - intent: user_good_mood
   examples: |
     - It's going fine..
@@ -3357,7 +3123,6 @@ nlu:
     - good
     - going really good
     - Good
-    
 - intent: user_confession
   examples: |
     - I would say today I am at 4
@@ -3376,57 +3141,6 @@ nlu:
     - i actually mean today i am being at 4
     - i do have to say today i happen to be at 4
     - i just say today i am here at 4
-        
-- intent: user_confess_realized
-  examples: |
-    - Umm... I don't know...
-    - I haven't really done anything exciting today..
-    - I am out
-    - Can't remember
-    - Have no idea about it
-    - No clue at all
-    - I don't have that information
-    - I am not the right person to answer
-    - Didn't get time to look at 
-    - I'll check and let you know
-    - I'll get back to you with this
-    - Not sure about it
-    - It's beyond me
-    - Not my area of expertise...
-    - Not a pro at it
-    - It can be many things....not sure..
-    - What do you suggest?
-    - Nothing exciting
-    - All that daily chores only
-    - It's all same
-    - I had nothing exciting in my day
-    - My days are always dull
-    - I wish to do something interesting
-    - Nothing interesting
-    - Nothing to tell about it
-    - Just as always
-    - So-so
-    - Kinda boring
-    - Nothing much
-    - As usual
-    - Trying something new could be fun actually
-    - Doing same shut every single day
-    - My day was really very boring
-    - My day was really a bad one
-    - Haven't done anything exciting today
-    - It was very monotonous
-    - My day was full of monotony
-    - Having a bad day
-    - Having the worst day
-    - I am getting bored
-    - I Hate boredom
-    - I don't want to get bored
-    - I wanted to do something exciting but....
-    - I don't know how to explain this
-    - It's very annoying
-    - I am feeling very depressed
-    - Umm... I don't know...I haven't really done anything exciting today..
-
 - intent: user_unvariedroutine
   examples: |
     - The same, everyday, I guess. I wake up, have breakfast, go to school, come back, do my homework, have dinner and then go to sleep. It has all become so monotonous and boring.
@@ -3466,7 +3180,6 @@ nlu:
     - Everyday it's all the same
     - It's like time has stopped
     - No excitement in life at all
-    - It's all very monotonous
     - Doing these same things everyday....
     - Feeling bored
     - Need to get out of here
@@ -3480,25 +3193,23 @@ nlu:
     - It's all so mundane
     - Very lifeless
     - It's tiring
-    - It's tedious 
+    - It's tedious
     - Nothing really excites me these days
     - It's all become very colourless
     - Very much irksome
     - Such spiritless things I do throughout the day
     - I feel disheartened
     - I feel dejected
-    - Feeling sick 
+    - Feeling sick
     - I am tired
     - I am bored
-    - It's all very monotonous
     - Feeling frustrated
-    
 - intent: user_takedelight
   examples: |
     - I really enjoy baking! It makes me really happy
     - Baking is my passion
     - I love baking
-    - I am passionate about baking 
+    - I am passionate about baking
     - Baking never fails to amaze me
     - I always find baking surprising
     - Baking is life
@@ -3508,8 +3219,8 @@ nlu:
     - I haven't spent a single day not baking anything
     - Baking is something I always enjoy
     - I want to pursue my career as a baker
-    - I find Baking mysterious and that is what attracts me 
-    - Baking is fun 
+    - I find Baking mysterious and that is what attracts me
+    - Baking is fun
     - Nothing can be better than baking something
     - I just love baking
     - I love to bake
@@ -3517,7 +3228,6 @@ nlu:
     - I can do baking all the day
     - I am obsessed with baking
     - I am a big fan of baking
-    - Baking is my passion
     - Baking is my life
     - I find making very interesting
     - I find making very magical
@@ -3525,8 +3235,7 @@ nlu:
     - Can't live without waking
     - Baking makes me really happy
     - I feel good when I bake
-    - I feel so good to bake 
-    
+    - I feel so good to bake
 - intent: user_undertook
   examples: |
     - Though I haven't really done that in a long time..
@@ -3543,12 +3252,12 @@ nlu:
     - What if I fail?
     - Scared of doing it
     - Feeling tensed
-    - It's not my cup of tea now 
+    - It's not my cup of tea now
     - It's out of my control
     - I have done it for long
     - It's been so long
     - I am not in touch of it
-    - I don't have practice 
+    - I don't have practice
     - I don't have enough practice
     - I don't think I can do it
     - I am a bit confused about it
@@ -3556,11 +3265,9 @@ nlu:
     - I am not really very sure about it
     - I don't know if I can do it
     - there was a time when I have done it a lot
-    - I was a pro at it
     - Now I don't think I can do it
     - I have given up for a longer time
     - Let's see what happens
-        
 - intent: user_typical
   examples: |
     - Actually I do have time... but I'm generally just stuck in my daily routine that I haven't really done anything much outside of that
@@ -3577,14 +3284,13 @@ nlu:
     - It's just me and my daily routine everyday
     - It must be nice to try different things but.....
     - I generally feel very lazy after finishing all my daily chores
-    - Maybe I will try this in sometime 
+    - Maybe I will try this in sometime
     - It's a good habit to do things out of schedule
     - I haven't really tried to annoying much outside my daily routine
     - I already have a lot on my plate....so I avoid doing things outside my daily schedule
     - I have time but I also need to finish my usual works first…maybe then I can try something new
     - I mean I'm not sure..... once my daily scheduled works are done I will try to do something new
     - I am already stuck with my daily routine.....I will try something new of I get time
-    - I don't get that much energy to do anything new after finishing all my usual tasks
     - I have time but I don't feel like doing it after finishing my scheduled works for the day
     - Okay...I will think about doing something outside of my daily routine
     - I haven't really got a chance to try new things outside my daily routine
@@ -3594,7 +3300,6 @@ nlu:
     - I generally feel very lazy after finishing all my daily scheduled works...that's why I don't try anything new
     - Maybe I will try this after I am done with all my daily works
     - It's a good habit to do things out of schedule...but I am generally stuck in my daily routine
-    
 - intent: user_somewhat
   examples: |
     - Yeah, you can say that
@@ -3613,7 +3318,6 @@ nlu:
     - yes, the point of fact
     - yes, this is the fact
     - yeah, you saying right
-    
 - intent: user_ahead
   examples: |
     - Yes, go ahead.
@@ -3632,7 +3336,6 @@ nlu:
     - yeah, please start
     - yes, you should start
     - yeah, do go ahead
-    
 - intent: user_amazing
   examples: |
     - That sounds absolutely wonderful!
@@ -3651,12 +3354,11 @@ nlu:
     - that got to be so wonderful
     - that sounds really wonderful
     - that is being very wonderful
-    
 - intent: user_totally
   examples: |
     - I'm sure it will! I think I will do exactly that right now!
-    - It'll work for sure 
-    - No chance of it getting failed- 
+    - It'll work for sure
+    - No chance of it getting failed-
     - I'll do that
     - I am going to do the same thing
     - Don't take too much stress about it
@@ -3691,7 +3393,6 @@ nlu:
     - That's what I'm going to do
     - I will do exactly the same
     - I totally agree with your idea
-    - I totally agree with that
     - I have no doubt in this
     - I think it is going to work
     - I think it will be very helpful
@@ -3700,7 +3401,6 @@ nlu:
     - This will be very helpful for me
     - I am going to try it
     - Thank you so much for this amazing idea
-    
 - intent: user_best_loved
   examples: |
     - I think so too! Thanks, that advice has actually turned my day around! Suddenly, I am so excited to bake my favourite chocolate cake!
@@ -3734,28 +3434,21 @@ nlu:
     - Suddenly, I am so delighted to bake my favourite chocolate cake!
     - Suddenly, I am so exhilarated to bake my favourite chocolaFte cake!
     - Suddenly, I am so tickled to bake my favourite chocolate cake!
-    
 - intent: user_bye
   examples: |
-    - Bye 
-    - bye 
-    - goodbye 
-    - gudbye 
+    - Bye
+    - bye
     - goodbye
+    - gudbye
     - good-bye
     - bye-bye
     - ciao
     - hey, bye
-    - goodbye
     - hello, cheerio
     - farewell
-    - bye-bye
-    - good-bye
     - ta-ta
     - Adios
     - au revoir
     - sayonara
     - good-by
     - I will! Bye
-       
-
