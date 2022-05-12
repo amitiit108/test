@@ -1,8 +1,9 @@
 version: "2.0"
-
-stories:  
+stories:
 - story: Empathy2
   steps:
+  - intent: greet
+  - action: utter_greet
   - intent: mood_unhappy
   - action: utter_mood_unhgappy
   - intent: user_recall
@@ -45,9 +46,10 @@ stories:
   - action: utter_comfortzone
   - intent: user_revisit
   - action: utter_visit
-  
 - story: Empathy3
   steps:
+  - intent: greet
+  - action: utter_greet
   - intent: mood_unhappy
   - action: utter_moodun
   - intent: user_how
@@ -80,7 +82,6 @@ stories:
   - action: utter_takeashot
   - intent: user_assitabunch
   - action: utter_assitabunch
-
 - story: Anger-helplessness/peers 5.8
   steps:
   - intent: greet
@@ -129,7 +130,7 @@ stories:
   - action: utter_s_ee
   - intent: user_exactly
   - action: utter_exactly
-  - intent: user_how 
+  - intent: user_how
   - action: utter_ho_ow
   - intent: user_elucidate
   - action: utter_elucidate
@@ -157,11 +158,10 @@ stories:
   - action: utter_affi_r_mk
   - intent: user_willdo
   - action: utter_willdo
-
 - story: Anger-home-parent 2.53
-  steps: 
+  steps:
   - intent: greet
-  - action: utter_gr_ee_t
+  - action: utter_greet
   - intent: user_fine
   - action: utter_fine
   - intent: user_concerns
@@ -174,11 +174,12 @@ stories:
   - action: utter_starting_point
   - intent: user_treatment
   - action: utter_treatment
-
 - story: Loneliness 3.12
-  steps: 
+  steps:
+  - intent: greet
+  - action: utter_greet
   - intent: user_talk_someone
-  - action: utter_talk_someone 
+  - action: utter_talk_someone
   - intent: user_alone
   - action: utter_alone_noone
   - intent: user_solo
@@ -207,7 +208,6 @@ stories:
   - action: utter_affirm_yeah
   - intent: deny
   - action: utter_deny_nope
-
 - story: Empathy1
   steps:
   - intent: greet
@@ -236,7 +236,7 @@ stories:
   - action: utter_bothered
   - intent: user_clear
   - action: utter_clear
-  - intent: user_complete 
+  - intent: user_complete
   - action: utter_complete
   - intent: user_takeplaceatschool
   - action: utter_takeplaceatschool
@@ -252,18 +252,19 @@ stories:
   - action: utter_what_know
   - intent: user_below
   - action: utter_below
-
 - story: Generic conversation 1-Need for Ventilation
   steps:
+  - intent: greet
+  - action: utter_greet
   - intent: mood_unhappy
-  - action: utter_un_happy_mood 
+  - action: utter_un_happy_mood
   - intent: user_cantsaymuch
-  - action: utter_cant_syamuch 
+  - action: utter_cant_syamuch
   - intent: user_guess
   - action: utter_gu_ess
-  - intent: user_fortnightly 
+  - intent: user_fortnightly
   - action: utter_fortnightly
-  - intent: user_couple 
+  - intent: user_couple
   - action: utter_couple
   - intent: user_nerd
   - action: utter_nerd
@@ -291,13 +292,10 @@ stories:
   - action: utter_yes_togirl
   - intent: user_losingheart
   - action: utter_losingheart
-  
 - story: Boredom 4.18
-  steps: 
+  steps:
   - intent: greet
-  - action: utter_ray
-  - intent: greet
-  - action: utter_lucas
+  - action: utter_greet
   - intent: affirm
   - action: utter_betteryes
   - intent: affirm
@@ -332,4 +330,3 @@ stories:
   - action: utter_revisit
   - intent: user_bye
   - action: utter_bye
-
